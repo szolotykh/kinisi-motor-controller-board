@@ -1884,19 +1884,6 @@ Connection ~ 6500 4600
 Wire Wire Line
 	700  1150 850  1150
 $Comp
-L Connector:TestPoint_Small TP1
-U 1 1 604A4E02
-P 1350 1300
-F 0 "TP1" H 1398 1346 50  0000 L CNN
-F 1 "12V" H 1398 1255 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1550 1300 50  0001 C CNN
-F 3 "~" H 1550 1300 50  0001 C CNN
-	1    1350 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 1150 1350 1300
-$Comp
 L Device:D_Schottky_Small D2
 U 1 1 603C3D54
 P 1900 1150
@@ -1991,8 +1978,6 @@ Wire Wire Line
 	10200 5450 10150 5450
 Wire Wire Line
 	10150 5450 10150 5500
-Wire Wire Line
-	1250 1150 1350 1150
 $Comp
 L power:GND #PWR0133
 U 1 1 60394456
@@ -2018,4 +2003,46 @@ $EndComp
 Connection ~ 1350 1150
 Wire Wire Line
 	1350 1150 1400 1150
+Wire Wire Line
+	1250 1150 1350 1150
+Wire Wire Line
+	1350 1150 1350 1300
+$Comp
+L Connector:TestPoint_Small TP1
+U 1 1 604A4E02
+P 1350 1300
+F 0 "TP1" H 1398 1346 50  0000 L CNN
+F 1 "12V" H 1398 1255 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1550 1300 50  0001 C CNN
+F 3 "~" H 1550 1300 50  0001 C CNN
+	1    1350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP2
+U 1 1 606A33A8
+P 8350 2500
+F 0 "TP2" H 8398 2546 50  0000 L CNN
+F 1 "5V" H 8398 2455 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8550 2500 50  0001 C CNN
+F 3 "~" H 8550 2500 50  0001 C CNN
+	1    8350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2500 8350 2500
+Connection ~ 8250 2500
+$Comp
+L Connector:TestPoint_Small TP3
+U 1 1 60518C0A
+P 5600 2250
+F 0 "TP3" H 5648 2296 50  0000 L CNN
+F 1 "3.3V" H 5648 2205 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5800 2250 50  0001 C CNN
+F 3 "~" H 5800 2250 50  0001 C CNN
+	1    5600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2250 5600 2250
 $EndSCHEMATC
