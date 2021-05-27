@@ -1,0 +1,746 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4850 1500 4850 1550
+Wire Wire Line
+	4900 1500 4850 1500
+$Comp
+L Driver_Motor:DRV8871DDA U?
+U 1 1 60A45ACD
+P 4850 1850
+AR Path="/60A45ACD" Ref="U?"  Part="1" 
+AR Path="/60A3E5C0/60A45ACD" Ref="U302"  Part="1" 
+F 0 "U302" H 4600 2100 50  0000 C CNN
+F 1 "DRV8871DDA" H 5150 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 5100 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 5100 1800 50  0001 C CNN
+F 4 "C75864" H 4850 1850 50  0001 C CNN "LCSC Part #"
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1500 8500 1550
+Wire Wire Line
+	8550 1500 8500 1500
+Wire Wire Line
+	6700 1500 6700 1550
+Wire Wire Line
+	6750 1500 6700 1500
+Connection ~ 3600 3150
+Wire Wire Line
+	3600 3050 3600 3150
+Wire Wire Line
+	3650 3050 3600 3050
+Connection ~ 5600 3150
+Wire Wire Line
+	5600 3050 5600 3150
+Wire Wire Line
+	5650 3050 5600 3050
+Connection ~ 4650 3150
+Wire Wire Line
+	4650 3050 4650 3150
+Wire Wire Line
+	4700 3050 4650 3050
+Connection ~ 2650 3150
+Wire Wire Line
+	2650 3050 2650 3150
+Wire Wire Line
+	2700 3050 2650 3050
+Text GLabel 2700 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 4700 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 5650 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 3650 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 8550 1500 2    50   Input ~ 0
+VMOTORS
+Text GLabel 6750 1500 2    50   Input ~ 0
+VMOTORS
+Text GLabel 3100 1500 2    50   Input ~ 0
+VMOTORS
+Wire Wire Line
+	3050 1500 3050 1550
+Wire Wire Line
+	3100 1500 3050 1500
+Text GLabel 4900 1500 2    50   Input ~ 0
+VMOTORS
+$Comp
+L Driver_Motor:DRV8871DDA U?
+U 1 1 60A45AEE
+P 8500 1850
+AR Path="/60A45AEE" Ref="U?"  Part="1" 
+AR Path="/60A3E5C0/60A45AEE" Ref="U304"  Part="1" 
+F 0 "U304" H 8250 2100 50  0000 C CNN
+F 1 "DRV8871DDA" H 8800 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 8750 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 8750 1800 50  0001 C CNN
+F 4 "C75864" H 8500 1850 50  0001 C CNN "LCSC Part #"
+	1    8500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2050 9150 2050
+$Comp
+L Device:R_Small R?
+U 1 1 60A45AFC
+P 9150 2150
+AR Path="/60A45AFC" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45AFC" Ref="R304"  Part="1" 
+F 0 "R304" H 9209 2196 50  0000 L CNN
+F 1 "30K" H 9209 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9150 2150 50  0001 C CNN
+F 3 "~" H 9150 2150 50  0001 C CNN
+F 4 "C22984" H 9150 2150 50  0001 C CNN "LCSC Part #"
+	1    9150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45B02
+P 9100 1750
+AR Path="/60A45B02" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45B02" Ref="J304"  Part="1" 
+F 0 "J304" H 9050 1850 50  0000 L CNN
+F 1 "M3_CONN" H 9050 1550 50  0000 L CNN
+F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 9100 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8100 1850 0    50   Input ~ 0
+M3_OUT2
+Text GLabel 8100 1750 0    50   Input ~ 0
+M3_OUT1
+$Comp
+L Driver_Motor:DRV8871DDA U?
+U 1 1 60A45B11
+P 3050 1850
+AR Path="/60A45B11" Ref="U?"  Part="1" 
+AR Path="/60A3E5C0/60A45B11" Ref="U301"  Part="1" 
+F 0 "U301" H 2800 2100 50  0000 C CNN
+F 1 "DRV8871DDA" H 3350 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 3300 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 3300 1800 50  0001 C CNN
+F 4 "C75864" H 3050 1850 50  0001 C CNN "LCSC Part #"
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+Text Notes 2300 2400 0    50   ~ 0
+I = 64K/R
+$Comp
+L Driver_Motor:DRV8871DDA U?
+U 1 1 60A45B19
+P 6700 1850
+AR Path="/60A45B19" Ref="U?"  Part="1" 
+AR Path="/60A3E5C0/60A45B19" Ref="U303"  Part="1" 
+F 0 "U303" H 6450 2100 50  0000 C CNN
+F 1 "DRV8871DDA" H 7000 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 6950 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 6950 1800 50  0001 C CNN
+F 4 "C75864" H 6700 1850 50  0001 C CNN "LCSC Part #"
+	1    6700 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2050 7350 2050
+$Comp
+L Device:R_Small R?
+U 1 1 60A45B27
+P 7350 2150
+AR Path="/60A45B27" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45B27" Ref="R303"  Part="1" 
+F 0 "R303" H 7409 2196 50  0000 L CNN
+F 1 "30K" H 7409 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7350 2150 50  0001 C CNN
+F 3 "~" H 7350 2150 50  0001 C CNN
+F 4 "C22984" H 7350 2150 50  0001 C CNN "LCSC Part #"
+	1    7350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45B2D
+P 7300 1750
+AR Path="/60A45B2D" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45B2D" Ref="J303"  Part="1" 
+F 0 "J303" H 7250 1850 50  0000 L CNN
+F 1 "M2_CONN" H 7250 1550 50  0000 L CNN
+F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 7300 1750 50  0001 C CNN
+F 3 "~" H 7300 1750 50  0001 C CNN
+	1    7300 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 1850 0    50   Input ~ 0
+M2_OUT2
+Text GLabel 6300 1750 0    50   Input ~ 0
+M2_OUT1
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B3B
+P 5500 2250
+AR Path="/60A45B3B" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B3B" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 5500 2000 50  0001 C CNN
+F 1 "GND" H 5505 2077 50  0000 C CNN
+F 2 "" H 5500 2250 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	1    5500 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2050 5500 2050
+$Comp
+L Device:R_Small R?
+U 1 1 60A45B43
+P 5500 2150
+AR Path="/60A45B43" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45B43" Ref="R302"  Part="1" 
+F 0 "R302" H 5559 2196 50  0000 L CNN
+F 1 "30K" H 5559 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 2150 50  0001 C CNN
+F 3 "~" H 5500 2150 50  0001 C CNN
+F 4 "C22984" H 5500 2150 50  0001 C CNN "LCSC Part #"
+	1    5500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45B49
+P 5450 1750
+AR Path="/60A45B49" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45B49" Ref="J302"  Part="1" 
+F 0 "J302" H 5400 1850 50  0000 L CNN
+F 1 "M1_CONN" H 5400 1550 50  0000 L CNN
+F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 5450 1750 50  0001 C CNN
+F 3 "~" H 5450 1750 50  0001 C CNN
+	1    5450 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 1850 0    50   Input ~ 0
+M1_OUT2
+Text GLabel 4450 1750 0    50   Input ~ 0
+M1_OUT1
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B51
+P 4850 2250
+AR Path="/60A45B51" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B51" Ref="#PWR0305"  Part="1" 
+F 0 "#PWR0305" H 4850 2000 50  0001 C CNN
+F 1 "GND" H 4855 2077 50  0000 C CNN
+F 2 "" H 4850 2250 50  0001 C CNN
+F 3 "" H 4850 2250 50  0001 C CNN
+	1    4850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3150 5950 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45B58
+P 5950 3300
+AR Path="/60A45B58" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B58" Ref="C308"  Part="1" 
+F 0 "C308" H 6038 3346 50  0000 L CNN
+F 1 "47u" H 6038 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5950 3300 50  0001 C CNN
+F 3 "~" H 5950 3300 50  0001 C CNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45B5F
+P 5600 3300
+AR Path="/60A45B5F" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B5F" Ref="C307"  Part="1" 
+F 0 "C307" H 5692 3346 50  0000 L CNN
+F 1 "100n" H 5692 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 3300 50  0001 C CNN
+F 3 "~" H 5600 3300 50  0001 C CNN
+F 4 "C14663" H 5600 3300 50  0001 C CNN "LCSC Part #"
+	1    5600 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B65
+P 5600 3400
+AR Path="/60A45B65" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B65" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 5600 3150 50  0001 C CNN
+F 1 "GND" H 5605 3227 50  0000 C CNN
+F 2 "" H 5600 3400 50  0001 C CNN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3200 5600 3150
+Wire Wire Line
+	5600 3150 5950 3150
+Wire Wire Line
+	5600 3400 5950 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	5000 3150 5000 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45B70
+P 5000 3300
+AR Path="/60A45B70" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B70" Ref="C306"  Part="1" 
+F 0 "C306" H 5088 3346 50  0000 L CNN
+F 1 "47u" H 5088 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5000 3300 50  0001 C CNN
+F 3 "~" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45B77
+P 4650 3300
+AR Path="/60A45B77" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B77" Ref="C305"  Part="1" 
+F 0 "C305" H 4742 3346 50  0000 L CNN
+F 1 "100n" H 4742 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 3300 50  0001 C CNN
+F 3 "~" H 4650 3300 50  0001 C CNN
+F 4 "C14663" H 4650 3300 50  0001 C CNN "LCSC Part #"
+	1    4650 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B7D
+P 4650 3400
+AR Path="/60A45B7D" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B7D" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 4650 3150 50  0001 C CNN
+F 1 "GND" H 4655 3227 50  0000 C CNN
+F 2 "" H 4650 3400 50  0001 C CNN
+F 3 "" H 4650 3400 50  0001 C CNN
+	1    4650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3200 4650 3150
+Wire Wire Line
+	4650 3150 5000 3150
+Wire Wire Line
+	4650 3400 5000 3400
+Connection ~ 4650 3400
+Wire Wire Line
+	3950 3150 3950 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45B88
+P 3950 3300
+AR Path="/60A45B88" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B88" Ref="C304"  Part="1" 
+F 0 "C304" H 4038 3346 50  0000 L CNN
+F 1 "47u" H 4038 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3950 3300 50  0001 C CNN
+F 3 "~" H 3950 3300 50  0001 C CNN
+	1    3950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45B8F
+P 3600 3300
+AR Path="/60A45B8F" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B8F" Ref="C303"  Part="1" 
+F 0 "C303" H 3692 3346 50  0000 L CNN
+F 1 "100n" H 3692 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3600 3300 50  0001 C CNN
+F 3 "~" H 3600 3300 50  0001 C CNN
+F 4 "C14663" H 3600 3300 50  0001 C CNN "LCSC Part #"
+	1    3600 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B95
+P 3600 3400
+AR Path="/60A45B95" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B95" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 3600 3150 50  0001 C CNN
+F 1 "GND" H 3605 3227 50  0000 C CNN
+F 2 "" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3200 3600 3150
+Wire Wire Line
+	3600 3150 3950 3150
+Wire Wire Line
+	3600 3400 3950 3400
+Connection ~ 3600 3400
+Wire Wire Line
+	3000 3150 3000 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45BA0
+P 3000 3300
+AR Path="/60A45BA0" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45BA0" Ref="C302"  Part="1" 
+F 0 "C302" H 3088 3346 50  0000 L CNN
+F 1 "47u" H 3088 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3000 3300 50  0001 C CNN
+F 3 "~" H 3000 3300 50  0001 C CNN
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45BA7
+P 2650 3300
+AR Path="/60A45BA7" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45BA7" Ref="C301"  Part="1" 
+F 0 "C301" H 2742 3346 50  0000 L CNN
+F 1 "100n" H 2742 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 3300 50  0001 C CNN
+F 3 "~" H 2650 3300 50  0001 C CNN
+F 4 "C14663" H 2650 3300 50  0001 C CNN "LCSC Part #"
+	1    2650 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45BAD
+P 2650 3400
+AR Path="/60A45BAD" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45BAD" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 2650 3150 50  0001 C CNN
+F 1 "GND" H 2655 3227 50  0000 C CNN
+F 2 "" H 2650 3400 50  0001 C CNN
+F 3 "" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3200 2650 3150
+Wire Wire Line
+	2650 3150 3000 3150
+Wire Wire Line
+	2650 3400 3000 3400
+Connection ~ 2650 3400
+$Comp
+L power:GND #PWR?
+U 1 1 60A45BB7
+P 3700 2250
+AR Path="/60A45BB7" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45BB7" Ref="#PWR0304"  Part="1" 
+F 0 "#PWR0304" H 3700 2000 50  0001 C CNN
+F 1 "GND" H 3705 2077 50  0000 C CNN
+F 2 "" H 3700 2250 50  0001 C CNN
+F 3 "" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2050 3700 2050
+$Comp
+L Device:R_Small R?
+U 1 1 60A45BBF
+P 3700 2150
+AR Path="/60A45BBF" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45BBF" Ref="R301"  Part="1" 
+F 0 "R301" H 3759 2196 50  0000 L CNN
+F 1 "30K" H 3759 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 2150 50  0001 C CNN
+F 3 "~" H 3700 2150 50  0001 C CNN
+F 4 "C22984" H 3700 2150 50  0001 C CNN "LCSC Part #"
+	1    3700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45BC5
+P 3650 1750
+AR Path="/60A45BC5" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45BC5" Ref="J301"  Part="1" 
+F 0 "J301" H 3600 1850 50  0000 L CNN
+F 1 "M0_CONN" H 3600 1550 50  0000 L CNN
+F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 3650 1750 50  0001 C CNN
+F 3 "~" H 3650 1750 50  0001 C CNN
+	1    3650 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 1850 0    50   Input ~ 0
+M0_OUT2
+Text GLabel 2650 1750 0    50   Input ~ 0
+M0_OUT1
+$Comp
+L power:GND #PWR?
+U 1 1 60A45BCD
+P 3050 2250
+AR Path="/60A45BCD" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45BCD" Ref="#PWR0303"  Part="1" 
+F 0 "#PWR0303" H 3050 2000 50  0001 C CNN
+F 1 "GND" H 3055 2077 50  0000 C CNN
+F 2 "" H 3050 2250 50  0001 C CNN
+F 3 "" H 3050 2250 50  0001 C CNN
+	1    3050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B35
+P 6700 2250
+AR Path="/60A45B35" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B35" Ref="#PWR0309"  Part="1" 
+F 0 "#PWR0309" H 6700 2000 50  0001 C CNN
+F 1 "GND" H 6705 2077 50  0000 C CNN
+F 2 "" H 6700 2250 50  0001 C CNN
+F 3 "" H 6700 2250 50  0001 C CNN
+	1    6700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B1F
+P 7350 2250
+AR Path="/60A45B1F" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B1F" Ref="#PWR0310"  Part="1" 
+F 0 "#PWR0310" H 7350 2000 50  0001 C CNN
+F 1 "GND" H 7355 2077 50  0000 C CNN
+F 2 "" H 7350 2250 50  0001 C CNN
+F 3 "" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B0A
+P 8500 2250
+AR Path="/60A45B0A" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B0A" Ref="#PWR0311"  Part="1" 
+F 0 "#PWR0311" H 8500 2000 50  0001 C CNN
+F 1 "GND" H 8505 2077 50  0000 C CNN
+F 2 "" H 8500 2250 50  0001 C CNN
+F 3 "" H 8500 2250 50  0001 C CNN
+	1    8500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45AF4
+P 9150 2250
+AR Path="/60A45AF4" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45AF4" Ref="#PWR0312"  Part="1" 
+F 0 "#PWR0312" H 9150 2000 50  0001 C CNN
+F 1 "GND" H 9155 2077 50  0000 C CNN
+F 2 "" H 9150 2250 50  0001 C CNN
+F 3 "" H 9150 2250 50  0001 C CNN
+	1    9150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4500 2900 4550
+Wire Wire Line
+	2950 4500 2900 4500
+$Comp
+L power:GND #PWR0313
+U 1 1 60AA39E0
+P 2900 4550
+F 0 "#PWR0313" H 2900 4300 50  0001 C CNN
+F 1 "GND" H 2905 4377 50  0000 C CNN
+F 2 "" H 2900 4550 50  0001 C CNN
+F 3 "" H 2900 4550 50  0001 C CNN
+	1    2900 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 4400 0    50   Input ~ 0
+V_ENCODER
+Text GLabel 2950 4300 0    50   Input ~ 0
+ENCODER_0_B
+Text GLabel 2950 4200 0    50   Input ~ 0
+ENCODER_0_A
+$Comp
+L Connector_Generic:Conn_01x04 J305
+U 1 1 60A63E75
+P 3150 4300
+F 0 "J305" H 3230 4292 50  0000 L CNN
+F 1 "E0_CONN" H 3230 4201 50  0000 L CNN
+F 2 "" H 3150 4300 50  0001 C CNN
+F 3 "~" H 3150 4300 50  0001 C CNN
+	1    3150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4500 4350 4550
+Wire Wire Line
+	4400 4500 4350 4500
+$Comp
+L power:GND #PWR0314
+U 1 1 60AA86E4
+P 4350 4550
+F 0 "#PWR0314" H 4350 4300 50  0001 C CNN
+F 1 "GND" H 4355 4377 50  0000 C CNN
+F 2 "" H 4350 4550 50  0001 C CNN
+F 3 "" H 4350 4550 50  0001 C CNN
+	1    4350 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 4400 0    50   Input ~ 0
+V_ENCODER
+Text GLabel 4400 4300 0    50   Input ~ 0
+ENCODER_1_B
+Text GLabel 4400 4200 0    50   Input ~ 0
+ENCODER_1_A
+$Comp
+L Connector_Generic:Conn_01x04 J306
+U 1 1 60AA86ED
+P 4600 4300
+F 0 "J306" H 4680 4292 50  0000 L CNN
+F 1 "E1_CONN" H 4680 4201 50  0000 L CNN
+F 2 "" H 4600 4300 50  0001 C CNN
+F 3 "~" H 4600 4300 50  0001 C CNN
+	1    4600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4500 5750 4550
+Wire Wire Line
+	5800 4500 5750 4500
+$Comp
+L power:GND #PWR0315
+U 1 1 60AA96F0
+P 5750 4550
+F 0 "#PWR0315" H 5750 4300 50  0001 C CNN
+F 1 "GND" H 5755 4377 50  0000 C CNN
+F 2 "" H 5750 4550 50  0001 C CNN
+F 3 "" H 5750 4550 50  0001 C CNN
+	1    5750 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 4400 0    50   Input ~ 0
+V_ENCODER
+Text GLabel 5800 4300 0    50   Input ~ 0
+ENCODER_2_B
+Text GLabel 5800 4200 0    50   Input ~ 0
+ENCODER_2_A
+$Comp
+L Connector_Generic:Conn_01x04 J307
+U 1 1 60AA96F9
+P 6000 4300
+F 0 "J307" H 6080 4292 50  0000 L CNN
+F 1 "E2_CONN" H 6080 4201 50  0000 L CNN
+F 2 "" H 6000 4300 50  0001 C CNN
+F 3 "~" H 6000 4300 50  0001 C CNN
+	1    6000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4500 7100 4550
+Wire Wire Line
+	7150 4500 7100 4500
+$Comp
+L power:GND #PWR0316
+U 1 1 60AAAC83
+P 7100 4550
+F 0 "#PWR0316" H 7100 4300 50  0001 C CNN
+F 1 "GND" H 7105 4377 50  0000 C CNN
+F 2 "" H 7100 4550 50  0001 C CNN
+F 3 "" H 7100 4550 50  0001 C CNN
+	1    7100 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 4400 0    50   Input ~ 0
+V_ENCODER
+Text GLabel 7150 4300 0    50   Input ~ 0
+ENCODER_3_B
+Text GLabel 7150 4200 0    50   Input ~ 0
+ENCODER_3_A
+$Comp
+L Connector_Generic:Conn_01x04 J308
+U 1 1 60AAAC8C
+P 7350 4300
+F 0 "J308" H 7430 4292 50  0000 L CNN
+F 1 "E3_CONN" H 7430 4201 50  0000 L CNN
+F 2 "" H 7350 4300 50  0001 C CNN
+F 3 "~" H 7350 4300 50  0001 C CNN
+	1    7350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J309
+U 1 1 60A25E97
+P 3150 5400
+F 0 "J309" H 3230 5442 50  0000 L CNN
+F 1 "V Encoders jamper" H 3230 5351 50  0000 L CNN
+F 2 "" H 3150 5400 50  0001 C CNN
+F 3 "~" H 3150 5400 50  0001 C CNN
+	1    3150 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 5400 0    50   Input ~ 0
+V_ENCODER
+$Comp
+L power:+3.3V #PWR0317
+U 1 1 60A28183
+P 2900 5250
+F 0 "#PWR0317" H 2900 5100 50  0001 C CNN
+F 1 "+3.3V" H 2915 5423 50  0000 C CNN
+F 2 "" H 2900 5250 50  0001 C CNN
+F 3 "" H 2900 5250 50  0001 C CNN
+	1    2900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5250 2900 5300
+Wire Wire Line
+	2900 5300 2950 5300
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A2D1AA
+P 3150 5800
+AR Path="/60A2D1AA" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A2D1AA" Ref="J310"  Part="1" 
+F 0 "J310" H 3230 5792 50  0000 L CNN
+F 1 "V Encoders external" H 3230 5701 50  0000 L CNN
+F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 3150 5800 50  0001 C CNN
+F 3 "~" H 3150 5800 50  0001 C CNN
+	1    3150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A2D1B6
+P 2950 5900
+AR Path="/60A2D1B6" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A2D1B6" Ref="#PWR0318"  Part="1" 
+F 0 "#PWR0318" H 2950 5650 50  0001 C CNN
+F 1 "GND" H 2955 5727 50  0000 C CNN
+F 2 "" H 2950 5900 50  0001 C CNN
+F 3 "" H 2950 5900 50  0001 C CNN
+	1    2950 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5500 2900 5500
+Wire Wire Line
+	2900 5500 2900 5800
+Wire Wire Line
+	2900 5800 2950 5800
+$EndSCHEMATC
