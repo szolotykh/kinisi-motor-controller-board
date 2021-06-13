@@ -117,7 +117,7 @@ AR Path="/60A45B02" Ref="J?"  Part="1"
 AR Path="/60A3E5C0/60A45B02" Ref="J304"  Part="1" 
 F 0 "J304" H 9050 1850 50  0000 L CNN
 F 1 "M3_CONN" H 9050 1550 50  0000 L CNN
-F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 9100 1750 50  0001 C CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 9100 1750 50  0001 C CNN
 F 3 "~" H 9100 1750 50  0001 C CNN
 	1    9100 1750
 	1    0    0    -1  
@@ -180,7 +180,7 @@ AR Path="/60A45B2D" Ref="J?"  Part="1"
 AR Path="/60A3E5C0/60A45B2D" Ref="J303"  Part="1" 
 F 0 "J303" H 7250 1850 50  0000 L CNN
 F 1 "M2_CONN" H 7250 1550 50  0000 L CNN
-F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 7300 1750 50  0001 C CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 7300 1750 50  0001 C CNN
 F 3 "~" H 7300 1750 50  0001 C CNN
 	1    7300 1750
 	1    0    0    -1  
@@ -226,7 +226,7 @@ AR Path="/60A45B49" Ref="J?"  Part="1"
 AR Path="/60A3E5C0/60A45B49" Ref="J302"  Part="1" 
 F 0 "J302" H 5400 1850 50  0000 L CNN
 F 1 "M1_CONN" H 5400 1550 50  0000 L CNN
-F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 5450 1750 50  0001 C CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 5450 1750 50  0001 C CNN
 F 3 "~" H 5450 1750 50  0001 C CNN
 	1    5450 1750
 	1    0    0    -1  
@@ -481,7 +481,7 @@ AR Path="/60A45BC5" Ref="J?"  Part="1"
 AR Path="/60A3E5C0/60A45BC5" Ref="J301"  Part="1" 
 F 0 "J301" H 3600 1850 50  0000 L CNN
 F 1 "M0_CONN" H 3600 1550 50  0000 L CNN
-F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 3650 1750 50  0001 C CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 3650 1750 50  0001 C CNN
 F 3 "~" H 3650 1750 50  0001 C CNN
 	1    3650 1750
 	1    0    0    -1  
@@ -555,192 +555,104 @@ F 3 "" H 9150 2250 50  0001 C CNN
 	1    9150 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2900 4500 2900 4550
-Wire Wire Line
-	2950 4500 2900 4500
 $Comp
-L power:GND #PWR0313
-U 1 1 60AA39E0
-P 2900 4550
-F 0 "#PWR0313" H 2900 4300 50  0001 C CNN
-F 1 "GND" H 2905 4377 50  0000 C CNN
-F 2 "" H 2900 4550 50  0001 C CNN
-F 3 "" H 2900 4550 50  0001 C CNN
-	1    2900 4550
+L Connector:Conn_01x02_Male J309
+U 1 1 60C2A5CF
+P 3400 5600
+F 0 "J309" H 3372 5482 50  0000 R CNN
+F 1 "External encoders power" H 3372 5573 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3400 5600 50  0001 C CNN
+F 3 "~" H 3400 5600 50  0001 C CNN
+	1    3400 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 60C31896
+P 3200 5600
+F 0 "#PWR0118" H 3200 5350 50  0001 C CNN
+F 1 "GND" H 3205 5427 50  0000 C CNN
+F 2 "" H 3200 5600 50  0001 C CNN
+F 3 "" H 3200 5600 50  0001 C CNN
+	1    3200 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 4400 0    50   Input ~ 0
+Text GLabel 3100 5500 0    50   Input ~ 0
 V_ENCODER
-Text GLabel 2950 4300 0    50   Input ~ 0
-ENCODER_0_B
-Text GLabel 2950 4200 0    50   Input ~ 0
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 60C335D0
+P 3200 5200
+F 0 "#PWR0119" H 3200 5050 50  0001 C CNN
+F 1 "+3.3V" H 3215 5373 50  0000 C CNN
+F 2 "" H 3200 5200 50  0001 C CNN
+F 3 "" H 3200 5200 50  0001 C CNN
+	1    3200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 60C368EC
+P 3200 5350
+AR Path="/60C368EC" Ref="D?"  Part="1" 
+AR Path="/60A3E5C0/60C368EC" Ref="D301"  Part="1" 
+F 0 "D301" V 3300 5150 50  0000 L CNN
+F 1 "B5819W" V 3200 4950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 3200 5350 50  0001 C CNN
+F 3 "~" V 3200 5350 50  0001 C CNN
+F 4 "C8598" H 3200 5350 50  0001 C CNN "LCSC Part #"
+	1    3200 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5200 3200 5250
+Wire Wire Line
+	3200 5450 3200 5500
+Wire Wire Line
+	3100 5500 3200 5500
+Connection ~ 3200 5500
+$Comp
+L power:GND #PWR0120
+U 1 1 60C2E84F
+P 2900 4450
+F 0 "#PWR0120" H 2900 4200 50  0001 C CNN
+F 1 "GND" H 2905 4277 50  0000 C CNN
+F 2 "" H 2900 4450 50  0001 C CNN
+F 3 "" H 2900 4450 50  0001 C CNN
+	1    2900 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 4400 2    50   Input ~ 0
+V_ENCODER
+Text GLabel 3500 4300 2    50   Input ~ 0
 ENCODER_0_A
-$Comp
-L Connector_Generic:Conn_01x04 J305
-U 1 1 60A63E75
-P 3150 4300
-F 0 "J305" H 3230 4292 50  0000 L CNN
-F 1 "E0_CONN" H 3230 4201 50  0000 L CNN
-F 2 "" H 3150 4300 50  0001 C CNN
-F 3 "~" H 3150 4300 50  0001 C CNN
-	1    3150 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 4500 4350 4550
-Wire Wire Line
-	4400 4500 4350 4500
-$Comp
-L power:GND #PWR0314
-U 1 1 60AA86E4
-P 4350 4550
-F 0 "#PWR0314" H 4350 4300 50  0001 C CNN
-F 1 "GND" H 4355 4377 50  0000 C CNN
-F 2 "" H 4350 4550 50  0001 C CNN
-F 3 "" H 4350 4550 50  0001 C CNN
-	1    4350 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 4400 4400 0    50   Input ~ 0
-V_ENCODER
-Text GLabel 4400 4300 0    50   Input ~ 0
-ENCODER_1_B
-Text GLabel 4400 4200 0    50   Input ~ 0
+Text GLabel 3000 4300 0    50   Input ~ 0
+ENCODER_0_B
+Text GLabel 3500 4200 2    50   Input ~ 0
 ENCODER_1_A
-$Comp
-L Connector_Generic:Conn_01x04 J306
-U 1 1 60AA86ED
-P 4600 4300
-F 0 "J306" H 4680 4292 50  0000 L CNN
-F 1 "E1_CONN" H 4680 4201 50  0000 L CNN
-F 2 "" H 4600 4300 50  0001 C CNN
-F 3 "~" H 4600 4300 50  0001 C CNN
-	1    4600 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 4500 5750 4550
-Wire Wire Line
-	5800 4500 5750 4500
-$Comp
-L power:GND #PWR0315
-U 1 1 60AA96F0
-P 5750 4550
-F 0 "#PWR0315" H 5750 4300 50  0001 C CNN
-F 1 "GND" H 5755 4377 50  0000 C CNN
-F 2 "" H 5750 4550 50  0001 C CNN
-F 3 "" H 5750 4550 50  0001 C CNN
-	1    5750 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 4400 0    50   Input ~ 0
-V_ENCODER
-Text GLabel 5800 4300 0    50   Input ~ 0
-ENCODER_2_B
-Text GLabel 5800 4200 0    50   Input ~ 0
+Text GLabel 3000 4200 0    50   Input ~ 0
+ENCODER_1_B
+Text GLabel 3500 4100 2    50   Input ~ 0
 ENCODER_2_A
-$Comp
-L Connector_Generic:Conn_01x04 J307
-U 1 1 60AA96F9
-P 6000 4300
-F 0 "J307" H 6080 4292 50  0000 L CNN
-F 1 "E2_CONN" H 6080 4201 50  0000 L CNN
-F 2 "" H 6000 4300 50  0001 C CNN
-F 3 "~" H 6000 4300 50  0001 C CNN
-	1    6000 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 4500 7100 4550
-Wire Wire Line
-	7150 4500 7100 4500
-$Comp
-L power:GND #PWR0316
-U 1 1 60AAAC83
-P 7100 4550
-F 0 "#PWR0316" H 7100 4300 50  0001 C CNN
-F 1 "GND" H 7105 4377 50  0000 C CNN
-F 2 "" H 7100 4550 50  0001 C CNN
-F 3 "" H 7100 4550 50  0001 C CNN
-	1    7100 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 7150 4400 0    50   Input ~ 0
-V_ENCODER
-Text GLabel 7150 4300 0    50   Input ~ 0
-ENCODER_3_B
-Text GLabel 7150 4200 0    50   Input ~ 0
+Text GLabel 3000 4100 0    50   Input ~ 0
+ENCODER_2_B
+Text GLabel 3500 4000 2    50   Input ~ 0
 ENCODER_3_A
-$Comp
-L Connector_Generic:Conn_01x04 J308
-U 1 1 60AAAC8C
-P 7350 4300
-F 0 "J308" H 7430 4292 50  0000 L CNN
-F 1 "E3_CONN" H 7430 4201 50  0000 L CNN
-F 2 "" H 7350 4300 50  0001 C CNN
-F 3 "~" H 7350 4300 50  0001 C CNN
-	1    7350 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J309
-U 1 1 60A25E97
-P 3150 5400
-F 0 "J309" H 3230 5442 50  0000 L CNN
-F 1 "V Encoders jamper" H 3230 5351 50  0000 L CNN
-F 2 "" H 3150 5400 50  0001 C CNN
-F 3 "~" H 3150 5400 50  0001 C CNN
-	1    3150 5400
-	1    0    0    -1  
-$EndComp
-Text GLabel 2950 5400 0    50   Input ~ 0
-V_ENCODER
-$Comp
-L power:+3.3V #PWR0317
-U 1 1 60A28183
-P 2900 5250
-F 0 "#PWR0317" H 2900 5100 50  0001 C CNN
-F 1 "+3.3V" H 2915 5423 50  0000 C CNN
-F 2 "" H 2900 5250 50  0001 C CNN
-F 3 "" H 2900 5250 50  0001 C CNN
-	1    2900 5250
-	1    0    0    -1  
-$EndComp
+Text GLabel 3000 4000 0    50   Input ~ 0
+ENCODER_3_B
 Wire Wire Line
-	2900 5250 2900 5300
+	2900 4450 2900 4400
 Wire Wire Line
-	2900 5300 2950 5300
+	2900 4400 3000 4400
 $Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 60A2D1AA
-P 3150 5800
-AR Path="/60A2D1AA" Ref="J?"  Part="1" 
-AR Path="/60A3E5C0/60A2D1AA" Ref="J310"  Part="1" 
-F 0 "J310" H 3230 5792 50  0000 L CNN
-F 1 "V Encoders external" H 3230 5701 50  0000 L CNN
-F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 3150 5800 50  0001 C CNN
-F 3 "~" H 3150 5800 50  0001 C CNN
-	1    3150 5800
-	1    0    0    -1  
+L VsReality_Symbols:EncoderPinHeaderConnector_04 J310
+U 1 1 60C2E219
+P 3200 4300
+F 0 "J310" H 3250 3900 50  0000 C CNN
+F 1 "Encoder Commector" H 3500 4550 50  0000 C CNN
+F 2 "VsReality_Footprints:Encoder_PinHeader_4x04_P2.54mm_Vertical" H 3200 4300 50  0001 C CNN
+F 3 "~" H 3200 4300 50  0001 C CNN
+	1    3200 4300
+	1    0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A2D1B6
-P 2950 5900
-AR Path="/60A2D1B6" Ref="#PWR?"  Part="1" 
-AR Path="/60A3E5C0/60A2D1B6" Ref="#PWR0318"  Part="1" 
-F 0 "#PWR0318" H 2950 5650 50  0001 C CNN
-F 1 "GND" H 2955 5727 50  0000 C CNN
-F 2 "" H 2950 5900 50  0001 C CNN
-F 3 "" H 2950 5900 50  0001 C CNN
-	1    2950 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 5500 2900 5500
-Wire Wire Line
-	2900 5500 2900 5800
-Wire Wire Line
-	2900 5800 2950 5800
 $EndSCHEMATC

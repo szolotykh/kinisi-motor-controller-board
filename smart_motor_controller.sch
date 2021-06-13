@@ -367,63 +367,6 @@ Text GLabel 2900 5200 2    50   Input ~ 0
 SWDIO
 Text GLabel 2900 5300 2    50   Input ~ 0
 SWCLK
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J104
-U 1 1 6015F5C6
-P 10500 1150
-F 0 "J104" H 10550 1567 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 10550 1476 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 10500 1150 50  0001 C CNN
-F 3 "~" H 10500 1150 50  0001 C CNN
-	1    10500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 60160243
-P 10200 1400
-F 0 "#PWR07" H 10200 1150 50  0001 C CNN
-F 1 "GND" H 10205 1227 50  0000 C CNN
-F 2 "" H 10200 1400 50  0001 C CNN
-F 3 "" H 10200 1400 50  0001 C CNN
-	1    10200 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 1050 10200 1050
-Wire Wire Line
-	10200 1050 10200 1150
-Wire Wire Line
-	10300 1150 10200 1150
-Connection ~ 10200 1150
-Wire Wire Line
-	10200 1150 10200 1350
-Wire Wire Line
-	10300 1350 10200 1350
-Connection ~ 10200 1350
-Wire Wire Line
-	10200 1350 10200 1400
-$Comp
-L power:+3V3 #PWR05
-U 1 1 6016A0E3
-P 10300 950
-F 0 "#PWR05" H 10300 800 50  0001 C CNN
-F 1 "+3V3" V 10315 1078 50  0000 L CNN
-F 2 "" H 10300 950 50  0001 C CNN
-F 3 "" H 10300 950 50  0001 C CNN
-	1    10300 950 
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 10300 1250
-NoConn ~ 10800 1250
-Text GLabel 10800 1350 2    50   Input ~ 0
-NRST
-Text GLabel 10800 1050 2    50   Input ~ 0
-SWCLK
-Text GLabel 10800 950  2    50   Input ~ 0
-SWDIO
-Text Notes 10500 1550 0    50   ~ 0
-ARM 10pin SWD\n
 Text GLabel 2900 6500 2    50   Input ~ 0
 I2C1_SDA
 Text GLabel 2900 6400 2    50   Input ~ 0
@@ -442,30 +385,19 @@ NoConn ~ 1500 7000
 NoConn ~ 1500 7100
 Text Notes 1300 2500 0    50   ~ 0
 Microcontroller
-Text GLabel 7750 1300 2    50   Input ~ 0
+Text GLabel 7750 1350 2    50   Input ~ 0
 I2C1_SCL
-Text GLabel 7250 1300 0    50   Input ~ 0
+Text GLabel 7250 1350 0    50   Input ~ 0
 I2C1_SDA
 $Comp
 L power:+3V3 #PWR06
 U 1 1 6026AA86
-P 7250 1000
-F 0 "#PWR06" H 7250 850 50  0001 C CNN
-F 1 "+3V3" H 7265 1173 50  0000 C CNN
-F 2 "" H 7250 1000 50  0001 C CNN
-F 3 "" H 7250 1000 50  0001 C CNN
-	1    7250 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 6026AECF
-P 8300 1100
-F 0 "#PWR09" H 8300 850 50  0001 C CNN
-F 1 "GND" H 8305 927 50  0000 C CNN
-F 2 "" H 8300 1100 50  0001 C CNN
-F 3 "" H 8300 1100 50  0001 C CNN
-	1    8300 1100
+P 8300 1000
+F 0 "#PWR06" H 8300 850 50  0001 C CNN
+F 1 "+3V3" H 8315 1173 50  0000 C CNN
+F 2 "" H 8300 1000 50  0001 C CNN
+F 3 "" H 8300 1000 50  0001 C CNN
+	1    8300 1000
 	1    0    0    -1  
 $EndComp
 Text Notes 6700 650  0    50   ~ 0
@@ -509,17 +441,16 @@ Text GLabel 2900 6800 2    50   Input ~ 0
 CAN2_RX
 Text GLabel 2900 6900 2    50   Input ~ 0
 CAN2_TX
-NoConn ~ 10800 1150
 $Comp
 L Connector:Screw_Terminal_01x02 J9
 U 1 1 60318CBC
-P 5750 1100
-F 0 "J9" H 5830 1092 50  0000 L CNN
-F 1 "Input 12V" H 5830 1001 50  0000 L CNN
-F 2 "VsReality_Footprints:DB128L_5.08_2P_GN_S" H 5750 1100 50  0001 C CNN
-F 3 "~" H 5750 1100 50  0001 C CNN
-	1    5750 1100
-	1    0    0    -1  
+P 5750 1200
+F 0 "J9" H 5830 1192 50  0000 L CNN
+F 1 "Input 12V" H 5830 1101 50  0000 L CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 5750 1200 50  0001 C CNN
+F 3 "~" H 5750 1200 50  0001 C CNN
+	1    5750 1200
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR0102
@@ -734,64 +665,6 @@ F 3 "" H 4250 6200 50  0001 C CNN
 	1    4250 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 5850 4550 5700
-Wire Wire Line
-	4200 5850 4550 5850
-Wire Wire Line
-	4250 5750 4200 5750
-Wire Wire Line
-	4250 5700 4250 5750
-Text GLabel 4200 5750 0    50   Input ~ 0
-I2C1_SCL
-Text GLabel 4200 5850 0    50   Input ~ 0
-I2C1_SDA
-$Comp
-L Device:R_Small R2
-U 1 1 60262C5F
-P 4250 5600
-F 0 "R2" H 4309 5646 50  0000 L CNN
-F 1 "2k2" H 4309 5555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4250 5600 50  0001 C CNN
-F 3 "~" H 4250 5600 50  0001 C CNN
-F 4 "" H 4250 5600 50  0001 C CNN "LCSC Part #"
-	1    4250 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR020
-U 1 1 60264184
-P 4550 5500
-F 0 "#PWR020" H 4550 5350 50  0001 C CNN
-F 1 "+3V3" H 4565 5673 50  0000 C CNN
-F 2 "" H 4550 5500 50  0001 C CNN
-F 3 "" H 4550 5500 50  0001 C CNN
-	1    4550 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR019
-U 1 1 602635FF
-P 4250 5500
-F 0 "#PWR019" H 4250 5350 50  0001 C CNN
-F 1 "+3V3" H 4265 5673 50  0000 C CNN
-F 2 "" H 4250 5500 50  0001 C CNN
-F 3 "" H 4250 5500 50  0001 C CNN
-	1    4250 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 6026341E
-P 4550 5600
-F 0 "R3" H 4609 5646 50  0000 L CNN
-F 1 "2k2" H 4609 5555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4550 5600 50  0001 C CNN
-F 3 "~" H 4550 5600 50  0001 C CNN
-F 4 "" H 4550 5600 50  0001 C CNN "LCSC Part #"
-	1    4550 5600
-	1    0    0    -1  
-$EndComp
 Text GLabel 2700 1400 2    50   Input ~ 0
 BACK_IN
 $Comp
@@ -914,11 +787,11 @@ Text GLabel 2900 4300 2    50   Input ~ 0
 GPIO2
 Text GLabel 2900 4400 2    50   Input ~ 0
 GPIO3
-Text GLabel 7250 1100 0    50   Input ~ 0
+Text GLabel 7250 1150 0    50   Input ~ 0
 GPIO0
-Text GLabel 7750 1100 2    50   Input ~ 0
+Text GLabel 7750 1150 2    50   Input ~ 0
 GPIO1
-Text GLabel 7750 1200 2    50   Input ~ 0
+Text GLabel 7750 1250 2    50   Input ~ 0
 GPIO3
 Wire Wire Line
 	1500 4400 1250 4400
@@ -997,7 +870,7 @@ U 1 1 604A4E02
 P 2150 1600
 F 0 "TP1" H 2198 1646 50  0000 L CNN
 F 1 "Vin" H 2198 1555 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2350 1600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2350 1600 50  0001 C CNN
 F 3 "~" H 2350 1600 50  0001 C CNN
 	1    2150 1600
 	1    0    0    -1  
@@ -1177,23 +1050,10 @@ Text GLabel 2900 4500 2    50   Input ~ 0
 ENCODER_1_A
 NoConn ~ 2900 6000
 NoConn ~ 2900 6100
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J101
-U 1 1 60A454AD
-P 7450 1100
-F 0 "J101" H 7450 1300 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 7450 750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 7450 1100 50  0001 C CNN
-F 3 "~" H 7450 1100 50  0001 C CNN
-	1    7450 1100
-	1    0    0    -1  
-$EndComp
-Text GLabel 7250 1200 0    50   Input ~ 0
+Text GLabel 7250 1250 0    50   Input ~ 0
 GPIO2
 Wire Wire Line
-	8300 1000 8300 1100
-Wire Wire Line
-	7750 1000 8300 1000
+	7750 1050 8300 1050
 Wire Wire Line
 	800  1050 800  1400
 Wire Wire Line
@@ -1227,8 +1087,9 @@ U 1 1 60A8F1DA
 P 6200 4300
 F 0 "SW103" V 6246 4212 50  0000 R CNN
 F 1 "SW_NRST" V 6155 4212 50  0000 R CNN
-F 2 "" H 6200 4300 50  0001 C CNN
+F 2 "VsReality_Footprints:Diptronics MPTFP2-V-TR SMD 2.9x3.9x2mm" H 6200 4300 50  0001 C CNN
 F 3 "~" H 6200 4300 50  0001 C CNN
+F 4 "C495942" H 6200 4300 50  0001 C CNN "LCSC Part #"
 	1    6200 4300
 	0    -1   -1   0   
 $EndComp
@@ -1298,8 +1159,9 @@ U 1 1 60AB59B9
 P 6250 3100
 F 0 "SW102" V 6296 3012 50  0000 R CNN
 F 1 "SW_NRST" V 6205 3012 50  0000 R CNN
-F 2 "" H 6250 3100 50  0001 C CNN
+F 2 "VsReality_Footprints:Diptronics MPTFP2-V-TR SMD 2.9x3.9x2mm" H 6250 3100 50  0001 C CNN
 F 3 "~" H 6250 3100 50  0001 C CNN
+F 4 "C495942" H 6250 3100 50  0001 C CNN "LCSC Part #"
 	1    6250 3100
 	0    -1   -1   0   
 $EndComp
@@ -1401,4 +1263,74 @@ F 3 "~" H 9450 1550 50  0001 C CNN
 	1    9450 1550
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J101
+U 1 1 60C56406
+P 7450 1250
+F 0 "J101" H 7500 1600 50  0000 C CNN
+F 1 "Breakout" H 7550 850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 7450 1250 50  0001 C CNN
+F 3 "~" H 7450 1250 50  0001 C CNN
+	1    7450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 60C59A47
+P 6700 1600
+F 0 "#PWR0121" H 6700 1350 50  0001 C CNN
+F 1 "GND" H 6705 1427 50  0000 C CNN
+F 2 "" H 6700 1600 50  0001 C CNN
+F 3 "" H 6700 1600 50  0001 C CNN
+	1    6700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1550 8300 1550
+Wire Wire Line
+	7250 1550 6700 1550
+Text GLabel 7250 1450 0    50   Input ~ 0
+USART3_TX
+Text GLabel 7750 1450 2    50   Input ~ 0
+USART3_RX
+Wire Wire Line
+	8300 1050 8300 1550
+Wire Wire Line
+	7250 1050 6700 1050
+Wire Wire Line
+	6700 1050 6700 1550
+Wire Wire Line
+	8300 1050 8300 1000
+Connection ~ 8300 1050
+Wire Wire Line
+	6700 1600 6700 1550
+Connection ~ 6700 1550
+$Comp
+L Connector:Conn_01x04_Male J104
+U 1 1 60C6E515
+P 10300 1000
+F 0 "J104" H 10450 700 50  0000 R CNN
+F 1 "Debug" H 10500 600 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10300 1000 50  0001 C CNN
+F 3 "~" H 10300 1000 50  0001 C CNN
+	1    10300 1000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 60C6EF67
+P 10500 1100
+F 0 "#PWR0122" H 10500 850 50  0001 C CNN
+F 1 "GND" H 10505 927 50  0000 C CNN
+F 2 "" H 10500 1100 50  0001 C CNN
+F 3 "" H 10500 1100 50  0001 C CNN
+	1    10500 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 10500 800  2    50   Input ~ 0
+NRST
+Text GLabel 10500 1000 2    50   Input ~ 0
+SWCLK
+Text GLabel 10500 900  2    50   Input ~ 0
+SWDIO
 $EndSCHEMATC
