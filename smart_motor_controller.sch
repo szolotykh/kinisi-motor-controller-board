@@ -385,9 +385,9 @@ NoConn ~ 1500 7000
 NoConn ~ 1500 7100
 Text Notes 1300 2500 0    50   ~ 0
 Microcontroller
-Text GLabel 7750 1350 2    50   Input ~ 0
+Text GLabel 9200 1000 0    50   Input ~ 0
 I2C1_SCL
-Text GLabel 7250 1350 0    50   Input ~ 0
+Text GLabel 9200 900  0    50   Input ~ 0
 I2C1_SDA
 $Comp
 L power:+3V3 #PWR06
@@ -416,21 +416,21 @@ F 3 "" H 2100 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2900 5800
-Text GLabel 2900 4700 2    50   Input ~ 0
-M0_OUT1
-Text GLabel 2900 4800 2    50   Input ~ 0
-M0_OUT2
-Text GLabel 1500 6200 0    50   Input ~ 0
-M1_OUT1
-Text GLabel 1500 6300 0    50   Input ~ 0
-M1_OUT2
-Text GLabel 1500 6400 0    50   Input ~ 0
-M2_OUT1
-Text GLabel 1500 6500 0    50   Input ~ 0
-M2_OUT2
 Text GLabel 2900 7000 2    50   Input ~ 0
-M3_OUT1
+M0_OUT1
 Text GLabel 2900 7100 2    50   Input ~ 0
+M0_OUT2
+Text GLabel 1500 6400 0    50   Input ~ 0
+M1_OUT1
+Text GLabel 1500 6500 0    50   Input ~ 0
+M1_OUT2
+Text GLabel 1500 6200 0    50   Input ~ 0
+M2_OUT1
+Text GLabel 1500 6300 0    50   Input ~ 0
+M2_OUT2
+Text GLabel 2900 4700 2    50   Input ~ 0
+M3_OUT1
+Text GLabel 2900 4800 2    50   Input ~ 0
 M3_OUT2
 NoConn ~ 2900 4900
 Text GLabel 2900 6600 2    50   Input ~ 0
@@ -478,10 +478,10 @@ Text GLabel 9250 1450 0    50   Input ~ 0
 CAN2_RX
 Text GLabel 9250 1550 0    50   Input ~ 0
 CAN2_TX
-Text GLabel 9200 900  0    50   Input ~ 0
-I2C3_SCL
-Text GLabel 9200 1000 0    50   Input ~ 0
-I2C3_SDA
+Text GLabel 7750 1350 2    50   Input ~ 0
+I2C2_SCL
+Text GLabel 7250 1350 0    50   Input ~ 0
+I2C2_SDA
 $Comp
 L power:+3V3 #PWR0104
 U 1 1 6034833C
@@ -616,9 +616,9 @@ Wire Wire Line
 Wire Wire Line
 	4200 6450 4250 6450
 Text GLabel 4200 6550 0    50   Input ~ 0
-I2C2_SDA
+I2C1_SDA
 Text GLabel 4200 6450 0    50   Input ~ 0
-I2C2_SCL
+I2C1_SCL
 $Comp
 L Device:R_Small R15
 U 1 1 60336C1B
@@ -867,22 +867,15 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint_Small TP1
 U 1 1 604A4E02
-P 2150 1600
-F 0 "TP1" H 2198 1646 50  0000 L CNN
-F 1 "Vin" H 2198 1555 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2350 1600 50  0001 C CNN
-F 3 "~" H 2350 1600 50  0001 C CNN
-	1    2150 1600
+P 1500 1700
+F 0 "TP1" H 1450 1800 50  0000 L CNN
+F 1 "Vin" H 1450 1600 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1700 1700 50  0001 C CNN
+F 3 "~" H 1700 1700 50  0001 C CNN
+	1    1500 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 1400 2150 1400
 Connection ~ 2350 1400
-Wire Wire Line
-	2150 1600 2150 1400
-Connection ~ 2150 1400
-Wire Wire Line
-	2150 1400 2350 1400
 Wire Wire Line
 	1350 1400 1600 1400
 $Sheet
@@ -1028,26 +1021,10 @@ F 4 "C15742" H 2200 5500 50  0001 C CNN "LCSC Part #"
 	1    2200 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 5900 2    50   Input ~ 0
-ENCODER_0_B
-Text GLabel 2900 5400 2    50   Input ~ 0
-ENCODER_0_A
-Text GLabel 2900 4600 2    50   Input ~ 0
-ENCODER_1_B
-Text GLabel 2900 6300 2    50   Input ~ 0
-ENCODER_2_B
-Text GLabel 2900 6200 2    50   Input ~ 0
-ENCODER_2_A
-Text GLabel 2900 4000 2    50   Input ~ 0
-ENCODER_3_B
-Text GLabel 2900 3900 2    50   Input ~ 0
-ENCODER_3_A
 Text GLabel 1500 6600 0    50   Input ~ 0
 USART3_TX
 Text GLabel 1500 6700 0    50   Input ~ 0
 USART3_RX
-Text GLabel 2900 4500 2    50   Input ~ 0
-ENCODER_1_A
 NoConn ~ 2900 6000
 NoConn ~ 2900 6100
 Text GLabel 7250 1250 0    50   Input ~ 0
@@ -1333,4 +1310,27 @@ Text GLabel 10500 1000 2    50   Input ~ 0
 SWCLK
 Text GLabel 10500 900  2    50   Input ~ 0
 SWDIO
+Text GLabel 2900 6200 2    50   Input ~ 0
+ENCODER_2_A
+Text GLabel 2900 6300 2    50   Input ~ 0
+ENCODER_2_B
+Text GLabel 2900 4500 2    50   Input ~ 0
+ENCODER_1_A
+Text GLabel 2900 4600 2    50   Input ~ 0
+ENCODER_1_B
+Text GLabel 2900 4000 2    50   Input ~ 0
+ENCODER_3_B
+Text GLabel 2900 3900 2    50   Input ~ 0
+ENCODER_3_A
+Text GLabel 2900 5400 2    50   Input ~ 0
+ENCODER_0_A
+Text GLabel 2900 5900 2    50   Input ~ 0
+ENCODER_0_B
+Wire Wire Line
+	1500 1700 1600 1700
+Connection ~ 1600 1700
+Wire Wire Line
+	1900 1400 2350 1400
+Text Notes 9550 700  0    50   ~ 0
+JST-SH?
 $EndSCHEMATC
