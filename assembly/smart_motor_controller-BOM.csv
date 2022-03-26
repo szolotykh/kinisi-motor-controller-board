@@ -1,48 +1,49 @@
 Comment,Designator,Footprint,LCSC
-TestPoint_Small,3.3V201,TestPoint:TestPoint_Pad_D1.5mm,
-1u,"C13,C101",Capacitor_SMD:C_0402_1005Metric,C52923
-10n,C14,Capacitor_SMD:C_0402_1005Metric,C15195
-2.2u,"C15,C16",Capacitor_SMD:C_0603_1608Metric,C23630
-12p,"C17,C18",Capacitor_SMD:C_0402_1005Metric,C1547
-10uf,C202,Capacitor_SMD:C_1206_3216Metric,C13585
-10nf,C203,Capacitor_SMD:C_0603_1608Metric,C57112
-1nF,C204,Capacitor_SMD:C_0402_1005Metric,C1523
-8.2nF,C205,Capacitor_SMD:C_0603_1608Metric,C27920
-47uF,"C206,C207",Capacitor_SMD:C_1206_3216Metric,C96123
-4u7,C3,Capacitor_SMD:C_0603_1608Metric,C19666
-100n,"C301,C303,C305,C307",Capacitor_SMD:C_0603_1608Metric,C14663
-47u,"C302,C304,C306,C308",Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,
-100nf,"C4,C5,C6,C7,C8,C201",Capacitor_SMD:C_0402_1005Metric,C1525
-B5819W,"D1,D2,D201,D301",Diode_SMD:D_SOD-123,C8598
-BLUE,D3,LED_SMD:LED_0603_1608Metric,C72041
-MountingHole_Pad,"H1,H2,H3,H4,H5,H6",MountingHole:MountingHole_2.7mm_M2.5_Pad,
-16MHz,HSE1,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,C13738
-USB_B_Micro,J10,VsReality_Footprints:U-F-M5DD-W-L,C145792
-Breakout,J101,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,
-I2C_CONN,J102,Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,
-CAN_CONN,J103,Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal,
-Debug,J104,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
-M0_CONN,J301,VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P,
-M1_CONN,J302,VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P,
-M2_CONN,J303,VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P,
-M3_CONN,J304,VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P,
-External encoders power,J309,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
-Encoder Commector,J310,VsReality_Footprints:Encoder_PinHeader_4x04_P2.54mm_Vertical,
-Input 12V,J9,VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P,
-39n,L2,Inductor_SMD:L_0402_1005Metric,C26443
-10uH,L201,Inductor_SMD:L_Sunlord_MWSA0518_5.4x5.2mm,C139506
-FDD6685,Q101,Package_TO_SOT_SMD:TO-252-2,C10866
-10k,R101,Resistor_SMD:R_0402_1005Metric,C25744
-2k2,"R14,R15",Resistor_SMD:R_0402_1005Metric,C25879
-10K,R201,Resistor_SMD:R_0402_1005Metric,C25744
-30K,"R202,R301,R302,R303,R304",Resistor_SMD:R_0603_1608Metric,C22984
-3.3K,R203,Resistor_SMD:R_0402_1005Metric,C25890
-47,R6,Resistor_SMD:R_0402_1005Metric,C25118
-100,R7,Resistor_SMD:R_0603_1608Metric,C25076
-SW_NRST,"SW102,SW103",VsReality_Footprints:Diptronics MPTFP2-V-TR SMD 2.9x3.9x2mm,C495942
-Vin,TP1,TestPoint:TestPoint_Pad_D1.5mm,
-5V,TP2,TestPoint:TestPoint_Pad_D2.0mm,
-STM32F405RGT6,U2,Package_QFP:LQFP-64_10x10mm_P0.5mm,C15742
-TPS54331DDAR,U201,VsReality_Footprints:Texas_Instruments-DDAR-PDSO-G8-12_2011-F-0,C90761
-USBLC6-2SC6,U3,Package_TO_SOT_SMD:SOT-23-6,C7519
-DRV8871DDA,"U301,U302,U303,U304",Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias,C75864
+"TestPoint_Small","3.3V201","TestPoint:TestPoint_Pad_D1.5mm",""
+"1u","C13,C101","Capacitor_SMD:C_0402_1005Metric","C52923"
+"10n","C14","Capacitor_SMD:C_0402_1005Metric","C15195"
+"2.2u","C15,C16","Capacitor_SMD:C_0603_1608Metric","C23630"
+"12p","C17,C18","Capacitor_SMD:C_0402_1005Metric","C1547"
+"10uf","C202","Capacitor_SMD:C_1206_3216Metric","C13585"
+"10nf","C203","Capacitor_SMD:C_0603_1608Metric","C57112"
+"1nF","C204","Capacitor_SMD:C_0402_1005Metric","C1523"
+"8.2nF","C205","Capacitor_SMD:C_0603_1608Metric","C27920"
+"47uF","C206,C207","Capacitor_SMD:C_1206_3216Metric","C96123"
+"4u7","C3","Capacitor_SMD:C_0603_1608Metric","C19666"
+"100n","C301,C303,C305,C307","Capacitor_SMD:C_0603_1608Metric","C14663"
+"47u","C302,C304,C306,C308","Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",""
+"100nf","C4,C5,C6,C7,C8,C201","Capacitor_SMD:C_0402_1005Metric","C1525"
+"B5819W","D1,D2,D201,D301","Diode_SMD:D_SOD-123","C8598"
+"BLUE","D3","LED_SMD:LED_0603_1608Metric","C72041"
+"MountingHole_Pad","H1,H2,H3,H4,H5,H6","MountingHole:MountingHole_2.7mm_M2.5_Pad",""
+"16MHz","HSE1","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","C13738"
+"USB_B_Micro","J10","VsReality_Footprints:U-F-M5DD-W-L","C145792"
+"Breakout","J101","Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical",""
+"I2C_CONN","J102","Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal",""
+"CAN_CONN","J103","Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal",""
+"Debug","J104","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"M0_CONN","J301","VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P",""
+"M1_CONN","J302","VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P",""
+"M2_CONN","J303","VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P",""
+"M3_CONN","J304","VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P",""
+"External encoders power","J309","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"Encoder Commector","J310","VsReality_Footprints:Encoder_PinHeader_4x04_P2.54mm_Vertical",""
+"Input 12V","J9","VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P",""
+"39n","L2","Inductor_SMD:L_0402_1005Metric","C26443"
+"10uH","L201","Inductor_SMD:L_Sunlord_MWSA0518_5.4x5.2mm","C139506"
+"FDD6685","Q101","Package_TO_SOT_SMD:TO-252-2","C10866"
+"10k","R101","Resistor_SMD:R_0402_1005Metric","C25744"
+"2k2","R14,R15","Resistor_SMD:R_0402_1005Metric","C25879"
+"10K","R201","Resistor_SMD:R_0402_1005Metric","C25744"
+"30K","R202","Resistor_SMD:R_0603_1608Metric","C22984"
+"3.3K","R203","Resistor_SMD:R_0402_1005Metric","C25890"
+"0.15","R301,R302,R303,R304","Resistor_SMD:R_0603_1608Metric","C45879"
+"47","R6","Resistor_SMD:R_0402_1005Metric","C25118"
+"100","R7","Resistor_SMD:R_0603_1608Metric","C25076"
+"SW_NRST","SW102,SW103","VsReality_Footprints:Diptronics MPTFP2-V-TR SMD 2.9x3.9x2mm","C495942"
+"Vin","TP1","TestPoint:TestPoint_Pad_D1.5mm",""
+"5V","TP2","TestPoint:TestPoint_Pad_D2.0mm",""
+"STM32F405RGT6","U2","Package_QFP:LQFP-64_10x10mm_P0.5mm","C15742"
+"TPS54331DDAR","U201","Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias","C90761"
+"USBLC6-2SC6","U3","Package_TO_SOT_SMD:SOT-23-6","C7519"
+"DRV8870DDA","U301,U302,U303,U304","Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias","C86590"
