@@ -1009,18 +1009,6 @@ F 3 "~" H 3800 950 50  0001 C CNN
 $EndComp
 Text GLabel 4950 7100 2    50   Input ~ 0
 HSE_OUT
-$Comp
-L MCU_ST_STM32F4:STM32F405RGTx U2
-U 1 1 600E2C7D
-P 2200 5500
-F 0 "U2" H 2700 7300 50  0000 C CNN
-F 1 "STM32F405RGT6" H 2650 3750 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1600 3800 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 2200 5500 50  0001 C CNN
-F 4 "C15742" H 2200 5500 50  0001 C CNN "LCSC Part #"
-	1    2200 5500
-	1    0    0    -1  
-$EndComp
 Text GLabel 1500 6600 0    50   Input ~ 0
 USART3_TX
 Text GLabel 1500 6700 0    50   Input ~ 0
@@ -1333,4 +1321,16 @@ Wire Wire Line
 	1900 1400 2350 1400
 Text Notes 9550 700  0    50   ~ 0
 JST-SH?
+$Comp
+L MCU_ST_STM32F4:STM32F405RGTx U2
+U 1 1 600E2C7D
+P 2200 5500
+F 0 "U2" H 2700 7300 50  0000 C CNN
+F 1 "STM32F405RGT6" H 2650 3750 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1600 3800 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 2200 5500 50  0001 C CNN
+F 4 "C15742" H 2200 5500 50  0001 C CNN "LCSC Part #"
+	1    2200 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

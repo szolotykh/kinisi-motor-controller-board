@@ -17,20 +17,6 @@ Wire Wire Line
 	4850 1500 4850 1550
 Wire Wire Line
 	4900 1500 4850 1500
-$Comp
-L Driver_Motor:DRV8871DDA U?
-U 1 1 60A45ACD
-P 4850 1850
-AR Path="/60A45ACD" Ref="U?"  Part="1" 
-AR Path="/60A3E5C0/60A45ACD" Ref="U302"  Part="1" 
-F 0 "U302" H 4600 2100 50  0000 C CNN
-F 1 "DRV8871DDA" H 5150 1500 50  0000 C CNN
-F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 5100 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 5100 1800 50  0001 C CNN
-F 4 "C75864" H 4850 1850 50  0001 C CNN "LCSC Part #"
-	1    4850 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8500 1500 8500 1550
 Wire Wire Line
@@ -71,28 +57,10 @@ Text GLabel 8550 1500 2    50   Input ~ 0
 VMOTORS
 Text GLabel 6750 1500 2    50   Input ~ 0
 VMOTORS
-Text GLabel 3100 1500 2    50   Input ~ 0
+Text GLabel 3000 1400 2    50   Input ~ 0
 VMOTORS
-Wire Wire Line
-	3050 1500 3050 1550
-Wire Wire Line
-	3100 1500 3050 1500
 Text GLabel 4900 1500 2    50   Input ~ 0
 VMOTORS
-$Comp
-L Driver_Motor:DRV8871DDA U?
-U 1 1 60A45AEE
-P 8500 1850
-AR Path="/60A45AEE" Ref="U?"  Part="1" 
-AR Path="/60A3E5C0/60A45AEE" Ref="U304"  Part="1" 
-F 0 "U304" H 8250 2100 50  0000 C CNN
-F 1 "DRV8871DDA" H 8800 1500 50  0000 C CNN
-F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 8750 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 8750 1800 50  0001 C CNN
-F 4 "C75864" H 8500 1850 50  0001 C CNN "LCSC Part #"
-	1    8500 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8900 2050 9150 2050
 $Comp
@@ -102,10 +70,10 @@ P 9150 2150
 AR Path="/60A45AFC" Ref="R?"  Part="1" 
 AR Path="/60A3E5C0/60A45AFC" Ref="R304"  Part="1" 
 F 0 "R304" H 9209 2196 50  0000 L CNN
-F 1 "30K" H 9209 2105 50  0000 L CNN
+F 1 "0.15" H 9209 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9150 2150 50  0001 C CNN
 F 3 "~" H 9150 2150 50  0001 C CNN
-F 4 "C22984" H 9150 2150 50  0001 C CNN "LCSC Part #"
+F 4 "C45879" H 9150 2150 50  0001 C CNN "LCSC Part #"
 	1    9150 2150
 	1    0    0    -1  
 $EndComp
@@ -126,36 +94,8 @@ Text GLabel 8100 1850 0    50   Input ~ 0
 M3_OUT2
 Text GLabel 8100 1750 0    50   Input ~ 0
 M3_OUT1
-$Comp
-L Driver_Motor:DRV8871DDA U?
-U 1 1 60A45B11
-P 3050 1850
-AR Path="/60A45B11" Ref="U?"  Part="1" 
-AR Path="/60A3E5C0/60A45B11" Ref="U301"  Part="1" 
-F 0 "U301" H 2800 2100 50  0000 C CNN
-F 1 "DRV8871DDA" H 3350 1500 50  0000 C CNN
-F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 3300 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 3300 1800 50  0001 C CNN
-F 4 "C75864" H 3050 1850 50  0001 C CNN "LCSC Part #"
-	1    3050 1850
-	1    0    0    -1  
-$EndComp
-Text Notes 2300 2400 0    50   ~ 0
-I = 64K/R
-$Comp
-L Driver_Motor:DRV8871DDA U?
-U 1 1 60A45B19
-P 6700 1850
-AR Path="/60A45B19" Ref="U?"  Part="1" 
-AR Path="/60A3E5C0/60A45B19" Ref="U303"  Part="1" 
-F 0 "U303" H 6450 2100 50  0000 C CNN
-F 1 "DRV8871DDA" H 7000 1500 50  0000 C CNN
-F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 6950 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/drv8871.pdf" H 6950 1800 50  0001 C CNN
-F 4 "C75864" H 6700 1850 50  0001 C CNN "LCSC Part #"
-	1    6700 1850
-	1    0    0    -1  
-$EndComp
+Text Notes 2200 2700 0    50   ~ 0
+I = 3.3/(10*R)
 Wire Wire Line
 	7100 2050 7350 2050
 $Comp
@@ -165,10 +105,10 @@ P 7350 2150
 AR Path="/60A45B27" Ref="R?"  Part="1" 
 AR Path="/60A3E5C0/60A45B27" Ref="R303"  Part="1" 
 F 0 "R303" H 7409 2196 50  0000 L CNN
-F 1 "30K" H 7409 2105 50  0000 L CNN
+F 1 "0.15" H 7409 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7350 2150 50  0001 C CNN
 F 3 "~" H 7350 2150 50  0001 C CNN
-F 4 "C22984" H 7350 2150 50  0001 C CNN "LCSC Part #"
+F 4 "C45879" H 7350 2150 50  0001 C CNN "LCSC Part #"
 	1    7350 2150
 	1    0    0    -1  
 $EndComp
@@ -211,10 +151,10 @@ P 5500 2150
 AR Path="/60A45B43" Ref="R?"  Part="1" 
 AR Path="/60A3E5C0/60A45B43" Ref="R302"  Part="1" 
 F 0 "R302" H 5559 2196 50  0000 L CNN
-F 1 "30K" H 5559 2105 50  0000 L CNN
+F 1 "0.15" H 5559 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 2150 50  0001 C CNN
 F 3 "~" H 5500 2150 50  0001 C CNN
-F 4 "C22984" H 5500 2150 50  0001 C CNN "LCSC Part #"
+F 4 "C45879" H 5500 2150 50  0001 C CNN "LCSC Part #"
 	1    5500 2150
 	1    0    0    -1  
 $EndComp
@@ -447,60 +387,58 @@ Connection ~ 2650 3400
 $Comp
 L power:GND #PWR?
 U 1 1 60A45BB7
-P 3700 2250
+P 3600 2250
 AR Path="/60A45BB7" Ref="#PWR?"  Part="1" 
 AR Path="/60A3E5C0/60A45BB7" Ref="#PWR0304"  Part="1" 
-F 0 "#PWR0304" H 3700 2000 50  0001 C CNN
-F 1 "GND" H 3705 2077 50  0000 C CNN
-F 2 "" H 3700 2250 50  0001 C CNN
-F 3 "" H 3700 2250 50  0001 C CNN
-	1    3700 2250
+F 0 "#PWR0304" H 3600 2000 50  0001 C CNN
+F 1 "GND" H 3605 2077 50  0000 C CNN
+F 2 "" H 3600 2250 50  0001 C CNN
+F 3 "" H 3600 2250 50  0001 C CNN
+	1    3600 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 2050 3700 2050
 $Comp
 L Device:R_Small R?
 U 1 1 60A45BBF
-P 3700 2150
+P 3600 2150
 AR Path="/60A45BBF" Ref="R?"  Part="1" 
 AR Path="/60A3E5C0/60A45BBF" Ref="R301"  Part="1" 
-F 0 "R301" H 3759 2196 50  0000 L CNN
-F 1 "30K" H 3759 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 2150 50  0001 C CNN
-F 3 "~" H 3700 2150 50  0001 C CNN
-F 4 "C22984" H 3700 2150 50  0001 C CNN "LCSC Part #"
-	1    3700 2150
+F 0 "R301" H 3659 2196 50  0000 L CNN
+F 1 "0.15" H 3659 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 2150 50  0001 C CNN
+F 3 "~" H 3600 2150 50  0001 C CNN
+F 4 "C45879" H 3600 2150 50  0001 C CNN "LCSC Part #"
+	1    3600 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 60A45BC5
-P 3650 1750
+P 3550 1700
 AR Path="/60A45BC5" Ref="J?"  Part="1" 
 AR Path="/60A3E5C0/60A45BC5" Ref="J301"  Part="1" 
-F 0 "J301" H 3600 1850 50  0000 L CNN
-F 1 "M0_CONN" H 3600 1550 50  0000 L CNN
-F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 3650 1750 50  0001 C CNN
-F 3 "~" H 3650 1750 50  0001 C CNN
-	1    3650 1750
+F 0 "J301" H 3500 1800 50  0000 L CNN
+F 1 "M0_CONN" H 3500 1500 50  0000 L CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 3550 1700 50  0001 C CNN
+F 3 "~" H 3550 1700 50  0001 C CNN
+	1    3550 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 1850 0    50   Input ~ 0
+Text GLabel 2550 1800 0    50   Input ~ 0
 M0_OUT2
-Text GLabel 2650 1750 0    50   Input ~ 0
+Text GLabel 2550 1700 0    50   Input ~ 0
 M0_OUT1
 $Comp
 L power:GND #PWR?
 U 1 1 60A45BCD
-P 3050 2250
+P 2950 2250
 AR Path="/60A45BCD" Ref="#PWR?"  Part="1" 
 AR Path="/60A3E5C0/60A45BCD" Ref="#PWR0303"  Part="1" 
-F 0 "#PWR0303" H 3050 2000 50  0001 C CNN
-F 1 "GND" H 3055 2077 50  0000 C CNN
-F 2 "" H 3050 2250 50  0001 C CNN
-F 3 "" H 3050 2250 50  0001 C CNN
-	1    3050 2250
+F 0 "#PWR0303" H 2950 2000 50  0001 C CNN
+F 1 "GND" H 2955 2077 50  0000 C CNN
+F 2 "" H 2950 2250 50  0001 C CNN
+F 3 "" H 2950 2250 50  0001 C CNN
+	1    2950 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -654,5 +592,107 @@ F 2 "VsReality_Footprints:Encoder_PinHeader_4x04_P2.54mm_Vertical" H 3200 4300 5
 F 3 "~" H 3200 4300 50  0001 C CNN
 	1    3200 4300
 	1    0    0    1   
+$EndComp
+$Comp
+L Driver_Motor:DRV8870DDA U301
+U 1 1 62347C0E
+P 2950 1800
+F 0 "U301" H 3150 2050 50  0000 C CNN
+F 1 "DRV8870DDA" H 3200 1450 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 3050 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 2700 2150 50  0001 C CNN
+F 4 "C86590" H 2950 1800 50  0001 C CNN "LCSC Part #"
+	1    2950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1400 2950 1400
+Wire Wire Line
+	2950 1400 2950 1500
+$Comp
+L power:+3.3V #PWR0314
+U 1 1 6234FC60
+P 4450 2050
+F 0 "#PWR0314" H 4450 1900 50  0001 C CNN
+F 1 "+3.3V" H 4300 2100 50  0000 C CNN
+F 2 "" H 4450 2050 50  0001 C CNN
+F 3 "" H 4450 2050 50  0001 C CNN
+	1    4450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2000 3600 2000
+Wire Wire Line
+	3600 2000 3600 2050
+Wire Wire Line
+	2950 2200 2950 2250
+$Comp
+L Driver_Motor:DRV8870DDA U302
+U 1 1 6235CDC4
+P 4850 1850
+F 0 "U302" H 5050 2100 50  0000 C CNN
+F 1 "DRV8870DDA" H 5100 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 4950 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 4600 2200 50  0001 C CNN
+F 4 "C86590" H 4850 1850 50  0001 C CNN "LCSC Part #"
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:DRV8870DDA U303
+U 1 1 6235E3DF
+P 6700 1850
+F 0 "U303" H 6900 2100 50  0000 C CNN
+F 1 "DRV8870DDA" H 6950 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 6800 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 6450 2200 50  0001 C CNN
+F 4 "C86590" H 6700 1850 50  0001 C CNN "LCSC Part #"
+	1    6700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:DRV8870DDA U304
+U 1 1 6235EBDB
+P 8500 1850
+F 0 "U304" H 8700 2100 50  0000 C CNN
+F 1 "DRV8870DDA" H 8750 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 8600 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 8250 2200 50  0001 C CNN
+F 4 "C86590" H 8500 1850 50  0001 C CNN "LCSC Part #"
+	1    8500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0313
+U 1 1 62365411
+P 2550 2000
+F 0 "#PWR0313" H 2550 1850 50  0001 C CNN
+F 1 "+3.3V" H 2400 2050 50  0000 C CNN
+F 2 "" H 2550 2000 50  0001 C CNN
+F 3 "" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0315
+U 1 1 623657B3
+P 6300 2050
+F 0 "#PWR0315" H 6300 1900 50  0001 C CNN
+F 1 "+3.3V" H 6150 2100 50  0000 C CNN
+F 2 "" H 6300 2050 50  0001 C CNN
+F 3 "" H 6300 2050 50  0001 C CNN
+	1    6300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0316
+U 1 1 62365C61
+P 8100 2050
+F 0 "#PWR0316" H 8100 1900 50  0001 C CNN
+F 1 "+3.3V" H 7950 2100 50  0000 C CNN
+F 2 "" H 8100 2050 50  0001 C CNN
+F 3 "" H 8100 2050 50  0001 C CNN
+	1    8100 2050
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
