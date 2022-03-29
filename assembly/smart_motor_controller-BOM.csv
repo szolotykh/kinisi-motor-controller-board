@@ -39,7 +39,7 @@ Comment,Designator,Footprint,LCSC
 "3.3K","R203","Resistor_SMD:R_0402_1005Metric","C25890"
 "0.15","R301,R302,R303,R304","Resistor_SMD:R_0603_1608Metric","C45879"
 "47","R6","Resistor_SMD:R_0402_1005Metric","C25118"
-"100","R7","Resistor_SMD:R_0603_1608Metric","C25076"
+"100","R7","Resistor_SMD:R_0603_1608Metric","C22775"
 "SW_NRST","SW102,SW103","VsReality_Footprints:Diptronics MPTFP2-V-TR SMD 2.9x3.9x2mm","C495942"
 "Vin","TP1","TestPoint:TestPoint_Pad_D1.5mm",""
 "5V","TP2","TestPoint:TestPoint_Pad_D2.0mm",""
