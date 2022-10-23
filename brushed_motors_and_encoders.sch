@@ -1,0 +1,698 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4850 1500 4850 1550
+Wire Wire Line
+	4900 1500 4850 1500
+Wire Wire Line
+	8500 1500 8500 1550
+Wire Wire Line
+	8550 1500 8500 1500
+Wire Wire Line
+	6700 1500 6700 1550
+Wire Wire Line
+	6750 1500 6700 1500
+Connection ~ 3600 3150
+Wire Wire Line
+	3600 3050 3600 3150
+Wire Wire Line
+	3650 3050 3600 3050
+Connection ~ 5600 3150
+Wire Wire Line
+	5600 3050 5600 3150
+Wire Wire Line
+	5650 3050 5600 3050
+Connection ~ 4650 3150
+Wire Wire Line
+	4650 3050 4650 3150
+Wire Wire Line
+	4700 3050 4650 3050
+Connection ~ 2650 3150
+Wire Wire Line
+	2650 3050 2650 3150
+Wire Wire Line
+	2700 3050 2650 3050
+Text GLabel 2700 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 4700 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 5650 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 3650 3050 2    50   Input ~ 0
+VMOTORS
+Text GLabel 8550 1500 2    50   Input ~ 0
+VMOTORS
+Text GLabel 6750 1500 2    50   Input ~ 0
+VMOTORS
+Text GLabel 3000 1400 2    50   Input ~ 0
+VMOTORS
+Text GLabel 4900 1500 2    50   Input ~ 0
+VMOTORS
+Wire Wire Line
+	8900 2050 9150 2050
+$Comp
+L Device:R_Small R?
+U 1 1 60A45AFC
+P 9150 2150
+AR Path="/60A45AFC" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45AFC" Ref="R304"  Part="1" 
+F 0 "R304" H 9209 2196 50  0000 L CNN
+F 1 "0.15" H 9209 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9150 2150 50  0001 C CNN
+F 3 "~" H 9150 2150 50  0001 C CNN
+F 4 "C45879" H 9150 2150 50  0001 C CNN "LCSC Part #"
+	1    9150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45B02
+P 9100 1750
+AR Path="/60A45B02" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45B02" Ref="J304"  Part="1" 
+F 0 "J304" H 9050 1850 50  0000 L CNN
+F 1 "M3_CONN" H 9050 1550 50  0000 L CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 9100 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8100 1850 0    50   Input ~ 0
+M3_OUT2
+Text GLabel 8100 1750 0    50   Input ~ 0
+M3_OUT1
+Text Notes 2200 2700 0    50   ~ 0
+I = 3.3/(10*R)
+Wire Wire Line
+	7100 2050 7350 2050
+$Comp
+L Device:R_Small R?
+U 1 1 60A45B27
+P 7350 2150
+AR Path="/60A45B27" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45B27" Ref="R303"  Part="1" 
+F 0 "R303" H 7409 2196 50  0000 L CNN
+F 1 "0.15" H 7409 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7350 2150 50  0001 C CNN
+F 3 "~" H 7350 2150 50  0001 C CNN
+F 4 "C45879" H 7350 2150 50  0001 C CNN "LCSC Part #"
+	1    7350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45B2D
+P 7300 1750
+AR Path="/60A45B2D" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45B2D" Ref="J303"  Part="1" 
+F 0 "J303" H 7250 1850 50  0000 L CNN
+F 1 "M2_CONN" H 7250 1550 50  0000 L CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 7300 1750 50  0001 C CNN
+F 3 "~" H 7300 1750 50  0001 C CNN
+	1    7300 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 1850 0    50   Input ~ 0
+M2_OUT2
+Text GLabel 6300 1750 0    50   Input ~ 0
+M2_OUT1
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B3B
+P 5500 2250
+AR Path="/60A45B3B" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B3B" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 5500 2000 50  0001 C CNN
+F 1 "GND" H 5505 2077 50  0000 C CNN
+F 2 "" H 5500 2250 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	1    5500 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2050 5500 2050
+$Comp
+L Device:R_Small R?
+U 1 1 60A45B43
+P 5500 2150
+AR Path="/60A45B43" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45B43" Ref="R302"  Part="1" 
+F 0 "R302" H 5559 2196 50  0000 L CNN
+F 1 "0.15" H 5559 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 2150 50  0001 C CNN
+F 3 "~" H 5500 2150 50  0001 C CNN
+F 4 "C45879" H 5500 2150 50  0001 C CNN "LCSC Part #"
+	1    5500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45B49
+P 5450 1750
+AR Path="/60A45B49" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45B49" Ref="J302"  Part="1" 
+F 0 "J302" H 5400 1850 50  0000 L CNN
+F 1 "M1_CONN" H 5400 1550 50  0000 L CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 5450 1750 50  0001 C CNN
+F 3 "~" H 5450 1750 50  0001 C CNN
+	1    5450 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 1850 0    50   Input ~ 0
+M1_OUT2
+Text GLabel 4450 1750 0    50   Input ~ 0
+M1_OUT1
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B51
+P 4850 2250
+AR Path="/60A45B51" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B51" Ref="#PWR0305"  Part="1" 
+F 0 "#PWR0305" H 4850 2000 50  0001 C CNN
+F 1 "GND" H 4855 2077 50  0000 C CNN
+F 2 "" H 4850 2250 50  0001 C CNN
+F 3 "" H 4850 2250 50  0001 C CNN
+	1    4850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3150 5950 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45B58
+P 5950 3300
+AR Path="/60A45B58" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B58" Ref="C308"  Part="1" 
+F 0 "C308" H 6038 3346 50  0000 L CNN
+F 1 "47u" H 6038 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5950 3300 50  0001 C CNN
+F 3 "~" H 5950 3300 50  0001 C CNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45B5F
+P 5600 3300
+AR Path="/60A45B5F" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B5F" Ref="C307"  Part="1" 
+F 0 "C307" H 5692 3346 50  0000 L CNN
+F 1 "100n" H 5692 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 3300 50  0001 C CNN
+F 3 "~" H 5600 3300 50  0001 C CNN
+F 4 "C14663" H 5600 3300 50  0001 C CNN "LCSC Part #"
+	1    5600 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B65
+P 5600 3400
+AR Path="/60A45B65" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B65" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 5600 3150 50  0001 C CNN
+F 1 "GND" H 5605 3227 50  0000 C CNN
+F 2 "" H 5600 3400 50  0001 C CNN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3200 5600 3150
+Wire Wire Line
+	5600 3150 5950 3150
+Wire Wire Line
+	5600 3400 5950 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	5000 3150 5000 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45B70
+P 5000 3300
+AR Path="/60A45B70" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B70" Ref="C306"  Part="1" 
+F 0 "C306" H 5088 3346 50  0000 L CNN
+F 1 "47u" H 5088 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5000 3300 50  0001 C CNN
+F 3 "~" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45B77
+P 4650 3300
+AR Path="/60A45B77" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B77" Ref="C305"  Part="1" 
+F 0 "C305" H 4742 3346 50  0000 L CNN
+F 1 "100n" H 4742 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 3300 50  0001 C CNN
+F 3 "~" H 4650 3300 50  0001 C CNN
+F 4 "C14663" H 4650 3300 50  0001 C CNN "LCSC Part #"
+	1    4650 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B7D
+P 4650 3400
+AR Path="/60A45B7D" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B7D" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 4650 3150 50  0001 C CNN
+F 1 "GND" H 4655 3227 50  0000 C CNN
+F 2 "" H 4650 3400 50  0001 C CNN
+F 3 "" H 4650 3400 50  0001 C CNN
+	1    4650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3200 4650 3150
+Wire Wire Line
+	4650 3150 5000 3150
+Wire Wire Line
+	4650 3400 5000 3400
+Connection ~ 4650 3400
+Wire Wire Line
+	3950 3150 3950 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45B88
+P 3950 3300
+AR Path="/60A45B88" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B88" Ref="C304"  Part="1" 
+F 0 "C304" H 4038 3346 50  0000 L CNN
+F 1 "47u" H 4038 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3950 3300 50  0001 C CNN
+F 3 "~" H 3950 3300 50  0001 C CNN
+	1    3950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45B8F
+P 3600 3300
+AR Path="/60A45B8F" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45B8F" Ref="C303"  Part="1" 
+F 0 "C303" H 3692 3346 50  0000 L CNN
+F 1 "100n" H 3692 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3600 3300 50  0001 C CNN
+F 3 "~" H 3600 3300 50  0001 C CNN
+F 4 "C14663" H 3600 3300 50  0001 C CNN "LCSC Part #"
+	1    3600 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B95
+P 3600 3400
+AR Path="/60A45B95" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B95" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 3600 3150 50  0001 C CNN
+F 1 "GND" H 3605 3227 50  0000 C CNN
+F 2 "" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3200 3600 3150
+Wire Wire Line
+	3600 3150 3950 3150
+Wire Wire Line
+	3600 3400 3950 3400
+Connection ~ 3600 3400
+Wire Wire Line
+	3000 3150 3000 3200
+$Comp
+L Device:CP_Small C?
+U 1 1 60A45BA0
+P 3000 3300
+AR Path="/60A45BA0" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45BA0" Ref="C302"  Part="1" 
+F 0 "C302" H 3088 3346 50  0000 L CNN
+F 1 "47u" H 3088 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3000 3300 50  0001 C CNN
+F 3 "~" H 3000 3300 50  0001 C CNN
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A45BA7
+P 2650 3300
+AR Path="/60A45BA7" Ref="C?"  Part="1" 
+AR Path="/60A3E5C0/60A45BA7" Ref="C301"  Part="1" 
+F 0 "C301" H 2742 3346 50  0000 L CNN
+F 1 "100n" H 2742 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 3300 50  0001 C CNN
+F 3 "~" H 2650 3300 50  0001 C CNN
+F 4 "C14663" H 2650 3300 50  0001 C CNN "LCSC Part #"
+	1    2650 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45BAD
+P 2650 3400
+AR Path="/60A45BAD" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45BAD" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 2650 3150 50  0001 C CNN
+F 1 "GND" H 2655 3227 50  0000 C CNN
+F 2 "" H 2650 3400 50  0001 C CNN
+F 3 "" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3200 2650 3150
+Wire Wire Line
+	2650 3150 3000 3150
+Wire Wire Line
+	2650 3400 3000 3400
+Connection ~ 2650 3400
+$Comp
+L power:GND #PWR?
+U 1 1 60A45BB7
+P 3600 2250
+AR Path="/60A45BB7" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45BB7" Ref="#PWR0304"  Part="1" 
+F 0 "#PWR0304" H 3600 2000 50  0001 C CNN
+F 1 "GND" H 3605 2077 50  0000 C CNN
+F 2 "" H 3600 2250 50  0001 C CNN
+F 3 "" H 3600 2250 50  0001 C CNN
+	1    3600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60A45BBF
+P 3600 2150
+AR Path="/60A45BBF" Ref="R?"  Part="1" 
+AR Path="/60A3E5C0/60A45BBF" Ref="R301"  Part="1" 
+F 0 "R301" H 3659 2196 50  0000 L CNN
+F 1 "0.15" H 3659 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 2150 50  0001 C CNN
+F 3 "~" H 3600 2150 50  0001 C CNN
+F 4 "C45879" H 3600 2150 50  0001 C CNN "LCSC Part #"
+	1    3600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60A45BC5
+P 3550 1700
+AR Path="/60A45BC5" Ref="J?"  Part="1" 
+AR Path="/60A3E5C0/60A45BC5" Ref="J301"  Part="1" 
+F 0 "J301" H 3500 1800 50  0000 L CNN
+F 1 "M0_CONN" H 3500 1500 50  0000 L CNN
+F 2 "VsReality_Footprints:Ningbo_Kangnex_Elec_WJ128V_5_0_2P" H 3550 1700 50  0001 C CNN
+F 3 "~" H 3550 1700 50  0001 C CNN
+	1    3550 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 1800 0    50   Input ~ 0
+M0_OUT2
+Text GLabel 2550 1700 0    50   Input ~ 0
+M0_OUT1
+$Comp
+L power:GND #PWR?
+U 1 1 60A45BCD
+P 2950 2250
+AR Path="/60A45BCD" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45BCD" Ref="#PWR0303"  Part="1" 
+F 0 "#PWR0303" H 2950 2000 50  0001 C CNN
+F 1 "GND" H 2955 2077 50  0000 C CNN
+F 2 "" H 2950 2250 50  0001 C CNN
+F 3 "" H 2950 2250 50  0001 C CNN
+	1    2950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B35
+P 6700 2250
+AR Path="/60A45B35" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B35" Ref="#PWR0309"  Part="1" 
+F 0 "#PWR0309" H 6700 2000 50  0001 C CNN
+F 1 "GND" H 6705 2077 50  0000 C CNN
+F 2 "" H 6700 2250 50  0001 C CNN
+F 3 "" H 6700 2250 50  0001 C CNN
+	1    6700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B1F
+P 7350 2250
+AR Path="/60A45B1F" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B1F" Ref="#PWR0310"  Part="1" 
+F 0 "#PWR0310" H 7350 2000 50  0001 C CNN
+F 1 "GND" H 7355 2077 50  0000 C CNN
+F 2 "" H 7350 2250 50  0001 C CNN
+F 3 "" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B0A
+P 8500 2250
+AR Path="/60A45B0A" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45B0A" Ref="#PWR0311"  Part="1" 
+F 0 "#PWR0311" H 8500 2000 50  0001 C CNN
+F 1 "GND" H 8505 2077 50  0000 C CNN
+F 2 "" H 8500 2250 50  0001 C CNN
+F 3 "" H 8500 2250 50  0001 C CNN
+	1    8500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45AF4
+P 9150 2250
+AR Path="/60A45AF4" Ref="#PWR?"  Part="1" 
+AR Path="/60A3E5C0/60A45AF4" Ref="#PWR0312"  Part="1" 
+F 0 "#PWR0312" H 9150 2000 50  0001 C CNN
+F 1 "GND" H 9155 2077 50  0000 C CNN
+F 2 "" H 9150 2250 50  0001 C CNN
+F 3 "" H 9150 2250 50  0001 C CNN
+	1    9150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J309
+U 1 1 60C2A5CF
+P 3400 5600
+F 0 "J309" H 3372 5482 50  0000 R CNN
+F 1 "External encoders power" H 3372 5573 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3400 5600 50  0001 C CNN
+F 3 "~" H 3400 5600 50  0001 C CNN
+	1    3400 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 60C31896
+P 3200 5600
+F 0 "#PWR0118" H 3200 5350 50  0001 C CNN
+F 1 "GND" H 3205 5427 50  0000 C CNN
+F 2 "" H 3200 5600 50  0001 C CNN
+F 3 "" H 3200 5600 50  0001 C CNN
+	1    3200 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 5500 0    50   Input ~ 0
+V_ENCODER
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 60C335D0
+P 3200 5200
+F 0 "#PWR0119" H 3200 5050 50  0001 C CNN
+F 1 "+3.3V" H 3215 5373 50  0000 C CNN
+F 2 "" H 3200 5200 50  0001 C CNN
+F 3 "" H 3200 5200 50  0001 C CNN
+	1    3200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 60C368EC
+P 3200 5350
+AR Path="/60C368EC" Ref="D?"  Part="1" 
+AR Path="/60A3E5C0/60C368EC" Ref="D301"  Part="1" 
+F 0 "D301" V 3300 5150 50  0000 L CNN
+F 1 "B5819W" V 3200 4950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 3200 5350 50  0001 C CNN
+F 3 "~" V 3200 5350 50  0001 C CNN
+F 4 "C8598" H 3200 5350 50  0001 C CNN "LCSC Part #"
+	1    3200 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5200 3200 5250
+Wire Wire Line
+	3200 5450 3200 5500
+Wire Wire Line
+	3100 5500 3200 5500
+Connection ~ 3200 5500
+$Comp
+L power:GND #PWR0120
+U 1 1 60C2E84F
+P 2900 4450
+F 0 "#PWR0120" H 2900 4200 50  0001 C CNN
+F 1 "GND" H 2905 4277 50  0000 C CNN
+F 2 "" H 2900 4450 50  0001 C CNN
+F 3 "" H 2900 4450 50  0001 C CNN
+	1    2900 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 4400 2    50   Input ~ 0
+V_ENCODER
+Text GLabel 3500 4300 2    50   Input ~ 0
+ENCODER_0_A
+Text GLabel 3000 4300 0    50   Input ~ 0
+ENCODER_0_B
+Text GLabel 3500 4200 2    50   Input ~ 0
+ENCODER_1_A
+Text GLabel 3000 4200 0    50   Input ~ 0
+ENCODER_1_B
+Text GLabel 3500 4100 2    50   Input ~ 0
+ENCODER_2_A
+Text GLabel 3000 4100 0    50   Input ~ 0
+ENCODER_2_B
+Text GLabel 3500 4000 2    50   Input ~ 0
+ENCODER_3_A
+Text GLabel 3000 4000 0    50   Input ~ 0
+ENCODER_3_B
+Wire Wire Line
+	2900 4450 2900 4400
+Wire Wire Line
+	2900 4400 3000 4400
+$Comp
+L VsReality_Symbols:EncoderPinHeaderConnector_04 J310
+U 1 1 60C2E219
+P 3200 4300
+F 0 "J310" H 3250 3900 50  0000 C CNN
+F 1 "Encoder Commector" H 3500 4550 50  0000 C CNN
+F 2 "VsReality_Footprints:Encoder_PinHeader_4x04_P2.54mm_Vertical" H 3200 4300 50  0001 C CNN
+F 3 "~" H 3200 4300 50  0001 C CNN
+	1    3200 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L Driver_Motor:DRV8870DDA U301
+U 1 1 62347C0E
+P 2950 1800
+F 0 "U301" H 3150 2050 50  0000 C CNN
+F 1 "DRV8870DDA" H 3200 1450 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 3050 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 2700 2150 50  0001 C CNN
+F 4 "C86590" H 2950 1800 50  0001 C CNN "LCSC Part #"
+	1    2950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1400 2950 1400
+Wire Wire Line
+	2950 1400 2950 1500
+$Comp
+L power:+3.3V #PWR0314
+U 1 1 6234FC60
+P 4450 2050
+F 0 "#PWR0314" H 4450 1900 50  0001 C CNN
+F 1 "+3.3V" H 4300 2100 50  0000 C CNN
+F 2 "" H 4450 2050 50  0001 C CNN
+F 3 "" H 4450 2050 50  0001 C CNN
+	1    4450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2000 3600 2000
+Wire Wire Line
+	3600 2000 3600 2050
+Wire Wire Line
+	2950 2200 2950 2250
+$Comp
+L Driver_Motor:DRV8870DDA U302
+U 1 1 6235CDC4
+P 4850 1850
+F 0 "U302" H 5050 2100 50  0000 C CNN
+F 1 "DRV8870DDA" H 5100 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 4950 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 4600 2200 50  0001 C CNN
+F 4 "C86590" H 4850 1850 50  0001 C CNN "LCSC Part #"
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:DRV8870DDA U303
+U 1 1 6235E3DF
+P 6700 1850
+F 0 "U303" H 6900 2100 50  0000 C CNN
+F 1 "DRV8870DDA" H 6950 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 6800 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 6450 2200 50  0001 C CNN
+F 4 "C86590" H 6700 1850 50  0001 C CNN "LCSC Part #"
+	1    6700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:DRV8870DDA U304
+U 1 1 6235EBDB
+P 8500 1850
+F 0 "U304" H 8700 2100 50  0000 C CNN
+F 1 "DRV8870DDA" H 8750 1500 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 8600 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8870.pdf" H 8250 2200 50  0001 C CNN
+F 4 "C86590" H 8500 1850 50  0001 C CNN "LCSC Part #"
+	1    8500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0313
+U 1 1 62365411
+P 2550 2000
+F 0 "#PWR0313" H 2550 1850 50  0001 C CNN
+F 1 "+3.3V" H 2400 2050 50  0000 C CNN
+F 2 "" H 2550 2000 50  0001 C CNN
+F 3 "" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0315
+U 1 1 623657B3
+P 6300 2050
+F 0 "#PWR0315" H 6300 1900 50  0001 C CNN
+F 1 "+3.3V" H 6150 2100 50  0000 C CNN
+F 2 "" H 6300 2050 50  0001 C CNN
+F 3 "" H 6300 2050 50  0001 C CNN
+	1    6300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0316
+U 1 1 62365C61
+P 8100 2050
+F 0 "#PWR0316" H 8100 1900 50  0001 C CNN
+F 1 "+3.3V" H 7950 2100 50  0000 C CNN
+F 2 "" H 8100 2050 50  0001 C CNN
+F 3 "" H 8100 2050 50  0001 C CNN
+	1    8100 2050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
