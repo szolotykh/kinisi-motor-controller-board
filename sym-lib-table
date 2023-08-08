@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "smart_motor_controller-rescue")(type "KiCad")(uri "${KIPRJMOD}/smart_motor_controller-rescue.kicad_sym")(options "")(descr ""))
+)
