@@ -28,3 +28,9 @@ fp-info-cache
 
 # Archives
 *.zip
+
+# KiCad lock files
+*.lck
+
+# Personal Claude Code instructions
+CLAUDE.local.md
