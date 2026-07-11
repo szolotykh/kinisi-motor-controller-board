@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.8,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -1005,6 +1005,18 @@
     [
       "00000000-0000-0000-0000-000060a3e5c0",
       "Brushed motor and encoders"
+    ],
+    [
+      "67da19ea-1141-46eb-bda0-7605c09fc8fb",
+      "Encoders"
+    ],
+    [
+      "80812af8-15b5-4869-9083-c18d34e404b7",
+      "USB"
+    ],
+    [
+      "dd99d99f-834a-414d-8998-fbd18e3031b7",
+      "IMU"
     ]
   ],
   "text_variables": {}

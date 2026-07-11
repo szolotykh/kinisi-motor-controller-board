@@ -23,7 +23,7 @@
 "30K","R202","Resistor_SMD:R_0603_1608Metric","C22984"
 "3.3K","R203","Resistor_SMD:R_0603_1608Metric","C269710"
 "10K","R101,R201","Resistor_SMD:R_0603_1608Metric","C116677"
-"15","R103,R104","Resistor_SMD:R_0603_1608Metric","C25118"
+"15","R103,R104","Resistor_SMD:R_0603_1608Metric","C22810"
 "2k2","R14,R15","Resistor_SMD:R_0603_1608Metric","C4190"
 "0.15","R301,R302,R303,R304","Resistor_SMD:R_0603_1608Metric","C45879"
 "SW_NRST","SW102,SW103","VsReality_Footprints:Diptronics MPTFP2-V-TR SMD 2.9x3.9x2mm","C495942"
