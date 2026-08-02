@@ -1409,28 +1409,22 @@
 		(uuid "0d28fc00-f5f6-42d1-bcce-0c0e01019e62")
 	)
 	(junction
+		(at 34.29 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "126826c9-9375-47f5-9b45-46b7a061e9ce")
+	)
+	(junction
 		(at 92.71 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e21d65-6831-454f-a108-9801e674aa4d")
 	)
 	(junction
-		(at 152.4 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bf4d6bd-f5b9-45e6-b8c4-5c268f07f7fd")
-	)
-	(junction
 		(at 204.47 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2da418bc-eef7-40c1-be06-0218ca91fa0f")
-	)
-	(junction
-		(at 152.4 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33abb9f3-55d4-4804-9a94-fedad8190f0f")
 	)
 	(junction
 		(at 254 46.99)
@@ -1457,16 +1451,22 @@
 		(uuid "5d13866c-d6ff-43f7-8f21-290e90c148e0")
 	)
 	(junction
-		(at 33.02 58.42)
+		(at 30.48 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6469bc36-cb51-492e-aec8-0a910d12a1b0")
+		(uuid "5d85da0b-8605-463d-a826-2e3922c91db9")
 	)
 	(junction
-		(at 152.4 149.86)
+		(at 149.86 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "65c62826-dba8-4c22-b970-a8a409ec7f18")
+		(uuid "67e6d12f-31e3-4c66-a402-226f94b0d626")
+	)
+	(junction
+		(at 152.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e765a1c-f264-43e2-b94c-ba5bf1ba936b")
 	)
 	(junction
 		(at 87.63 137.16)
@@ -1475,22 +1475,28 @@
 		(uuid "7681b22f-c699-4532-ade5-b7149112bf13")
 	)
 	(junction
+		(at 151.13 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79322fd3-0d2f-4728-b041-3f3d9856aaf2")
+	)
+	(junction
 		(at 204.47 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a2a936d-a8fc-442b-b511-bfce808b519c")
 	)
 	(junction
-		(at 35.56 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ce8e67c-6d0f-4892-861c-926785da9dad")
-	)
-	(junction
 		(at 254 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93b3b13f-47fe-40e0-b48e-76b936ae1119")
+	)
+	(junction
+		(at 153.67 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960185f2-7794-44a9-916d-f251dd84c6b2")
 	)
 	(junction
 		(at 156.21 116.84)
@@ -1523,12 +1529,6 @@
 		(uuid "a51dfe79-ef49-4ff0-bc57-75bd7a2bd3e8")
 	)
 	(junction
-		(at 33.02 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ada6f005-5929-4683-a289-5d433f19f9c2")
-	)
-	(junction
 		(at 39.37 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1539,6 +1539,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbfb2767-c03c-4979-aed5-14b02dd51cbc")
+	)
+	(junction
+		(at 35.56 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6675dde-a38d-49ee-b5e3-38254f08d55d")
 	)
 	(junction
 		(at 204.47 50.8)
@@ -1557,12 +1563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db0159fa-035e-42bf-bd87-5b7f6b96956c")
-	)
-	(junction
-		(at 35.56 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcfa6e03-fc06-4ce4-827a-8ee0d8d7926f")
 	)
 	(junction
 		(at 204.47 53.34)
@@ -1589,6 +1589,12 @@
 		(uuid "e7f252d5-8731-4cca-bb07-7241298757bc")
 	)
 	(junction
+		(at 33.02 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee4fb5d3-a908-471f-aba5-6731a7bbc9e1")
+	)
+	(junction
 		(at 71.12 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1599,12 +1605,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2612dfb-a77f-4beb-8623-23b777f2d300")
-	)
-	(junction
-		(at 152.4 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9aac8b2-a1ca-4437-96fa-21025af8a05a")
 	)
 	(wire
 		(pts
@@ -1625,6 +1625,16 @@
 			(type default)
 		)
 		(uuid "02c5ad1e-a1e7-4403-a0dd-5984b43ecc05")
+	)
+	(wire
+		(pts
+			(xy 151.13 135.89) (xy 151.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0304987c-7680-448f-9554-e7c5a631d38a")
 	)
 	(wire
 		(pts
@@ -1748,13 +1758,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 71.12) (xy 33.02 71.12)
+			(xy 151.13 137.16) (xy 153.67 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "111be927-8b3d-45be-90c3-e1b3c7142dfc")
+		(uuid "0dad5e18-5043-47ff-9f54-09de7c78a57d")
 	)
 	(wire
 		(pts
@@ -1785,16 +1795,6 @@
 			(type default)
 		)
 		(uuid "13347f16-54ab-4bcf-8e89-2620acaec170")
-	)
-	(wire
-		(pts
-			(xy 33.02 71.12) (xy 29.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c5e95a-8204-48a4-8220-cad12273eff3")
 	)
 	(wire
 		(pts
@@ -1848,6 +1848,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 58.42) (xy 167.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd25533-8996-4a2f-8450-3aecf82a4791")
+	)
+	(wire
+		(pts
 			(xy 48.26 35.56) (xy 41.91 35.56)
 		)
 		(stroke
@@ -1855,6 +1865,16 @@
 			(type default)
 		)
 		(uuid "1e9f10bf-99eb-4112-b6b8-2dc05600e696")
+	)
+	(wire
+		(pts
+			(xy 20.32 142.24) (xy 20.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3119eb-f11b-4513-9d3d-037b6b2475f8")
 	)
 	(wire
 		(pts
@@ -1885,16 +1905,6 @@
 			(type default)
 		)
 		(uuid "219e3465-19d6-4729-af7f-d7f02a674287")
-	)
-	(wire
-		(pts
-			(xy 31.75 142.24) (xy 35.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "295462ed-130d-4c80-a638-cfa658cb5514")
 	)
 	(wire
 		(pts
@@ -1958,6 +1968,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 130.81) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3172c6fc-22b2-4b10-b4a4-203e8528404e")
+	)
+	(wire
+		(pts
 			(xy 83.82 38.1) (xy 86.36 38.1)
 		)
 		(stroke
@@ -1988,16 +2008,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 152.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34c02437-44e2-477e-8041-1e963d9cab01")
-	)
-	(wire
-		(pts
 			(xy 72.39 165.1) (xy 71.12 165.1)
 		)
 		(stroke
@@ -2008,6 +2018,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 66.04) (xy 149.86 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d749bd-f864-41fa-bb05-8d4f5b27d3de")
+	)
+	(wire
+		(pts
 			(xy 86.36 134.62) (xy 87.63 134.62)
 		)
 		(stroke
@@ -2015,6 +2035,16 @@
 			(type default)
 		)
 		(uuid "35805962-1866-4b87-b098-3d39747b7fda")
+	)
+	(wire
+		(pts
+			(xy 35.56 142.24) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b8d874-2f5a-4a08-96b9-c0bec8bcabad")
 	)
 	(wire
 		(pts
@@ -2048,6 +2078,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 50.8) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a42d86c-a99b-4bbd-8ef3-799855bee37b")
+	)
+	(wire
+		(pts
 			(xy 86.36 137.16) (xy 87.63 137.16)
 		)
 		(stroke
@@ -2068,13 +2108,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 71.12) (xy 152.4 71.12)
+			(xy 152.4 63.5) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41103227-0954-4594-8eac-13a6070a82c9")
+		(uuid "3dcfbcc1-d0e9-4545-9e27-91dbcd3755b6")
 	)
 	(wire
 		(pts
@@ -2138,16 +2178,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 167.64 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4395ed4d-1d02-480b-aa9e-fff23ae1031a")
-	)
-	(wire
-		(pts
 			(xy 88.9 53.34) (xy 88.9 54.61)
 		)
 		(stroke
@@ -2175,6 +2205,16 @@
 			(type default)
 		)
 		(uuid "4464072d-768d-42b1-9bf3-cb47d7ad2270")
+	)
+	(wire
+		(pts
+			(xy 149.86 57.15) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4587a3dd-d361-44e6-87a9-af5abc652a0a")
 	)
 	(wire
 		(pts
@@ -2228,6 +2268,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 58.42) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c47f24d-ae83-44a8-a3b5-c8105af3e513")
+	)
+	(wire
+		(pts
 			(xy 205.74 45.72) (xy 205.74 48.26)
 		)
 		(stroke
@@ -2248,13 +2298,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 154.94) (xy 35.56 154.94)
+			(xy 30.48 58.42) (xy 34.29 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fc9c64e-1b81-4716-bcce-c4cf2dd6db73")
+		(uuid "4dfae037-44c4-473e-baa6-5372ddf60db8")
 	)
 	(wire
 		(pts
@@ -2398,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 58.42) (xy 17.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594afa3b-267c-4593-840d-3d61dd5c8ced")
+	)
+	(wire
+		(pts
 			(xy 209.55 40.64) (xy 203.2 40.64)
 		)
 		(stroke
@@ -2405,16 +2465,6 @@
 			(type default)
 		)
 		(uuid "5a6232a2-cf4c-4622-94c5-7d9fe4f2a14a")
-	)
-	(wire
-		(pts
-			(xy 29.21 58.42) (xy 33.02 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad51514-6a2e-4132-bb5e-7d5387249b99")
 	)
 	(wire
 		(pts
@@ -2445,6 +2495,16 @@
 			(type default)
 		)
 		(uuid "5f0ed7f4-17bd-447d-9670-b03176f2cc5f")
+	)
+	(wire
+		(pts
+			(xy 35.56 147.32) (xy 50.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f23de6a-8323-485a-a8b6-274d59d03871")
 	)
 	(wire
 		(pts
@@ -2518,16 +2578,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 72.39) (xy 33.02 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64fb7c48-199b-4b3f-8cff-313c0c6f0d6b")
-	)
-	(wire
-		(pts
 			(xy 204.47 129.54) (xy 204.47 127)
 		)
 		(stroke
@@ -2545,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "67283e3e-b585-44b9-b096-da746cf589c7")
-	)
-	(wire
-		(pts
-			(xy 35.56 156.21) (xy 35.56 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6853e324-3439-4ddc-8361-c3aae5e11db0")
 	)
 	(wire
 		(pts
@@ -2585,6 +2625,26 @@
 			(type default)
 		)
 		(uuid "6a926ce9-dbc1-4a7d-946b-bf9c39179643")
+	)
+	(wire
+		(pts
+			(xy 151.13 143.51) (xy 151.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b24965b-e2ca-431a-8fcd-d7e0503d7f3b")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 138.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7d7241-9c0b-445b-9d6d-73f39cd76136")
 	)
 	(wire
 		(pts
@@ -2648,23 +2708,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 142.24) (xy 157.48 142.24)
+			(xy 34.29 63.5) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78a089dc-d1cf-42a0-bf15-36c0bc8ec3e5")
-	)
-	(wire
-		(pts
-			(xy 152.4 149.86) (xy 148.59 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d6b324-a718-43fa-8ef0-1c9c24ca29ce")
+		(uuid "79d37f58-bbdc-4e41-9f2c-d6f121bd4837")
 	)
 	(wire
 		(pts
@@ -2675,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "7a92d18b-0f91-4825-8812-6939b9bc395a")
+	)
+	(wire
+		(pts
+			(xy 31.75 134.62) (xy 33.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b021f9f-d498-41f6-862e-6697727a5f0f")
 	)
 	(wire
 		(pts
@@ -2748,13 +2808,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 151.13) (xy 152.4 149.86)
+			(xy 30.48 57.15) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8af5a355-c35b-4b18-9aec-4e47bd36c84e")
+		(uuid "8918f695-765a-40b1-b1f7-30a2cf378859")
 	)
 	(wire
 		(pts
@@ -2798,16 +2858,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 63.5) (xy 38.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5b55dc-b7d2-4f10-96a1-6ab063bb8f64")
-	)
-	(wire
-		(pts
 			(xy 203.2 45.72) (xy 205.74 45.72)
 		)
 		(stroke
@@ -2815,16 +2865,6 @@
 			(type default)
 		)
 		(uuid "8ee2c4e4-c4e2-4965-97b9-5e75b56dd75a")
-	)
-	(wire
-		(pts
-			(xy 35.56 142.24) (xy 50.8 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f1b1161-176b-4869-94a9-c6f8abfa287e")
 	)
 	(wire
 		(pts
@@ -2888,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 59.69) (xy 152.4 58.42)
+			(xy 149.86 59.69) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2988,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 138.43) (xy 152.4 137.16)
+			(xy 151.13 138.43) (xy 151.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3005,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "9d3f240e-008f-4fcb-897b-6a9b00f48e5b")
-	)
-	(wire
-		(pts
-			(xy 167.64 63.5) (xy 157.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d5ddf76-1774-4467-b33a-8439db132c13")
 	)
 	(wire
 		(pts
@@ -3048,6 +3078,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 140.97) (xy 33.02 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1793d5d-35a9-4075-894d-dd228a47509e")
+	)
+	(wire
+		(pts
 			(xy 203.2 134.62) (xy 204.47 134.62)
 		)
 		(stroke
@@ -3068,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 58.42) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d152f2-11cc-42da-b199-0bf3db40c3f0")
+	)
+	(wire
+		(pts
 			(xy 83.82 50.8) (xy 85.09 50.8)
 		)
 		(stroke
@@ -3075,16 +3125,6 @@
 			(type default)
 		)
 		(uuid "a31767c3-a90b-4aa4-939c-312b8a807948")
-	)
-	(wire
-		(pts
-			(xy 152.4 72.39) (xy 152.4 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a60ec390-4886-4f6b-be8d-9f2a2e849bcf")
 	)
 	(wire
 		(pts
@@ -3108,6 +3148,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 59.69) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f6ee40-e8e5-4604-a6f0-fee42865494e")
+	)
+	(wire
+		(pts
 			(xy 214.63 133.35) (xy 214.63 139.7)
 		)
 		(stroke
@@ -3115,16 +3165,6 @@
 			(type default)
 		)
 		(uuid "a9c91110-3956-4aed-8f62-ff807a3bf1d1")
-	)
-	(wire
-		(pts
-			(xy 157.48 149.86) (xy 152.4 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae56656-bf7a-4c1d-b786-8219c90e1b14")
 	)
 	(wire
 		(pts
@@ -3175,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "b04ffb35-462e-402f-bbe0-a9d5c5230524")
+	)
+	(wire
+		(pts
+			(xy 34.29 63.5) (xy 34.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08dabd7-2bd1-43a8-b054-4b349443495a")
 	)
 	(wire
 		(pts
@@ -3258,16 +3308,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 58.42) (xy 48.26 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b4e1ca-ce4c-432f-8c86-db7051445615")
-	)
-	(wire
-		(pts
 			(xy 41.91 35.56) (xy 41.91 34.29)
 		)
 		(stroke
@@ -3308,13 +3348,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 137.16) (xy 152.4 137.16)
+			(xy 137.16 58.42) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "baff9922-e38b-48ff-adab-4ab360f73186")
+		(uuid "bc61130e-c80e-49ac-bf95-2ea6779696c6")
 	)
 	(wire
 		(pts
@@ -3325,6 +3365,36 @@
 			(type default)
 		)
 		(uuid "bd0e8579-76b6-4cb2-82cc-04361b616011")
+	)
+	(wire
+		(pts
+			(xy 20.32 142.24) (xy 33.02 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd33b0d0-c810-4c98-9237-76b2462eb3af")
+	)
+	(wire
+		(pts
+			(xy 35.56 147.32) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4cefa7-798a-46db-ae5f-7507f430b5a7")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 138.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf58f83d-d51c-41e9-b42a-2c289af3b389")
 	)
 	(wire
 		(pts
@@ -3348,13 +3418,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 157.48 71.12)
+			(xy 33.02 134.62) (xy 33.02 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c23b46e5-93d4-42c0-9abb-524c464200c6")
+		(uuid "c19ebab7-f302-41aa-ba79-ce36c24013ca")
 	)
 	(wire
 		(pts
@@ -3388,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 59.69) (xy 33.02 58.42)
+			(xy 30.48 59.69) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3428,17 +3498,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 38.1 71.12)
+			(xy 30.48 58.42) (xy 17.78 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9b04849-434f-4fb6-a03e-7204bb8bbffd")
+		(uuid "c8b19eeb-8406-499c-96fa-9f7e884ab4d1")
 	)
 	(wire
 		(pts
-			(xy 35.56 143.51) (xy 35.56 142.24)
+			(xy 33.02 143.51) (xy 33.02 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3455,16 +3525,6 @@
 			(type default)
 		)
 		(uuid "cd32f334-e824-4f7c-b5f4-7c4e9957b163")
-	)
-	(wire
-		(pts
-			(xy 40.64 147.32) (xy 40.64 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd5c2c71-a62e-4adc-8970-b29afea80f6c")
 	)
 	(wire
 		(pts
@@ -3518,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 148.59) (xy 20.32 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c8384a-d99f-4c71-a546-647a7b230124")
+	)
+	(wire
+		(pts
 			(xy 59.69 173.99) (xy 71.12 173.99)
 		)
 		(stroke
@@ -3525,6 +3595,26 @@
 			(type default)
 		)
 		(uuid "d20f17eb-69aa-4987-938a-583eee9e8b19")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b453be-32d1-402b-b7d7-27c1e3592a99")
+	)
+	(wire
+		(pts
+			(xy 33.02 142.24) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42be7ce-d733-4447-b624-80a1caeaa445")
 	)
 	(wire
 		(pts
@@ -3558,13 +3648,33 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 147.32) (xy 40.64 147.32)
+			(xy 153.67 142.24) (xy 167.64 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d758cf35-6008-4e20-8a23-ff3e6ebd8269")
+		(uuid "d5fca843-1cfd-4f4d-8c42-9cacd79eb9a3")
+	)
+	(wire
+		(pts
+			(xy 30.48 64.77) (xy 30.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6904e3c-20e0-4151-8e1c-b787990ea6c2")
+	)
+	(wire
+		(pts
+			(xy 29.21 50.8) (xy 30.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8060f29-b18c-48ec-b398-8325846209ff")
 	)
 	(wire
 		(pts
@@ -3585,6 +3695,26 @@
 			(type default)
 		)
 		(uuid "da3ca14f-4a44-450b-b95e-9d8e3fd145b2")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 151.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd63348-2938-40c3-a147-f17da0492b5c")
+	)
+	(wire
+		(pts
+			(xy 151.13 129.54) (xy 149.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc395440-72d4-48b4-a7d4-83af55717eb5")
 	)
 	(wire
 		(pts
@@ -3618,6 +3748,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 149.86) (xy 33.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e137e28f-32df-4def-9f57-5ac6f1280361")
+	)
+	(wire
+		(pts
 			(xy 254 53.34) (xy 262.89 53.34)
 		)
 		(stroke
@@ -3628,6 +3768,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 142.24) (xy 153.67 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c91f54-8812-4944-a54c-7bf1a4c5b31f")
+	)
+	(wire
+		(pts
 			(xy 156.21 30.48) (xy 156.21 31.75)
 		)
 		(stroke
@@ -3635,6 +3785,16 @@
 			(type default)
 		)
 		(uuid "e341653d-ee46-4e25-8663-0b8db1675d4e")
+	)
+	(wire
+		(pts
+			(xy 17.78 64.77) (xy 17.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e467ce7a-d40f-48c3-9e39-2d878bf50db5")
 	)
 	(wire
 		(pts
@@ -3675,16 +3835,6 @@
 			(type default)
 		)
 		(uuid "e5c1a9b1-40cc-4ddf-acbb-870a2744d378")
-	)
-	(wire
-		(pts
-			(xy 157.48 142.24) (xy 157.48 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e613d892-1440-44db-8eb1-9cb10e34e492")
 	)
 	(wire
 		(pts
@@ -3748,13 +3898,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 154.94) (xy 31.75 154.94)
+			(xy 149.86 50.8) (xy 149.86 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebfc38d7-d377-4845-b248-cbfabe2ecfa6")
+		(uuid "ec0fb9c2-55c3-4bfa-9fb0-05a35e8307a7")
 	)
 	(wire
 		(pts
@@ -3768,6 +3918,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 50.8) (xy 30.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1e9724-f74c-4a27-817d-530f2edeb026")
+	)
+	(wire
+		(pts
 			(xy 161.29 35.56) (xy 161.29 34.29)
 		)
 		(stroke
@@ -3775,16 +3935,6 @@
 			(type default)
 		)
 		(uuid "ed930156-07fa-42e5-8d8d-d4e27ad5a0fa")
-	)
-	(wire
-		(pts
-			(xy 152.4 71.12) (xy 148.59 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee4eb291-922a-4cb0-9116-0c0eb61660fc")
 	)
 	(wire
 		(pts
@@ -3818,6 +3968,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 64.77) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef63d2b6-6ab4-448c-90f7-984fd7cb4023")
+	)
+	(wire
+		(pts
 			(xy 205.74 48.26) (xy 209.55 48.26)
 		)
 		(stroke
@@ -3825,6 +3985,16 @@
 			(type default)
 		)
 		(uuid "f09195b5-d011-4768-8651-8da46eca7dba")
+	)
+	(wire
+		(pts
+			(xy 153.67 137.16) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b18f5b-4723-4b5b-af03-d42a0481a9dd")
 	)
 	(wire
 		(pts
@@ -3865,16 +4035,6 @@
 			(type default)
 		)
 		(uuid "f5cc5b68-cdf8-4ad2-bf43-4613495847f7")
-	)
-	(wire
-		(pts
-			(xy 152.4 137.16) (xy 167.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d39fc9-c7b8-4b91-9600-46dca65fdd4d")
 	)
 	(wire
 		(pts
@@ -3986,9 +4146,9 @@
 			)
 		)
 	)
-	(global_label "M0_IPROPI1"
+	(global_label "M0_IPROPI"
 		(shape input)
-		(at 29.21 58.42 180)
+		(at 29.21 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3998,7 +4158,29 @@
 		)
 		(uuid "0fc23958-ca76-4bed-b6d4-6aa4dc1ab160")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.6909 58.42 0)
+			(at 16.9004 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1_IPROPI"
+		(shape input)
+		(at 148.59 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "128d56d8-96d1-4b15-b8f4-5781ba81fcb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.2804 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,6 +4226,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M3_IPROPI"
+		(shape input)
+		(at 149.86 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ecbea27-62e0-41d1-aebe-8d4b5801c9e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.5504 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4148,50 +4352,6 @@
 			)
 		)
 	)
-	(global_label "M2_IPROPI1"
-		(shape input)
-		(at 31.75 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3cdd59c4-cc13-46a4-9a90-e628c287b163")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.2309 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M3_IPROPI2"
-		(shape input)
-		(at 148.59 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "402d8f44-b128-4b44-9cf7-ee87961282c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0709 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M3_EN"
 		(shape input)
 		(at 167.64 129.54 180)
@@ -4288,28 +4448,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M2_IPROPI2"
-		(shape input)
-		(at 31.75 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5240e6a6-2391-4aa3-ab98-3ff6ab7cb46e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.2309 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4494,28 +4632,6 @@
 			)
 		)
 	)
-	(global_label "M1_IPROPI2"
-		(shape input)
-		(at 148.59 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7091ee76-a82e-40c9-afc5-d00495f799da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0709 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VMOTORS"
 		(shape input)
 		(at 218.44 142.24 0)
@@ -4572,28 +4688,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M3_IPROPI1"
-		(shape input)
-		(at 148.59 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "77785a67-a779-492d-9af7-d4a6011fbf99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0709 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4758,28 +4852,6 @@
 			)
 		)
 	)
-	(global_label "M1_IPROPI1"
-		(shape input)
-		(at 148.59 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa2362a6-b3f8-488f-ba9b-7b98b23ba0ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0709 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M3_nSLEEP"
 		(shape input)
 		(at 167.64 139.7 180)
@@ -4836,6 +4908,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M2_IPROPI"
+		(shape input)
+		(at 31.75 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfe29e62-e951-452b-944b-30388a62a954")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.4404 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4980,28 +5074,6 @@
 			)
 		)
 	)
-	(global_label "M0_IPROPI2"
-		(shape input)
-		(at 29.21 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e699b4f8-e00f-4336-bdb1-cebd499f41d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.6909 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VMOTORS"
 		(shape input)
 		(at 72.39 165.1 0)
@@ -5111,7 +5183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b58")
-		(property "Reference" "C333"
+		(property "Reference" "C323"
 			(at 267.6652 130.9116 0)
 			(effects
 				(font
@@ -5164,7 +5236,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C333")
+					(reference "C323")
 					(unit 1)
 				)
 			)
@@ -5179,7 +5251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b5f")
-		(property "Reference" "C332"
+		(property "Reference" "C322"
 			(at 254.2032 133.2484 0)
 			(effects
 				(font
@@ -5241,7 +5313,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C332")
+					(reference "C322")
 					(unit 1)
 				)
 			)
@@ -5256,7 +5328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b65")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0327"
 			(at 256.54 140.97 0)
 			(effects
 				(font
@@ -5305,7 +5377,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR0308")
+					(reference "#PWR0327")
 					(unit 1)
 				)
 			)
@@ -5320,7 +5392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b70")
-		(property "Reference" "C323"
+		(property "Reference" "C328"
 			(at 82.2452 170.2816 0)
 			(effects
 				(font
@@ -5373,7 +5445,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C323")
+					(reference "C328")
 					(unit 1)
 				)
 			)
@@ -5388,7 +5460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b77")
-		(property "Reference" "C322"
+		(property "Reference" "C327"
 			(at 68.7832 172.6184 0)
 			(effects
 				(font
@@ -5450,7 +5522,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C322")
+					(reference "C327")
 					(unit 1)
 				)
 			)
@@ -5465,7 +5537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b7d")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0333"
 			(at 71.12 180.34 0)
 			(effects
 				(font
@@ -5514,7 +5586,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR0307")
+					(reference "#PWR0333")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b88")
-		(property "Reference" "C313"
+		(property "Reference" "C309"
 			(at 265.1252 49.6316 0)
 			(effects
 				(font
@@ -5582,7 +5654,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C313")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b8f")
-		(property "Reference" "C312"
+		(property "Reference" "C308"
 			(at 251.6632 51.9684 0)
 			(effects
 				(font
@@ -5659,7 +5731,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C312")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45b95")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0309"
 			(at 254 59.69 0)
 			(effects
 				(font
@@ -5723,7 +5795,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR0302")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -5738,7 +5810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45ba0")
-		(property "Reference" "C303"
+		(property "Reference" "C314"
 			(at 78.4352 82.6516 0)
 			(effects
 				(font
@@ -5791,7 +5863,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C303")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -5806,7 +5878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45ba7")
-		(property "Reference" "C301"
+		(property "Reference" "C312"
 			(at 54.8132 84.9884 0)
 			(effects
 				(font
@@ -5868,7 +5940,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C301")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -5883,7 +5955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a45bad")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0317"
 			(at 67.31 92.71 0)
 			(effects
 				(font
@@ -5932,7 +6004,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR0301")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "010b70da-0fa6-4665-8641-548c7d179cbc")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0307"
 			(at 36.83 34.29 0)
 			(effects
 				(font
@@ -6064,7 +6136,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR016")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -6072,15 +6144,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 140.97 0)
+		(at 151.13 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "05a10272-b6cd-4cdb-9dfd-af5cfe239fc2")
-		(property "Reference" "R332"
-			(at 146.304 139.954 0)
+		(property "Reference" "R311"
+			(at 145.034 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6161,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 146.812 142.24 0)
+			(at 145.542 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6170,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 140.97 0)
+			(at 151.13 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 140.97 0)
+			(at 151.13 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 140.97 0)
+			(at 151.13 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6196,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 152.4 140.97 0)
+			(at 151.13 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6213,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R332")
+					(reference "R311")
 					(unit 1)
 				)
 			)
@@ -6156,7 +6228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06e7806f-bc88-4c7b-aa83-e2e4cd5de31e")
-		(property "Reference" "C324"
+		(property "Reference" "C317"
 			(at 49.784 117.602 0)
 			(effects
 				(font
@@ -6218,7 +6290,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C324")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -6233,7 +6305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c45e49f-8821-4455-bc3a-295fd6f4f592")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0301"
 			(at 52.07 31.75 0)
 			(effects
 				(font
@@ -6282,7 +6354,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR08")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -6290,15 +6362,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 33.02 62.23 0)
+		(at 30.48 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0c6b2ccb-c4d0-439e-bb42-9fe7e5e1726d")
-		(property "Reference" "R302"
-			(at 26.924 61.214 0)
+		(property "Reference" "R305"
+			(at 24.384 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6379,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 28.194 63.5 0)
+			(at 25.654 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,7 +6388,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.02 62.23 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 62.23 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 62.23 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6414,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 33.02 62.23 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6431,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R302")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -6367,15 +6439,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 64.77 0)
+		(at 149.86 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0fca14ab-0328-40b5-b4ef-4a9f5ec97113")
-		(property "Reference" "#PWR030"
-			(at 152.4 71.12 0)
+		(property "Reference" "#PWR0315"
+			(at 149.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.527 69.1642 0)
+			(at 149.987 70.4342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 64.77 0)
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 64.77 0)
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 64.77 0)
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6495,148 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR030")
+					(reference "#PWR0315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 17.78 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "168776ce-d4c4-4abb-8f83-c15b43efddc8")
+		(property "Reference" "C310"
+			(at 23.114 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 22.098 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0da04d3d-beb7-4ad6-a19d-425aae3ebd4a")
+		)
+		(pin "2"
+			(uuid "8cba6edb-6ee8-469f-a7aa-40b21343ef41")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
+					(reference "C310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1abed370-ba46-476c-865e-bfcc7da402ff")
+		(property "Reference" "#PWR0312"
+			(at 17.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.907 70.4342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd3e359c-1e04-4833-97e0-5a9bb1676ec0")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -6438,7 +6651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "239708d4-e62c-43b7-a56e-5ed3a9f7020d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0302"
 			(at 71.12 31.75 0)
 			(effects
 				(font
@@ -6487,7 +6700,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR09")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2849a0cd-5be0-4c34-b98d-6eedd5768a43")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0321"
 			(at 54.61 115.57 0)
 			(effects
 				(font
@@ -6551,7 +6764,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR022")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -6559,15 +6772,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 64.77 0)
+		(at 30.48 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "288eb7b8-f53d-4166-819e-e69554a2dc4d")
-		(property "Reference" "#PWR017"
-			(at 33.02 71.12 0)
+		(property "Reference" "#PWR0313"
+			(at 30.48 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6789,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.147 69.1642 0)
+			(at 30.607 70.4342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 64.77 0)
+			(at 30.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +6806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 64.77 0)
+			(at 30.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +6815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 64.77 0)
+			(at 30.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6828,84 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR017")
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 20.32 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "294dd5c7-4c43-429a-97ef-18ba14b83e6f")
+		(property "Reference" "C325"
+			(at 25.654 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 24.638 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 20.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 20.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d95f6b9-6f97-4f40-9c8e-d47e81d4ce9c")
+		)
+		(pin "2"
+			(uuid "5be8da5f-3d93-4674-a517-ba1ff1e98914")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
+					(reference "C325")
 					(unit 1)
 				)
 			)
@@ -6630,7 +6920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2984c6e4-2e98-4e57-9402-08e19a20ab82")
-		(property "Reference" "C336"
+		(property "Reference" "C319"
 			(at 215.138 122.682 0)
 			(effects
 				(font
@@ -6692,7 +6982,84 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C336")
+					(reference "C319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b6c85e3-c8c4-4f8d-bdf0-cc609d484f7f")
+		(property "Reference" "C324"
+			(at 143.764 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 142.748 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3ccbe0d-9053-4c7e-864c-dadba45d6261")
+		)
+		(pin "2"
+			(uuid "00aad614-a205-48c5-9be5-bdcd9d1f783e")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
+					(reference "C324")
 					(unit 1)
 				)
 			)
@@ -6777,7 +7144,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 33.02 74.93 0)
+		(at 30.48 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6785,7 +7152,7 @@
 		(dnp no)
 		(uuid "31cd66c1-7857-4c60-81e5-943400ec0681")
 		(property "Reference" "R303"
-			(at 27.178 73.914 0)
+			(at 24.638 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,8 +7160,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
-			(at 27.432 76.2 0)
+		(property "Value" "100"
+			(at 24.892 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +7170,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.02 74.93 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +7179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 74.93 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +7188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 74.93 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +7196,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 33.02 74.93 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "349a2d4f-0a45-432a-9b84-78108e83f5c1")
-		(property "Reference" "C335"
+		(property "Reference" "C316"
 			(at 214.884 116.078 0)
 			(effects
 				(font
@@ -6923,7 +7290,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C335")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -6938,7 +7305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34e1490f-f06c-4b88-8ad0-01e7fdecf3d9")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0304"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -6987,7 +7354,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR033")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -6995,15 +7362,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 148.59 0)
+		(at 33.02 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3da01d03-b7a7-45c8-a913-2b637df577b3")
-		(property "Reference" "#PWR019"
-			(at 35.56 154.94 0)
+		(property "Reference" "#PWR0332"
+			(at 33.02 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,7 +7379,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.687 152.9842 0)
+			(at 33.147 154.2542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,7 +7387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 148.59 0)
+			(at 33.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,7 +7396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 148.59 0)
+			(at 33.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7038,7 +7405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 148.59 0)
+			(at 33.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7418,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR019")
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -7059,15 +7426,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 35.56 158.75 0)
+		(at 33.02 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4234ed32-2a5d-4ede-aaa2-370e914e3c3d")
-		(property "Reference" "R323"
-			(at 29.718 157.734 0)
+		(property "Reference" "R310"
+			(at 27.178 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,8 +7442,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
-			(at 29.972 160.02 0)
+		(property "Value" "100"
+			(at 27.432 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7452,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 35.56 158.75 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 158.75 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 158.75 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7478,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 35.56 158.75 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7495,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R323")
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -7143,7 +7510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "428b3dec-4bf7-4949-a692-9066412b2cf3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0322"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -7192,7 +7559,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR027")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -7207,7 +7574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45a35d8e-71a4-407e-8df7-e7695ec0bd79")
-		(property "Reference" "C326"
+		(property "Reference" "C320"
 			(at 98.044 127.508 0)
 			(effects
 				(font
@@ -7269,7 +7636,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C326")
+					(reference "C320")
 					(unit 1)
 				)
 			)
@@ -7284,7 +7651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c559888-fb23-4287-893e-9bd948c65f64")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0325"
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -7333,7 +7700,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR021")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -7348,7 +7715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d16f1c5-08cb-4226-aa36-972ad1ef30d3")
-		(property "Reference" "C314"
+		(property "Reference" "C302"
 			(at 166.624 33.782 0)
 			(effects
 				(font
@@ -7410,7 +7777,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C314")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -7426,7 +7793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d74f7f9-a502-41bf-a815-38f4c7c94db9")
-		(property "Reference" "U321"
+		(property "Reference" "U304"
 			(at 68.58 152.4 0)
 			(effects
 				(font
@@ -7556,7 +7923,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "U321")
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -7571,7 +7938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f54c546-eea7-4aa0-9588-91ff05809363")
-		(property "Reference" "C331"
+		(property "Reference" "C321"
 			(at 244.0432 133.2484 0)
 			(effects
 				(font
@@ -7633,7 +8000,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C331")
+					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -7648,7 +8015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "522793de-97a1-46b7-b6c1-197029b7286d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0316"
 			(at 33.02 83.82 0)
 			(effects
 				(font
@@ -7697,7 +8064,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR018")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -7712,7 +8079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "573a4585-38e6-46b9-9235-9fb139d19913")
-		(property "Reference" "J331"
+		(property "Reference" "J303"
 			(at 218.44 128.27 0)
 			(effects
 				(font
@@ -7765,7 +8132,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "J331")
+					(reference "J303")
 					(unit 1)
 				)
 			)
@@ -7781,7 +8148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6363d0ad-669e-45a5-b0ba-bca7eb05da2c")
-		(property "Reference" "U331"
+		(property "Reference" "U303"
 			(at 185.42 147.32 0)
 			(effects
 				(font
@@ -7911,7 +8278,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "U331")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -7926,7 +8293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c238db6-0d4f-4cc2-bb4c-f4c2db8a5085")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0311"
 			(at 208.28 60.96 0)
 			(effects
 				(font
@@ -7975,7 +8342,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR035")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -7990,7 +8357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74ef212f-ecc4-4c07-b6db-0b493c583fcb")
-		(property "Reference" "R331"
+		(property "Reference" "R307"
 			(at 150.368 112.014 0)
 			(effects
 				(font
@@ -8052,7 +8419,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R331")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -8060,15 +8427,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 62.23 0)
+		(at 149.86 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7784fb00-4e1e-4291-a2ad-725303880743")
-		(property "Reference" "R312"
-			(at 146.558 61.214 0)
+		(property "Reference" "R306"
+			(at 144.018 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8444,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 146.812 63.5 0)
+			(at 144.272 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8453,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 62.23 0)
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 62.23 0)
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 62.23 0)
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8479,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 152.4 62.23 0)
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8496,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R312")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -8144,7 +8511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78ab085f-9b37-4e2e-a3d8-7c642858cd80")
-		(property "Reference" "C304"
+		(property "Reference" "C301"
 			(at 47.244 33.782 0)
 			(effects
 				(font
@@ -8206,7 +8573,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C304")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -8221,7 +8588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79e5c3f9-b7c6-4da1-80af-ae9602b3f3d4")
-		(property "Reference" "C321"
+		(property "Reference" "C326"
 			(at 57.3532 172.6184 0)
 			(effects
 				(font
@@ -8283,7 +8650,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C321")
+					(reference "C326")
 					(unit 1)
 				)
 			)
@@ -8298,7 +8665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c6ebf81-bd9d-4f34-bb90-7a266f21b42a")
-		(property "Reference" "C306"
+		(property "Reference" "C305"
 			(at 95.504 43.942 0)
 			(effects
 				(font
@@ -8360,7 +8727,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C306")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -8375,7 +8742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dbdd328-9a57-400f-848e-32301737029c")
-		(property "Reference" "C315"
+		(property "Reference" "C304"
 			(at 215.138 37.338 0)
 			(effects
 				(font
@@ -8437,7 +8804,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C315")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -8445,15 +8812,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 77.47 0)
+		(at 137.16 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7edc19b4-c5dd-4972-a0d1-ea13c06f936e")
-		(property "Reference" "#PWR031"
-			(at 152.4 83.82 0)
+		(property "Reference" "#PWR0314"
+			(at 137.16 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,7 +8829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.527 81.8642 0)
+			(at 137.287 70.4342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8470,7 +8837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 77.47 0)
+			(at 137.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,7 +8846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 77.47 0)
+			(at 137.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +8855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 77.47 0)
+			(at 137.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8868,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR031")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -8509,15 +8876,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 161.29 0)
+		(at 20.32 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "80c6aba8-4dd9-4a5d-af92-825c6ddc3c87")
-		(property "Reference" "#PWR020"
-			(at 35.56 167.64 0)
+		(property "Reference" "#PWR0331"
+			(at 20.32 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +8893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.687 165.6842 0)
+			(at 20.447 154.2542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +8901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 161.29 0)
+			(at 20.32 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,7 +8910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 161.29 0)
+			(at 20.32 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +8919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 161.29 0)
+			(at 20.32 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8932,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR020")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -8573,15 +8940,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 74.93 0)
+		(at 149.86 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "819da52b-b263-46bc-930a-4b116dbca559")
-		(property "Reference" "R313"
-			(at 146.05 74.168 0)
+		(property "Reference" "R304"
+			(at 143.51 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,8 +8956,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
-			(at 146.812 76.2 0)
+		(property "Value" "100"
+			(at 144.272 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8966,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 74.93 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 74.93 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 74.93 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8992,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 152.4 74.93 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +9009,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R313")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -8657,7 +9024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "884df915-fa75-42d2-b09f-abb36a0f8c92")
-		(property "Reference" "R311"
+		(property "Reference" "R302"
 			(at 149.606 33.274 0)
 			(effects
 				(font
@@ -8719,7 +9086,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R311")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -8734,7 +9101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92cee7fb-5cfc-4b45-8b60-381f87bcc113")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0310"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -8783,7 +9150,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR07")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -8798,7 +9165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95446949-6fc6-4d1c-8903-5f65538ad6dc")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0328"
 			(at 91.44 144.78 0)
 			(effects
 				(font
@@ -8847,7 +9214,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR028")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -8862,7 +9229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "990a0cfa-73fc-4218-8d9e-072718ccc594")
-		(property "Reference" "C325"
+		(property "Reference" "C318"
 			(at 98.298 121.158 0)
 			(effects
 				(font
@@ -8924,7 +9291,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C325")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -8939,7 +9306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a177d4eb-a90e-4788-b60d-450a0a343d0d")
-		(property "Reference" "C316"
+		(property "Reference" "C306"
 			(at 214.884 43.688 0)
 			(effects
 				(font
@@ -9001,7 +9368,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C316")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -9016,7 +9383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6713c72-0ead-4949-bd56-632a0c51923c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0324"
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -9065,7 +9432,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR039")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -9080,7 +9447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6bbc5f5-e610-4dba-b79a-3bc4d2ca5a65")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0323"
 			(at 92.71 115.57 0)
 			(effects
 				(font
@@ -9129,7 +9496,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR029")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a777ff0a-f0c1-4f20-bd82-c55631b91a64")
-		(property "Reference" "C311"
+		(property "Reference" "C307"
 			(at 242.7732 51.9684 0)
 			(effects
 				(font
@@ -9206,7 +9573,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C311")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -9214,15 +9581,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 153.67 0)
+		(at 151.13 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a790dc72-3849-4fad-8b64-bb6e1304d112")
-		(property "Reference" "R333"
-			(at 146.05 152.654 0)
+		(property "Reference" "R309"
+			(at 144.78 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,8 +9597,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
-			(at 146.812 154.94 0)
+		(property "Value" "100"
+			(at 145.542 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9607,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 153.67 0)
+			(at 151.13 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 153.67 0)
+			(at 151.13 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 153.67 0)
+			(at 151.13 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9633,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 152.4 153.67 0)
+			(at 151.13 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9650,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R333")
+					(reference "R309")
 					(unit 1)
 				)
 			)
@@ -9298,7 +9665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab653da0-a74e-4227-a7f4-811dec34bcbc")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0326"
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -9347,7 +9714,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR042")
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -9362,7 +9729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acefb47b-e68c-42ed-be18-13076eacf8cd")
-		(property "Reference" "C302"
+		(property "Reference" "C313"
 			(at 64.9732 84.9884 0)
 			(effects
 				(font
@@ -9424,7 +9791,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C302")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -9439,7 +9806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8997159-3c7a-4909-8271-3d1131fd774c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0303"
 			(at 90.17 31.75 0)
 			(effects
 				(font
@@ -9488,7 +9855,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR05")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -9503,7 +9870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bacc7283-7e54-4281-b620-8e243b1e09be")
-		(property "Reference" "C305"
+		(property "Reference" "C303"
 			(at 95.504 37.338 0)
 			(effects
 				(font
@@ -9565,7 +9932,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C305")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -9580,7 +9947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "beee5ad5-af84-4fde-bac8-f02df2abe2dc")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0306"
 			(at 209.55 31.75 0)
 			(effects
 				(font
@@ -9629,7 +9996,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR036")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -9637,15 +10004,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 156.21 0)
+		(at 138.43 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c176a5b8-f2fa-4c79-b723-8475bd0faea2")
-		(property "Reference" "#PWR038"
-			(at 152.4 162.56 0)
+		(property "Reference" "#PWR0329"
+			(at 138.43 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +10021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.527 160.6042 0)
+			(at 138.557 149.1742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,7 +10029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 156.21 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +10038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 156.21 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9680,7 +10047,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 156.21 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +10060,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR038")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -9708,7 +10075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c20c7025-5a2a-4404-83fc-0285260e095b")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0320"
 			(at 209.55 110.49 0)
 			(effects
 				(font
@@ -9757,7 +10124,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR043")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -9772,7 +10139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd42ea08-0508-4837-9666-411b1f453285")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0318"
 			(at 171.45 110.49 0)
 			(effects
 				(font
@@ -9821,7 +10188,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR040")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -9829,15 +10196,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 143.51 0)
+		(at 151.13 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cd597b50-2858-49bb-bc7b-939b7b421042")
-		(property "Reference" "#PWR037"
-			(at 152.4 149.86 0)
+		(property "Reference" "#PWR0330"
+			(at 151.13 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +10213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.527 147.9042 0)
+			(at 151.257 149.1742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +10221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 143.51 0)
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,7 +10230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 143.51 0)
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,7 +10239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 143.51 0)
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,7 +10252,84 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR037")
+					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d992422e-1a75-4dde-8248-b68ceb19c71c")
+		(property "Reference" "C311"
+			(at 142.494 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 141.478 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbe359e1-f0ad-4cb0-8e6d-2ce6f16a9409")
+		)
+		(pin "2"
+			(uuid "aed89b0d-5c76-431b-bb6b-6010068ae56d")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -9900,7 +10344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da8b3723-ebc7-46ae-ae30-b163423986db")
-		(property "Reference" "J311"
+		(property "Reference" "J302"
 			(at 218.44 49.53 0)
 			(effects
 				(font
@@ -9953,7 +10397,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "J311")
+					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -9968,7 +10412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd64ee49-ed69-42d8-be15-5d68fbf64605")
-		(property "Reference" "J321"
+		(property "Reference" "J304"
 			(at 101.6 133.35 0)
 			(effects
 				(font
@@ -10021,7 +10465,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "J321")
+					(reference "J304")
 					(unit 1)
 				)
 			)
@@ -10036,7 +10480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e038085a-c789-4cb7-9f13-d9c1bcc7dff6")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0305"
 			(at 190.5 31.75 0)
 			(effects
 				(font
@@ -10085,7 +10529,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR034")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -10100,7 +10544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb331241-fe15-4730-88ae-93bb79c6ff4d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0319"
 			(at 190.5 110.49 0)
 			(effects
 				(font
@@ -10149,7 +10593,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR041")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb616164-47df-4fe2-945b-49317c439592")
-		(property "Reference" "C334"
+		(property "Reference" "C315"
 			(at 166.624 112.522 0)
 			(effects
 				(font
@@ -10226,7 +10670,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "C334")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -10241,7 +10685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec18693f-0bae-4409-b6c3-84f6f98cc8f6")
-		(property "Reference" "R321"
+		(property "Reference" "R308"
 			(at 33.274 117.094 0)
 			(effects
 				(font
@@ -10303,7 +10747,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R321")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -10318,7 +10762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0f5643b-9faa-419b-84b0-5be0b7493524")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0308"
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -10367,7 +10811,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "#PWR032")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -10383,7 +10827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f608b567-35ce-49c9-a7a6-5ac45e690839")
-		(property "Reference" "U311"
+		(property "Reference" "U302"
 			(at 185.42 68.58 0)
 			(effects
 				(font
@@ -10513,7 +10957,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "U311")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -10521,15 +10965,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 35.56 146.05 0)
+		(at 33.02 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f6656d9d-71e3-41d9-91c7-2b26f55943c7")
-		(property "Reference" "R322"
-			(at 29.972 145.034 0)
+		(property "Reference" "R312"
+			(at 27.432 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,7 +10982,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 29.972 147.32 0)
+			(at 27.432 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10991,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 35.56 146.05 0)
+			(at 33.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +11000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 146.05 0)
+			(at 33.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +11009,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 146.05 0)
+			(at 33.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,7 +11017,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 35.56 146.05 0)
+			(at 33.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10590,7 +11034,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "R322")
+					(reference "R312")
 					(unit 1)
 				)
 			)

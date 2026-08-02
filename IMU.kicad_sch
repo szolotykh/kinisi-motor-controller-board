@@ -150,6 +150,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Motion:BMI088"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -519,6 +646,318 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Temperature:TMP102xxDRL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TMP102xxDRL"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp102.pdf"
+				(at 1.27 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Temperature Sensor, ±3°C, low-Power, SMBus, 12 bit, Two-Wire Serial Interface, SOT-563"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "digital temperature sensor i2c smbus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?563*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TMP102xxDRL_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TMP102xxDRL_1_1"
+				(polyline
+					(pts
+						(xy 2.413 1.905) (xy 2.413 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.905) (xy 3.048 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.27) (xy 3.048 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 0.635) (xy 3.048 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 0) (xy 3.048 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -0.635) (xy 3.048 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 1.905)
+					(mid 3.048 2.5373)
+					(end 3.683 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 -3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 1.905) (xy 3.683 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 -3.175)
+					(end 2.413 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ADD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -731,49 +1170,77 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "BMI088"
-		(exclude_from_sim no)
-		(at 64.008 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fd6a0882-9ef7-42bf-b73e-f87f8f6fe908")
+	(junction
+		(at 160.02 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134f96b2-1bea-4bbe-9b60-2e62f32a1003")
 	)
 	(junction
-		(at 137.16 111.76)
+		(at 62.23 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dc052a5-9dbb-42bc-a7a1-c307dc0e5eff")
 	)
 	(junction
-		(at 142.24 66.04)
+		(at 67.31 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6b2c50-9fe4-4356-8972-c001fe730445")
 	)
 	(junction
-		(at 130.81 111.76)
+		(at 160.02 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90141c9b-c2fd-42f3-a1c9-74237552a948")
+	)
+	(junction
+		(at 172.72 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "935082b3-5233-4a9a-805f-0e9e2e7ef6ab")
+	)
+	(junction
+		(at 55.88 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaca9ab0-7d40-44d8-b506-127d9d37e436")
 	)
 	(junction
-		(at 125.73 99.06)
+		(at 50.8 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc7a31c1-6f00-429a-a1c3-fb8000e16e88")
 	)
 	(junction
-		(at 137.16 66.04)
+		(at 152.4 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd6df089-100a-4284-bef7-ede688f6efd1")
+	)
+	(junction
+		(at 62.23 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7bdd151-d51d-4905-9d22-9ff0e77dc704")
 	)
+	(no_connect
+		(at 182.88 57.15)
+		(uuid "8bd5bd32-6f3d-415d-9cf5-1d0ed4f47920")
+	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 127 99.06)
+			(xy 148.59 59.69) (xy 152.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018d58ee-33ec-414c-81f3-3f16d446b4b9")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 52.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 66.04) (xy 154.94 66.04)
+			(xy 67.31 33.02) (xy 80.01 33.02)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 64.77) (xy 142.24 66.04)
+			(xy 67.31 31.75) (xy 67.31 33.02)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +1270,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 142.24 109.22)
+			(xy 160.02 48.26) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f750688-4af7-4bc1-b292-7b4ca43e817b")
+	)
+	(wire
+		(pts
+			(xy 172.72 48.26) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a71edc8-78b7-4582-a81c-58ef0cfc0ccb")
+	)
+	(wire
+		(pts
+			(xy 67.31 78.74) (xy 67.31 76.2)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +1300,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 142.24 111.76)
+			(xy 186.69 54.61) (xy 186.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1752cc-5098-4b1a-8455-b1c425bb03af")
+	)
+	(wire
+		(pts
+			(xy 62.23 78.74) (xy 67.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +1320,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 124.46 99.06)
+			(xy 162.56 59.69) (xy 152.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341c5be3-cc3b-43ec-8e40-bd1ad8c0b0a8")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 49.53 66.04)
 		)
 		(stroke
 			(width 0)
@@ -833,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 137.16 66.04)
+			(xy 62.23 31.75) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -843,7 +1350,37 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 137.16 111.76)
+			(xy 148.59 57.15) (xy 160.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42923e9a-146f-46f6-ad48-9f1fd71a41cb")
+	)
+	(wire
+		(pts
+			(xy 152.4 59.69) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aa41e4-5230-4887-a07a-344cc244acd5")
+	)
+	(wire
+		(pts
+			(xy 160.02 48.26) (xy 172.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51143960-21ef-45eb-9f6e-f0aa973744a0")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 62.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +1390,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 124.46 111.76)
+			(xy 186.69 48.26) (xy 172.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6f488c-6453-4701-a07a-ba4772f240f2")
+	)
+	(wire
+		(pts
+			(xy 49.53 71.12) (xy 49.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -863,7 +1410,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 137.16 66.04)
+			(xy 186.69 49.53) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0814b9-dba9-4426-9937-3ad7d3a6e18a")
+	)
+	(wire
+		(pts
+			(xy 53.34 33.02) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 66.04) (xy 142.24 78.74)
+			(xy 67.31 33.02) (xy 67.31 45.72)
 		)
 		(stroke
 			(width 0)
@@ -883,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 109.22)
+			(xy 62.23 78.74) (xy 62.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +1450,47 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 130.81 111.76)
+			(xy 161.29 64.77) (xy 162.56 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1b5933-61c6-4843-ab8f-6d9a20119002")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 161.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c4cd24-c781-47e8-9c34-c7aab0b030f5")
+	)
+	(wire
+		(pts
+			(xy 152.4 49.53) (xy 152.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88711ac8-ff52-48e7-b35e-6147b1342397")
+	)
+	(wire
+		(pts
+			(xy 172.72 72.39) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ebcafd-6b2d-44c3-8478-bc2a13d91682")
+	)
+	(wire
+		(pts
+			(xy 49.53 78.74) (xy 55.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 128.27 74.93)
+			(xy 53.34 40.64) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 96.52) (xy 125.73 99.06)
+			(xy 50.8 63.5) (xy 50.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 127 104.14)
+			(xy 49.53 71.12) (xy 52.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 130.81 115.57)
+			(xy 55.88 78.74) (xy 55.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +1540,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 125.73 96.52)
+			(xy 172.72 48.26) (xy 172.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba135011-ebc1-485a-9553-65a69a2d0c3d")
+	)
+	(wire
+		(pts
+			(xy 162.56 57.15) (xy 160.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b43706-b1bd-435d-a811-c641eea20a0b")
+	)
+	(wire
+		(pts
+			(xy 52.07 63.5) (xy 50.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 154.94 68.58)
+			(xy 80.01 33.02) (xy 80.01 35.56)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 68.58) (xy 128.27 66.04)
+			(xy 53.34 35.56) (xy 53.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +1590,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 154.94 74.93)
+			(xy 152.4 48.26) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4db96a6-efa9-4b3a-ab21-1fd1f79850fa")
+	)
+	(wire
+		(pts
+			(xy 80.01 40.64) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +1610,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 137.16 78.74)
+			(xy 160.02 54.61) (xy 160.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d3a10e-d1a7-49b9-8f01-2dc0256f4709")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
@@ -991,9 +1628,31 @@
 		)
 		(uuid "fcb18ec1-8cfb-48c4-a246-777b6a9be8b3")
 	)
+	(global_label "SENSOR_SDA"
+		(shape input)
+		(at 148.59 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27c8dfb9-d6dd-4fb3-b054-1e09c300d9c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.2243 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IMU_INT4_GYRO"
 		(shape input)
-		(at 152.4 101.6 0)
+		(at 77.47 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1003,7 +1662,7 @@
 		)
 		(uuid "28b11fe4-f90d-4fc9-bf31-0c13678ff1de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1244 101.6 0)
+			(at 94.1944 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,9 +1672,31 @@
 			)
 		)
 	)
+	(global_label "SENSOR_SCL"
+		(shape input)
+		(at 148.59 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30ec339d-2560-47a4-b045-53e54d8436c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.2848 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IMU_INT3_GYRO"
 		(shape input)
-		(at 152.4 96.52 0)
+		(at 77.47 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1025,7 +1706,7 @@
 		)
 		(uuid "39519349-52f1-4b52-967c-21adaa4fafcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1244 96.52 0)
+			(at 94.1944 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1718,7 @@
 	)
 	(global_label "IMU_SCK"
 		(shape input)
-		(at 127 91.44 180)
+		(at 52.07 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1047,7 +1728,7 @@
 		)
 		(uuid "3f6a86fb-7cb1-4a5d-ab04-695cf7184980")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5652 91.44 0)
+			(at 41.6352 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1740,7 @@
 	)
 	(global_label "IMU_MISO"
 		(shape input)
-		(at 124.46 99.06 180)
+		(at 49.53 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1069,7 +1750,7 @@
 		)
 		(uuid "a1c5b756-bd80-4a10-8729-7b37593c64a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.1785 99.06 0)
+			(at 38.2485 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1762,7 @@
 	)
 	(global_label "IMU_SDI"
 		(shape input)
-		(at 127 93.98 180)
+		(at 52.07 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1091,7 +1772,7 @@
 		)
 		(uuid "a3eb2b15-8efb-4f51-90b7-82f431ffa59f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.2304 93.98 0)
+			(at 42.3004 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1784,7 @@
 	)
 	(global_label "IMU_CSB1_ACCEL"
 		(shape input)
-		(at 127 86.36 180)
+		(at 52.07 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1113,7 +1794,7 @@
 		)
 		(uuid "b9c3e652-1883-4cba-ac82-2cfbc02714a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.5824 86.36 0)
+			(at 33.6524 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1806,7 @@
 	)
 	(global_label "IMU_INT2_ACCEL"
 		(shape input)
-		(at 152.4 91.44 0)
+		(at 77.47 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1135,7 +1816,7 @@
 		)
 		(uuid "bc69f1e6-fd62-4e8a-ba2c-a2b00413b7cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.971 91.44 0)
+			(at 95.041 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1828,7 @@
 	)
 	(global_label "IMU_CSB1_GYRO"
 		(shape input)
-		(at 127 88.9 180)
+		(at 52.07 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1157,7 +1838,7 @@
 		)
 		(uuid "eb2507c2-f21d-4dd0-9c1d-d41d8cba626f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.429 88.9 0)
+			(at 34.499 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1850,7 @@
 	)
 	(global_label "IMU_INT1_ACCEL"
 		(shape input)
-		(at 152.4 86.36 0)
+		(at 77.47 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1179,7 +1860,7 @@
 		)
 		(uuid "f09c8dbf-8ad6-4200-8a63-3a37043834e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.971 86.36 0)
+			(at 95.041 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,34 +1871,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 128.27 71.12 180)
+		(lib_id "smart_motor_controller-rescue:+3.3V-power")
+		(at 172.72 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6d9bb2d5-4bde-4f7f-8698-a9c22f1af483")
-		(property "Reference" "C601"
-			(at 125.9332 72.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 125.9332 69.977 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 128.27 71.12 0)
+		(uuid "01428bad-710e-4197-ae39-1ad43b5a3aa7")
+		(property "Reference" "#PWR0605"
+			(at 172.72 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,8 +1888,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 128.27 71.12 0)
+		(property "Value" "+3V3"
+			(at 168.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1915,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 71.12 0)
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f83fa70-d66c-403e-9302-dd40e83e6286")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0451fb19-89cc-47cf-8abd-11f57c9157f4")
+		(property "Reference" "R602"
+			(at 154.432 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 154.432 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1988,289 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 128.27 71.12 0)
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b20928e-7b5b-4375-9ebd-2a8a54983959")
+		)
+		(pin "2"
+			(uuid "8ad7bec4-c240-4563-9234-b7728b8d21fc")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "R602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1349e310-ff55-4413-a188-f25e1e32a38c")
+		(property "Reference" "#PWR0607"
+			(at 161.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.417 78.0542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5938063-ad56-4d9d-8155-dba3777698cd")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 152.4 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3083204c-dc75-423d-a468-3b92cb55b2c2")
+		(property "Reference" "R601"
+			(at 146.812 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 146.812 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c516f9cd-d123-4366-a22d-b66c82043e40")
+		)
+		(pin "2"
+			(uuid "e1541527-c1bd-47d2-94c0-93506fc45e01")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "R601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c2adef8-be8b-4d1a-bb2f-c2a70835345a")
+		(property "Reference" "#PWR0606"
+			(at 186.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.817 60.2742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c76c2b93-5bfb-4857-b3c0-c673ec6a62f1")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "#PWR0606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 53.34 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d9bb2d5-4bde-4f7f-8698-a9c22f1af483")
+		(property "Reference" "C601"
+			(at 51.0032 39.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 51.0032 36.957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 53.34 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,15 +2295,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 74.93 0)
+		(at 53.34 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "78366bdd-bfef-4eba-bbf0-ca350dcbc6d7")
-		(property "Reference" "#PWR049"
-			(at 128.27 81.28 0)
+		(property "Reference" "#PWR0603"
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +2312,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.397 79.3242 0)
+			(at 53.467 46.3042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +2320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 74.93 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +2329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 74.93 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +2338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 74.93 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +2351,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
-					(reference "#PWR049")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -1332,7 +2359,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 71.12 180)
+		(at 80.01 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1340,7 +2367,7 @@
 		(dnp no)
 		(uuid "803ba5b0-a563-4f14-a815-a26a1c022080")
 		(property "Reference" "C602"
-			(at 152.6032 72.2884 0)
+			(at 77.6732 39.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +2376,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 152.6032 69.977 0)
+			(at 77.6732 36.957 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +2385,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 154.94 71.12 0)
+			(at 80.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +2394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 71.12 0)
+			(at 80.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +2403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 71.12 0)
+			(at 80.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +2411,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 154.94 71.12 0)
+			(at 80.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,15 +2436,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 115.57 0)
+		(at 55.88 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "af833018-f9e8-468b-a75c-6041f9358c7a")
-		(property "Reference" "#PWR047"
-			(at 130.81 121.92 0)
+		(property "Reference" "#PWR0609"
+			(at 55.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +2453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.937 119.9642 0)
+			(at 56.007 86.9442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +2461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 115.57 0)
+			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +2470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 115.57 0)
+			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +2479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 115.57 0)
+			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +2492,88 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
-					(reference "#PWR047")
+					(reference "#PWR0609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:TMP102xxDRL")
+		(at 172.72 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3573c85-bbee-4fc8-b61d-dc5a99af1458")
+		(property "Reference" "U602"
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMP102xxDRL"
+			(at 181.864 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp102.pdf"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Temperature Sensor, ±3°C, low-Power, SMBus, 12 bit, Two-Wire Serial Interface, SOT-563"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2b901586-44c0-4a0f-bc50-29251a25c64f")
+		)
+		(pin "3"
+			(uuid "4a584610-751a-443c-ac76-6197d2eb7cfc")
+		)
+		(pin "6"
+			(uuid "30e64b20-769b-4702-afaf-a0b7e312cb73")
+		)
+		(pin "1"
+			(uuid "8212523e-5e7e-4406-836e-02049da19817")
+		)
+		(pin "5"
+			(uuid "6c219d4f-8855-426b-be3c-d17861f83e58")
+		)
+		(pin "2"
+			(uuid "167e8dd3-800e-4c9a-b3bc-33b26082cdc3")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "U602")
 					(unit 1)
 				)
 			)
@@ -1473,15 +2581,15 @@
 	)
 	(symbol
 		(lib_id "smart_motor_controller-rescue:+3.3V-power")
-		(at 142.24 64.77 0)
+		(at 67.31 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c9ba63a0-c5ae-412a-bb87-85863c41319c")
-		(property "Reference" "#PWR051"
-			(at 142.24 68.58 0)
+		(property "Reference" "#PWR0602"
+			(at 67.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +2598,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 142.621 60.3758 0)
+			(at 67.691 27.3558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 64.77 0)
+			(at 67.31 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 64.77 0)
+			(at 67.31 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +2624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 64.77 0)
+			(at 67.31 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +2637,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
-					(reference "#PWR051")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -1537,7 +2645,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:BMI088")
-		(at 139.7 93.98 0)
+		(at 64.77 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1545,8 +2653,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5bc9ade-6022-4bab-a3a0-74558829edaf")
-		(property "Reference" "U2"
-			(at 144.3833 76.2 0)
+		(property "Reference" "U601"
+			(at 69.4533 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +2663,7 @@
 			)
 		)
 		(property "Value" "BMI088"
-			(at 144.3833 78.74 0)
+			(at 69.4533 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +2672,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
-			(at 123.19 95.25 0)
+			(at 48.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +2681,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf"
-			(at 123.19 95.25 0)
+			(at 48.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +2690,7 @@
 			)
 		)
 		(property "Description" "Accelerometer, Gyroscope, 6-Axis Sensor, I2C / SPI interface, LGA-16"
-			(at 139.7 93.98 0)
+			(at 64.77 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +2749,7 @@
 		(instances
 			(project ""
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
-					(reference "U2")
+					(reference "U601")
 					(unit 1)
 				)
 			)
@@ -1649,15 +2757,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 74.93 0)
+		(at 172.72 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "db0dc3bc-ba11-4439-9f3d-9b44cab77c7f")
-		(property "Reference" "#PWR050"
-			(at 154.94 81.28 0)
+		(uuid "d700b6de-3280-4b7c-90f3-275b2f6e7977")
+		(property "Reference" "#PWR0608"
+			(at 172.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +2774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 155.067 79.3242 0)
+			(at 172.847 78.0542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +2782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 74.93 0)
+			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +2791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 74.93 0)
+			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +2800,71 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 74.93 0)
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "600b0fa9-60dd-4580-99a9-89423438e9e3")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "#PWR0608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db0dc3bc-ba11-4439-9f3d-9b44cab77c7f")
+		(property "Reference" "#PWR0604"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.137 46.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,23 +2877,41 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
-					(reference "#PWR050")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "smart_motor_controller-rescue:+3.3V-power")
-		(at 137.16 64.77 0)
+		(lib_id "Device:C_Small")
+		(at 186.69 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3c13a41-954d-4020-929c-fd259eabea9e")
-		(property "Reference" "#PWR048"
-			(at 137.16 68.58 0)
+		(uuid "e4ba36af-9536-4458-aac6-30c228a8c804")
+		(property "Reference" "C603"
+			(at 189.0268 50.9016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nf"
+			(at 189.0268 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 186.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,25 +2919,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 135.128 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 64.77 0)
+		(property "Datasheet" "~"
+			(at 186.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +2929,83 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 64.77 0)
+			(at 186.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C57112"
+			(at 186.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "732a8ea3-5ffb-40bf-8251-245d310788a9")
+		)
+		(pin "2"
+			(uuid "7970b868-135c-4f4b-a6c2-fbbc3f06916d")
+		)
+		(instances
+			(project "smart_motor_controller"
+				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
+					(reference "C603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smart_motor_controller-rescue:+3.3V-power")
+		(at 62.23 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3c13a41-954d-4020-929c-fd259eabea9e")
+		(property "Reference" "#PWR0601"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 60.198 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +3018,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/dd99d99f-834a-414d-8998-fbd18e3031b7"
-					(reference "#PWR048")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
