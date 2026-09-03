@@ -5201,7 +5201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 265.43 132.08 0)
 			(effects
 				(font
@@ -5225,6 +5225,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB" "C22387982"
+			(at 265.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7793,7 +7802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d74f7f9-a502-41bf-a815-38f4c7c94db9")
-		(property "Reference" "U304"
+		(property "Reference" "U303"
 			(at 68.58 152.4 0)
 			(effects
 				(font
@@ -7923,7 +7932,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "U304")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -8148,7 +8157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6363d0ad-669e-45a5-b0ba-bca7eb05da2c")
-		(property "Reference" "U303"
+		(property "Reference" "U304"
 			(at 185.42 147.32 0)
 			(effects
 				(font
@@ -8278,7 +8287,7 @@
 		(instances
 			(project "smart_motor_controller"
 				(path "/54a8299a-8af5-4797-a59a-a6e866f823f7/00000000-0000-0000-0000-000060a3e5c0"
-					(reference "U303")
+					(reference "U304")
 					(unit 1)
 				)
 			)
