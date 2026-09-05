@@ -12795,6 +12795,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Evaluation" "C495942 is the specified SMD reset switch and matches the custom switch land pattern and SMD pads."
+			(at 240.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5a4de03-955a-4feb-afae-0bafedf09267")
 		)
@@ -13133,6 +13142,15 @@
 			)
 		)
 		(property "LCSC Part #" "C495942"
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "C495942 is the specified SMD reset switch and matches the custom switch land pattern and SMD pads."
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -14125,6 +14143,24 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 82 GPIO, LQFP100"
 			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C56621"
+			(at 41.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "STM32F405VGT6 matches the STM32F405 device, LQFP-100 14x14 mm footprint, and pin-compatible package."
+			(at 41.91 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2531,7 +2531,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23162"
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "4.7k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 173.99 60.96 0)
 			(effects
 				(font
@@ -2864,7 +2873,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 173.99 68.58 0)
 			(effects
 				(font
@@ -3016,7 +3034,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23186"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "5.1k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -3150,6 +3177,24 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3025063"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "USB4105-GF-A-060 is the GCT USB-C receptacle matched to the existing top-mount USB4105 footprint."
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3454,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23186"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "5.1k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 137.16 62.23 0)
 			(effects
 				(font

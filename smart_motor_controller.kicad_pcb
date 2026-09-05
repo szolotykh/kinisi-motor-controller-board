@@ -2930,12 +2930,24 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22387982"
+		(property "LCSC Part #" "C22387982"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3508104d-6076-4c57-a108-240cc1f07ef3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "722aac66-0c7a-4fb0-9def-2a735792057c")
 			(effects
 				(font
 					(size 1 1)
@@ -3587,12 +3599,24 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22387982"
+		(property "LCSC Part #" "C22387982"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65f16460-1154-4bd7-8da8-65eee6dea08c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a067d7f-e2d1-42b6-99c6-fa427d4bdbcc")
 			(effects
 				(font
 					(size 1 1)
@@ -4244,12 +4268,24 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22387982"
+		(property "LCSC Part #" "C22387982"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9710363e-53f8-4f44-8f25-2bd17d3f3c55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0549c3bc-b4cb-4b31-94f1-e694d472c0ad")
 			(effects
 				(font
 					(size 1 1)
@@ -4901,12 +4937,24 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22387982"
+		(property "LCSC Part #" "C22387982"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f9c0458a-c9f6-4f09-8bc2-6a1ab4dc92bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b968a678-664b-4cc1-9bc2-73812fe5dd81")
 			(effects
 				(font
 					(size 1 1)
@@ -7332,6 +7380,18 @@
 				)
 			)
 		)
+		(property "Part Evaluation" "C495942 is the specified SMD reset switch and matches the custom switch land pattern and SMD pads."
+			(at 209.65 -73.25 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3754b25f-845d-4269-b897-879a8c0bfd74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-000060ab59b9")
 		(sheetname "/")
 		(sheetfile "smart_motor_controller.kicad_sch")
@@ -7522,6 +7582,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d88e6660-397b-432e-8084-36dcdd5f088c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "C495942 is the specified SMD reset switch and matches the custom switch land pattern and SMD pads."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e186bc-ab31-4d63-9d3c-fbcec362434b")
 			(effects
 				(font
 					(size 1 1)
@@ -11323,12 +11395,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "da92a867-eed2-426b-a7d9-163f4a484389")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "100nF, 50V X7R 0603 matches the decoupling value, voltage rating, stable dielectric, and existing 0603 footprint."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8ca8119-83a8-4caf-b32e-3ee14a4b3f81")
 			(effects
 				(font
 					(size 1 1)
@@ -11535,12 +11619,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2fda8f6-a392-4ab0-ad99-86aab12c8502")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f647ff1d-9c61-43de-a8af-fd5cf8c14286")
 			(effects
 				(font
 					(size 1 1)
@@ -11747,12 +11843,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f5a2a95-db66-4b0f-b26c-3f4cb54b6964")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bdb240a-4a7d-4c3b-9734-46e9fc777fc9")
 			(effects
 				(font
 					(size 1 1)
@@ -11959,12 +12067,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "329c7273-bda8-40b1-a581-c9c318adc7d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9a4684f-4b0e-4649-a2ef-c8c4fb97dfdd")
 			(effects
 				(font
 					(size 1 1)
@@ -12171,12 +12291,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7c078ed-711f-46e1-9fce-2ff16bee7f67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ba8ca74-65d8-4988-baeb-9c65e7234239")
 			(effects
 				(font
 					(size 1 1)
@@ -12383,12 +12515,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16f1ffa5-82a7-46d1-a077-8d67289af739")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1a08b0e-dea8-48a6-bcd1-be3400a9b25f")
 			(effects
 				(font
 					(size 1 1)
@@ -12595,12 +12739,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bb1dfdf2-9b57-49db-b8bb-f8581466da6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d414fad-6d96-43c5-978c-af40c7ea2a93")
 			(effects
 				(font
 					(size 1 1)
@@ -12807,12 +12963,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "077a92b4-ef16-45a3-b421-faf588b80f31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "100nF, 50V X7R 0603 matches the decoupling value, voltage rating, stable dielectric, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "212987ac-dd1e-4bb6-8af3-681c8faa4718")
 			(effects
 				(font
 					(size 1 1)
@@ -13019,12 +13187,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba3a2c3e-479f-42d5-bbe3-5a175009259f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc50e3f-7967-483b-9f6e-859ca3a14057")
 			(effects
 				(font
 					(size 1 1)
@@ -14514,6 +14694,30 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C3025063"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d2714c-5efd-4c9a-b0e8-2e1d579d531f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "USB4105-GF-A-060 is the GCT USB-C receptacle matched to the existing top-mount USB4105 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faf68490-4967-47db-b9fc-fec391719570")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/80812af8-15b5-4869-9083-c18d34e404b7/a9396d26-2bc3-49d4-9049-1866243017c1")
 		(sheetname "/USB/")
@@ -14882,12 +15086,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a3cf90da-ad38-4250-9b7e-178b68d7c911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c8152bb-abb8-4a32-8b57-4ae92bdadad9")
 			(effects
 				(font
 					(size 1 1)
@@ -15094,12 +15310,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b56abf3b-e2ff-4aee-a2c0-1e9e2f3d412e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b103ca-17f4-4c81-a122-b45ca0e7a1a8")
 			(effects
 				(font
 					(size 1 1)
@@ -15518,12 +15746,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea2f2018-f946-4e54-bee0-e48310b9a508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1567191-dadb-4558-8ceb-ac6a4c6ea684")
 			(effects
 				(font
 					(size 1 1)
@@ -16386,12 +16626,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df678dee-f484-4983-803d-4aa05c6393b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d19a397-c641-48ac-9f38-35b2174b1ea0")
 			(effects
 				(font
 					(size 1 1)
@@ -17403,12 +17655,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b45853f5-7263-4552-985a-ae234ab15d81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "100nF, 50V X7R 0603 matches the decoupling value, voltage rating, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60630c77-a727-4095-859b-6ad82e112739")
 			(effects
 				(font
 					(size 1 1)
@@ -17787,12 +18051,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6005f0be-c18a-4ba8-8709-4dc06bd3ea0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15219d14-d002-417f-a9fe-d5a83b05b0a6")
 			(effects
 				(font
 					(size 1 1)
@@ -18000,12 +18276,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23162"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4f422e5-c2a5-4867-88af-ba95172b06a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "4.7k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8e388f2-3c7d-4931-960b-d3877ebbd01a")
 			(effects
 				(font
 					(size 1 1)
@@ -18802,12 +19090,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2a74930-88bc-4be3-9a91-44d2c3135031")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e055c66-3cd1-417a-8224-363d62edda6d")
 			(effects
 				(font
 					(size 1 1)
@@ -19118,12 +19418,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "15fb5c8d-45fa-4e42-811a-56e828f77e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41bcc9ec-19fd-400b-8d17-dc2f1870f55e")
 			(effects
 				(font
 					(size 1 1)
@@ -19326,6 +19638,30 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C56621"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9468b24a-6499-4f4d-971c-9c302b1ef9bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "STM32F405VGT6 matches the STM32F405 device, LQFP-100 14x14 mm footprint, and pin-compatible package."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1e5088e-e967-43a9-b27e-1327835b6ae6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20715,12 +21051,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58cb995a-2376-4403-bbc1-486db202f1d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2443f6c-ff9e-4640-a5f3-fa84787e623b")
 			(effects
 				(font
 					(size 1 1)
@@ -21483,12 +21831,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7762c4e6-39a1-4488-bf04-8793fa0ae12e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91456abd-4c68-4598-a19f-90fef88bf19a")
 			(effects
 				(font
 					(size 1 1)
@@ -21695,12 +22055,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6732b4f2-44f1-4d01-82bd-d99a5c403e3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "019d5546-58d5-4993-ab34-e06d14d2a1e7")
 			(effects
 				(font
 					(size 1 1)
@@ -22331,12 +22703,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0838b973-cde4-4fd3-8872-49e51d7ca16e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a4a94ef-6160-4ac2-a635-f8c8c2a5c358")
 			(effects
 				(font
 					(size 1 1)
@@ -22715,12 +23099,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdbceb13-902e-4c58-9ec5-6b77680f29b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "5.1k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a748fab-1b29-4a9b-bf40-8e7f17b0c566")
 			(effects
 				(font
 					(size 1 1)
@@ -22923,6 +23319,30 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C99269"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d6bf3d6-42d8-4533-88f7-a58eda19fff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "TMP102AIDRLR matches the temperature-sensor function and existing SOT-563 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fb65ff3-4986-42aa-bfec-18aa2044e14a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23228,6 +23648,30 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C194919"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bac192b4-e7a0-4f12-8305-76b22a0b8061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "BMI088 matches the sensor symbol and existing Bosch LGA-16 4.5x3 mm footprint."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad478dcf-5a3f-4a9f-bdd4-3f851c0b0375")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23987,7 +24431,7 @@
 				)
 			)
 		)
-		(property "Value" "FM24C64B"
+		(property "Value" "FM24CL64B-GTR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "cefc0e77-0da7-4544-b64e-33e95bae9a28")
@@ -24018,6 +24462,30 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C9829"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fc63c72-9ca6-47c9-98b4-934f46aca2f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "FM24CL64B-GTR supports the board 3.3 V rail and matches the existing SOIC-8 150 mil pinout and footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d470bbc-a299-43ac-9cdb-485a9e180746")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24599,12 +25067,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6230b17c-c63c-48a3-822e-f2b486597a7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee32d4e3-26c8-4078-8d52-3ccf18c00471")
 			(effects
 				(font
 					(size 1 1)
@@ -25677,12 +26157,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23162"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "171999ce-ffca-4afd-8431-0625930f0d56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "4.7k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1c2b273-56f8-4ff6-a1db-fe018801194c")
 			(effects
 				(font
 					(size 1 1)
@@ -26657,12 +27149,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d10b5aab-1b0e-445b-aa60-859be005b577")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd075986-8198-45cb-852c-c25f15a2ebe7")
 			(effects
 				(font
 					(size 1 1)
@@ -27080,12 +27584,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bbb2445-f724-4f9d-b512-cc090e1d7c59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "592d1ae3-48c3-4613-86a2-f45117f6a075")
 			(effects
 				(font
 					(size 1 1)
@@ -28159,12 +28675,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "152b75cf-c4e7-4961-92d7-6f7bcee7c413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90e9f2c6-4f08-4270-9a02-188c609f25fd")
 			(effects
 				(font
 					(size 1 1)
@@ -28371,12 +28899,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db34aea1-0f4f-4419-9e43-6d171e5bf1de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f417ad9d-a458-4d15-ae61-d5f7686ac15e")
 			(effects
 				(font
 					(size 1 1)
@@ -28982,12 +29522,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae28c318-63aa-431c-9dbb-8836130d7e22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34a4ab3f-ac05-42b8-90e3-b63b875972cf")
 			(effects
 				(font
 					(size 1 1)
@@ -30023,12 +30575,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76ea4e39-7b62-4993-813e-90e027e43e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd56c81d-912a-4903-8506-0da0b38864de")
 			(effects
 				(font
 					(size 1 1)
@@ -30236,12 +30800,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6fc260f-df21-4739-a47e-717c05d5b861")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c16dad0-bb6c-4e0d-9e93-f83d62835d35")
 			(effects
 				(font
 					(size 1 1)
@@ -30449,12 +31025,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0e02ab9-247b-4722-91bb-9a32ba5cb593")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "5.1k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "127ddebb-4fc6-47d6-862c-c632a6c337f7")
 			(effects
 				(font
 					(size 1 1)
@@ -30661,12 +31249,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e002aea-15ec-4f20-934a-b18273ce8387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d8b47f-d270-4c80-aed1-7d9c9d1d5b8a")
 			(effects
 				(font
 					(size 1 1)
@@ -31429,12 +32029,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37ed95a3-e9ea-4e40-bc8e-77540066dab5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b4684cc-4602-428d-b48c-7b6742788d73")
 			(effects
 				(font
 					(size 1 1)
@@ -31853,12 +32465,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc7431e8-bd00-4ba9-afb1-710373b4b110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca6742ea-f83f-4215-b136-e0f7e3c63d19")
 			(effects
 				(font
 					(size 1 1)
@@ -32065,12 +32689,24 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23162"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17433178-e347-401c-b442-40c1f06dad63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Evaluation" "4.7k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c660d939-05fe-4c07-8821-02de28ff285d")
 			(effects
 				(font
 					(size 1 1)

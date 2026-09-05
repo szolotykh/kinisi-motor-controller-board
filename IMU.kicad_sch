@@ -2470,7 +2470,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23162"
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "4.7k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 160.02 52.07 0)
 			(effects
 				(font
@@ -2547,7 +2556,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
+			(at 50.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "100nF, 50V X7R 0603 matches the decoupling value, voltage rating, stable dielectric, and existing 0603 footprint."
 			(at 50.8 121.92 0)
 			(effects
 				(font
@@ -2590,7 +2608,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FM24C64B"
+		(property "Value" "FM24CL64B-GTR"
 			(at 70.7233 116.84 0)
 			(effects
 				(font
@@ -2619,6 +2637,24 @@
 		)
 		(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
 			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C9829"
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "FM24CL64B-GTR supports the board 3.3 V rail and matches the existing SOIC-8 150 mil pinout and footprint."
+			(at 68.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2812,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23162"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "4.7k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -2981,7 +3026,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "100nF, 50V X7R 0603 matches the decoupling value, voltage rating, stable dielectric, and existing 0603 footprint."
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -3122,7 +3176,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "100nF, 50V X7R 0603 matches the decoupling value, voltage rating, stable dielectric, and existing 0603 footprint."
 			(at 80.01 38.1 0)
 			(effects
 				(font
@@ -3392,6 +3455,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C99269"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "TMP102AIDRLR matches the temperature-sensor function and existing SOT-563 footprint."
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2b901586-44c0-4a0f-bc50-29251a25c64f")
 		)
@@ -3531,6 +3612,24 @@
 		)
 		(property "Description" "Accelerometer, Gyroscope, 6-Axis Sensor, I2C / SPI interface, LGA-16"
 			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C194919"
+			(at 48.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "BMI088 matches the sensor symbol and existing Bosch LGA-16 4.5x3 mm footprint."
+			(at 48.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

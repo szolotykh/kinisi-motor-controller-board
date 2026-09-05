@@ -5227,7 +5227,16 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22387982"
+		(property "LCSC Part #" "C22387982"
+			(at 265.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
 			(at 265.43 132.08 0)
 			(effects
 				(font
@@ -5445,6 +5454,24 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22387982"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f8c82a6-3af4-4d87-a0f8-cd8a6b2cdd92")
 		)
@@ -5654,6 +5681,24 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22387982"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "426ca43f-98dc-4f89-8262-b2e7a7944306")
 		)
@@ -5861,6 +5906,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C22387982"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47uF, 35V SMD capacitor matches the PCB 5x5.4 mm SMD footprint and capacitance/voltage requirement; schematic footprint field intentionally unchanged."
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6204,7 +6267,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
+			(at 151.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 151.13 140.97 0)
 			(effects
 				(font
@@ -6281,7 +6353,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 44.45 115.57 0)
 			(effects
 				(font
@@ -6422,7 +6503,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
+			(at 30.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 30.48 62.23 0)
 			(effects
 				(font
@@ -6563,7 +6653,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 17.78 62.23 0)
 			(effects
 				(font
@@ -6896,7 +6995,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 20.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 20.32 146.05 0)
 			(effects
 				(font
@@ -6973,7 +7081,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 209.55 124.46 0)
 			(effects
 				(font
@@ -7050,7 +7167,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 138.43 140.97 0)
 			(effects
 				(font
@@ -7127,7 +7253,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 36.83 34.29 0)
 			(effects
 				(font
@@ -7204,7 +7339,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
+			(at 30.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 30.48 54.61 0)
 			(effects
 				(font
@@ -7281,7 +7425,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 209.55 114.3 0)
 			(effects
 				(font
@@ -7486,7 +7639,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 33.02 138.43 0)
 			(effects
 				(font
@@ -7627,7 +7789,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -7768,7 +7939,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 161.29 31.75 0)
 			(effects
 				(font
@@ -8410,7 +8590,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -8487,7 +8676,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 149.86 62.23 0)
 			(effects
 				(font
@@ -8564,7 +8762,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -8718,7 +8925,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -8795,7 +9011,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 209.55 35.56 0)
 			(effects
 				(font
@@ -9000,7 +9225,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 149.86 54.61 0)
 			(effects
 				(font
@@ -9077,7 +9311,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
+			(at 156.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -9282,7 +9525,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 92.71 119.38 0)
 			(effects
 				(font
@@ -9359,7 +9611,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 209.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 209.55 45.72 0)
 			(effects
 				(font
@@ -9641,7 +9902,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22775"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "100 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 151.13 133.35 0)
 			(effects
 				(font
@@ -9923,7 +10193,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C696860"
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "47nF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 90.17 35.56 0)
 			(effects
 				(font
@@ -10320,7 +10599,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -10661,7 +10949,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C90540"
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "1uF, 50V X7R 0603 matches the required capacitance, voltage margin, stable dielectric, and existing 0603 footprint."
 			(at 161.29 110.49 0)
 			(effects
 				(font
@@ -10738,7 +11035,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25804"
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "10k ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -11025,7 +11331,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23138"
+			(at 33.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Evaluation" "330 ohm, 1% 0603 matches the schematic value, tolerance requirement, and existing 0603 footprint."
 			(at 33.02 146.05 0)
 			(effects
 				(font
