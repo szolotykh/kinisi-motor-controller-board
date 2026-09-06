@@ -1350,7 +1350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123_Encoder"
 			(at 55.88 86.36 90)
 			(hide yes)
 			(show_name no)
