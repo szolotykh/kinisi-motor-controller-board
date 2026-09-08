@@ -1,0 +1,106 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-07T19:49:42",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "key": "silk_overlap"
+        },
+        {
+            "description": "Text height out of range",
+            "key": "text_height"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "smart_motor_controller.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [USB_CONN_D+] on F.Cu, length 0.5500 mm",
+                    "pos": {
+                        "x": 134.05,
+                        "y": 70.5
+                    },
+                    "uuid": "778d8e21-15bc-4ff7-8a4d-45f5d0e35794"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [USB_CONN_D+] on F.Cu, length 0.7071 mm",
+                    "pos": {
+                        "x": 134.452898,
+                        "y": 68.75
+                    },
+                    "uuid": "d4e19ac3-d285-4911-b3fd-f7036fcf4f16"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0990 mm)",
+            "items": [
+                {
+                    "description": "Track [M_SDO] on B.Cu, length 10.2780 mm",
+                    "pos": {
+                        "x": 173.324,
+                        "y": 92.274
+                    },
+                    "uuid": "1dadbce4-e6c3-4b5e-a889-536165623ea5"
+                },
+                {
+                    "description": "Via [M_SDI] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 164.15,
+                        "y": 91.65
+                    },
+                    "uuid": "a46b9fd8-e78c-4078-92ff-b9cd265d533d"
+                }
+            ],
+            "severity": "warning",
+            "type": "clearance"
+        }
+    ]
+}

@@ -1,0 +1,3789 @@
+{
+  "source_sha256": {
+    "brushed_motors_and_encoders.kicad_sch": "d7a9b4ebe39d64cae46dc05679ef9ccc66b315c506cf47ddeaf5a4757520d19b",
+    "encoders.kicad_sch": "dd62b62680567080559f0df7f5f482970cf17c19f1fd50e851c8b7d8df19926b",
+    "IMU.kicad_sch": "a2f94b0bafefe3608a459ca2826b8af57e344c10a10cc40885f922a948f11097",
+    "power.kicad_sch": "c6b5d891b7c6e6853c93caf0d408e32a2faef6e2636aabac6910e48cb77ecfc3",
+    "smart_motor_controller.kicad_pcb": "204ccc7aa7f240790ba612f3c47a6796131dc77372865f02447f030d4de5b3fc",
+    "smart_motor_controller.kicad_pro": "182664be6edb84e21c8b90afd4207ddc78be1e1dc1a0ee9ac8caa67f66fb5570",
+    "smart_motor_controller.kicad_sch": "a3ed4525522b16e1ddde34916389073668633797853ac4217de51b3fc2623432",
+    "usb.kicad_sch": "7fe3bdbbb41441c5a2fa29a486c0468107066af8d25d3365f8f9006be8e8b1d0",
+    "_autosave-smart_motor_controller.kicad_pcb": "c27b20b2a2ae4f4c39d82a29e19bec820c4a3017d500b1f23dd12248c80f2505"
+  },
+  "pcb_footprints": 128,
+  "bom_footprint_or_part_mismatches": [
+    {
+      "ref": "C309",
+      "bom_footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+      "pcb_footprint": "CP_Elec_5x5.4"
+    },
+    {
+      "ref": "C314",
+      "bom_footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+      "pcb_footprint": "CP_Elec_5x5.4"
+    },
+    {
+      "ref": "C328",
+      "bom_footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+      "pcb_footprint": "CP_Elec_5x5.4"
+    },
+    {
+      "ref": "D401",
+      "bom_footprint": "Diode_SMD:D_SOD-123",
+      "pcb_footprint": "D_SOD-123_Encoder"
+    },
+    {
+      "ref": "R503",
+      "bom_lcsc": "C25118",
+      "schematic_lcsc": "C22810"
+    },
+    {
+      "ref": "R504",
+      "bom_lcsc": "C25118",
+      "schematic_lcsc": "C22810"
+    }
+  ],
+  "lcsc_populated_parts_missing_from_bom": [],
+  "placement_refs_absent_from_pcb": [
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "D1",
+    "D2",
+    "D3",
+    "D301",
+    "HSE1",
+    "J10",
+    "L2",
+    "R6",
+    "R7",
+    "R14",
+    "R15",
+    "SW103",
+    "U2",
+    "U3"
+  ],
+  "pcb_refs_absent_from_placement": [
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C302",
+    "C304",
+    "C306",
+    "C308",
+    "C309",
+    "C310",
+    "C311",
+    "C312",
+    "C313",
+    "C314",
+    "C315",
+    "C316",
+    "C317",
+    "C318",
+    "C319",
+    "C320",
+    "C321",
+    "C322",
+    "C323",
+    "C324",
+    "C325",
+    "C326",
+    "C327",
+    "C328",
+    "C601",
+    "C602",
+    "C603",
+    "C604",
+    "D102",
+    "D103",
+    "D104",
+    "D401",
+    "H201",
+    "H202",
+    "H203",
+    "H204",
+    "HSE101",
+    "J101",
+    "J102",
+    "J103",
+    "J104",
+    "J105",
+    "J301",
+    "J302",
+    "J303",
+    "J304",
+    "J401",
+    "J402",
+    "J403",
+    "J404",
+    "J405",
+    "J501",
+    "L101",
+    "R105",
+    "R106",
+    "R107",
+    "R305",
+    "R306",
+    "R307",
+    "R308",
+    "R309",
+    "R310",
+    "R311",
+    "R312",
+    "R501",
+    "R502",
+    "R503",
+    "R504",
+    "R505",
+    "R506",
+    "R601",
+    "R602",
+    "SW101",
+    "TP101",
+    "TP3.3V201",
+    "TP501",
+    "U101",
+    "U501",
+    "U601",
+    "U602",
+    "U603"
+  ],
+  "critical_footprints": {
+    "U101": {
+      "value": "STM32F405VGTx",
+      "footprint": "LQFP-100_14x14mm_P0.5mm",
+      "pads": [
+        {
+          "number": "1",
+          "net": "unconnected-(U101-PE2-Pad1)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "unconnected-(U101-PE3-Pad2)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "M3_DISABLE",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "M3_PH",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "M3_nSCS",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "+3V3",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "7",
+          "net": "unconnected-(U101-PC13-Pad7)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "8",
+          "net": "unconnected-(U101-PC14-Pad8)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "9",
+          "net": "unconnected-(U101-PC15-Pad9)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "10",
+          "net": "GND",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "11",
+          "net": "+3V3",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "12",
+          "net": "HSE_IN",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "13",
+          "net": "HSE_OUT",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "14",
+          "net": "NRST",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "15",
+          "net": "M2_IPROPI",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "16",
+          "net": "M3_IPROPI",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "17",
+          "net": "IMU_MISO",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "18",
+          "net": "IMU_SDI",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "19",
+          "net": "+3V3",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "20",
+          "net": "GND",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "21",
+          "net": "+3V3",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "22",
+          "net": "+3.3VA",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "23",
+          "net": "ENCODER_1_A",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "24",
+          "net": "ENCODER_1_B",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "25",
+          "net": "USART_E_TX",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "26",
+          "net": "USART_E_RX",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "27",
+          "net": "GND",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "28",
+          "net": "+3V3",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "29",
+          "net": "unconnected-(U101-PA4-Pad29)",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "30",
+          "net": "GPIO7",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "31",
+          "net": "ENCODER_0_A",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "32",
+          "net": "ENCODER_0_B",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "33",
+          "net": "M0_IPROPI",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "34",
+          "net": "M1_IPROPI",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "35",
+          "net": "GPIO6",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "36",
+          "net": "GPIO5",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "37",
+          "net": "BOOT1",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "38",
+          "net": "GPIO4",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "39",
+          "net": "M3_EN",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "40",
+          "net": "GPIO3",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "41",
+          "net": "M2_EN",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "42",
+          "net": "GPIO2",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "43",
+          "net": "M1_EN",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "44",
+          "net": "GPIO1",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "45",
+          "net": "GPIO0",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "46",
+          "net": "M0_EN",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "47",
+          "net": "I2C_E_SCL",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "48",
+          "net": "I2C_E_SDA",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "49",
+          "net": "Net-(U101-VCAP_1)",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "50",
+          "net": "+3V3",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "51",
+          "net": "unconnected-(U101-PB12-Pad51)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "52",
+          "net": "IMU_SCK",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "53",
+          "net": "LED",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "54",
+          "net": "M0_nSLEEP",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "55",
+          "net": "M0_nFAULT",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "56",
+          "net": "IMU_INT_GYRO",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "57",
+          "net": "IMU_CSB1_ACCEL",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "58",
+          "net": "IMU_INT_ACCEL",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "59",
+          "net": "IMU_CSB1_GYRO",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "60",
+          "net": "M0_DISABLE",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "61",
+          "net": "M0_PH",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "62",
+          "net": "M0_nSCS",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "63",
+          "net": "ENCODER_3_A",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "64",
+          "net": "ENCODER_3_B",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "65",
+          "net": "unconnected-(U101-PC8-Pad65)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "66",
+          "net": "SENSOR_SDA",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "67",
+          "net": "SENSOR_SCL",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "68",
+          "net": "USB_SENSE",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "69",
+          "net": "unconnected-(U101-PA10-Pad69)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "70",
+          "net": "USB_D-",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "71",
+          "net": "USB_D+",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "72",
+          "net": "SWDIO",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "73",
+          "net": "Net-(U101-VCAP_2)",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "74",
+          "net": "GND",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "75",
+          "net": "+3V3",
+          "size_mm": [
+            1.6,
+            0.3
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "76",
+          "net": "SWCLK",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "77",
+          "net": "M1_DISABLE",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "78",
+          "net": "M_SCLK",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "79",
+          "net": "M_SDO",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "80",
+          "net": "M_SDI",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "81",
+          "net": "M1_PH",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "82",
+          "net": "M1_nSCS",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "83",
+          "net": "M1_nSLEEP",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "84",
+          "net": "M1_nFAULT",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "85",
+          "net": "M2_DISABLE",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "86",
+          "net": "M2_PH",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "87",
+          "net": "M2_nSCS",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "88",
+          "net": "unconnected-(U101-PD7-Pad88)",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "89",
+          "net": "SWO",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "90",
+          "net": "M2_nSLEEP",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "91",
+          "net": "M2_nFAULT",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "92",
+          "net": "ENCODER_2_A",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "93",
+          "net": "ENCODER_2_B",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "94",
+          "net": "BOOT0",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "95",
+          "net": "M3_nSLEEP",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "96",
+          "net": "M3_nFAULT",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "97",
+          "net": "unconnected-(U101-PE0-Pad97)",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "98",
+          "net": "unconnected-(U101-PE1-Pad98)",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "99",
+          "net": "GND",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "100",
+          "net": "+3V3",
+          "size_mm": [
+            0.3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "U201": {
+      "value": "TPS54331DDAR",
+      "footprint": "HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias",
+      "pads": [
+        {
+          "number": "",
+          "net": "",
+          "size_mm": [
+            0.97,
+            1.25
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "",
+          "net": "",
+          "size_mm": [
+            0.97,
+            1.25
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "",
+          "net": "",
+          "size_mm": [
+            0.97,
+            1.25
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "",
+          "net": "",
+          "size_mm": [
+            0.97,
+            1.25
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "1",
+          "net": "Net-(U201-BOOT)",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "BACK_IN",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "unconnected-(U201-EN-Pad3)",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "Net-(U201-SS)",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "Net-(U201-VSENSE)",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "Net-(U201-COMP)",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "7",
+          "net": "GND",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "8",
+          "net": "Net-(D201-K)",
+          "size_mm": [
+            1.6,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.2,
+            0.2
+          ],
+          "paste": false
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.2,
+            0.2
+          ],
+          "paste": false
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.2,
+            0.2
+          ],
+          "paste": false
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            2.41,
+            3.1
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": false
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            2.41,
+            3.1
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": false
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.2,
+            0.2
+          ],
+          "paste": false
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.2,
+            0.2
+          ],
+          "paste": false
+        },
+        {
+          "number": "9",
+          "net": "GND",
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.2,
+            0.2
+          ],
+          "paste": false
+        }
+      ]
+    },
+    "U301": {
+      "value": "DRV8873S",
+      "footprint": "HTSSOP-24_L7.8-W4.4-P0.65-LS6.4-TL-EP",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(U301-DVDD)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "M0_nFAULT",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "M_SDO",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "M_SDI",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "M_SCLK",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "M0_nSCS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "7",
+          "net": "M0_EN",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "8",
+          "net": "M0_PH",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "9",
+          "net": "M0_DISABLE",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "10",
+          "net": "Net-(U301-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "11",
+          "net": "M0_nSLEEP",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "12",
+          "net": "Net-(U301-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "13",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "14",
+          "net": "Net-(J301-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "15",
+          "net": "Net-(J301-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "16",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "17",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "18",
+          "net": "Net-(J301-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "19",
+          "net": "Net-(J301-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "20",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "21",
+          "net": "Net-(U301-VCP)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "22",
+          "net": "Net-(U301-CPH)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "23",
+          "net": "Net-(U301-CPL)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "24",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "25",
+          "net": "GND",
+          "size_mm": [
+            3.2,
+            5.26
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "U302": {
+      "value": "DRV8873S",
+      "footprint": "HTSSOP-24_L7.8-W4.4-P0.65-LS6.4-TL-EP",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(U302-DVDD)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "M1_nFAULT",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "M_SDO",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "M_SDI",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "M_SCLK",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "M1_nSCS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "7",
+          "net": "M1_EN",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "8",
+          "net": "M1_PH",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "9",
+          "net": "M1_DISABLE",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "10",
+          "net": "Net-(U302-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "11",
+          "net": "M1_nSLEEP",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "12",
+          "net": "Net-(U302-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "13",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "14",
+          "net": "Net-(J302-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "15",
+          "net": "Net-(J302-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "16",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "17",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "18",
+          "net": "Net-(J302-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "19",
+          "net": "Net-(J302-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "20",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "21",
+          "net": "Net-(U302-VCP)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "22",
+          "net": "Net-(U302-CPH)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "23",
+          "net": "Net-(U302-CPL)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "24",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "25",
+          "net": "GND",
+          "size_mm": [
+            3.2,
+            5.26
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "U303": {
+      "value": "DRV8873S",
+      "footprint": "HTSSOP-24_L7.8-W4.4-P0.65-LS6.4-TL-EP",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(U303-DVDD)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "M2_nFAULT",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "M_SDO",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "M_SDI",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "M_SCLK",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "M2_nSCS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "7",
+          "net": "M2_EN",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "8",
+          "net": "M2_PH",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "9",
+          "net": "M2_DISABLE",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "10",
+          "net": "Net-(U303-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "11",
+          "net": "M2_nSLEEP",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "12",
+          "net": "Net-(U303-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "13",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "14",
+          "net": "Net-(J304-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "15",
+          "net": "Net-(J304-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "16",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "17",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "18",
+          "net": "Net-(J304-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "19",
+          "net": "Net-(J304-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "20",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "21",
+          "net": "Net-(U303-VCP)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "22",
+          "net": "Net-(U303-CPH)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "23",
+          "net": "Net-(U303-CPL)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "24",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "25",
+          "net": "GND",
+          "size_mm": [
+            3.2,
+            5.26
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "U304": {
+      "value": "DRV8873S",
+      "footprint": "HTSSOP-24_L7.8-W4.4-P0.65-LS6.4-TL-EP",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(U304-DVDD)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "M3_nFAULT",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "M_SDO",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "M_SDI",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "M_SCLK",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "M3_nSCS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "7",
+          "net": "M3_EN",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "8",
+          "net": "M3_PH",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "9",
+          "net": "M3_DISABLE",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "10",
+          "net": "Net-(U304-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "11",
+          "net": "M3_nSLEEP",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "12",
+          "net": "Net-(U304-IPROPI1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "13",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "14",
+          "net": "Net-(J303-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "15",
+          "net": "Net-(J303-Pin_2)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "16",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "17",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "18",
+          "net": "Net-(J303-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "19",
+          "net": "Net-(J303-Pin_1)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "20",
+          "net": "VMOTORS",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "21",
+          "net": "Net-(U304-VCP)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "22",
+          "net": "Net-(U304-CPH)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "23",
+          "net": "Net-(U304-CPL)",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "24",
+          "net": "GND",
+          "size_mm": [
+            0.343,
+            1.747
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "25",
+          "net": "GND",
+          "size_mm": [
+            3.2,
+            5.26
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "U601": {
+      "value": "BMI088",
+      "footprint": "Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering",
+      "pads": [
+        {
+          "number": "1",
+          "net": "IMU_INT_ACCEL",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "+3V3",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "GND",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "IMU_CSB1_GYRO",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "GND",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "7",
+          "net": "GND",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "8",
+          "net": "IMU_SCK",
+          "size_mm": [
+            0.675,
+            0.25
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "9",
+          "net": "IMU_SDI",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "10",
+          "net": "IMU_MISO",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "11",
+          "net": "+3V3",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "12",
+          "net": "Net-(U601-INT1)",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "13",
+          "net": "IMU_INT_GYRO",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "14",
+          "net": "IMU_CSB1_ACCEL",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "15",
+          "net": "IMU_MISO",
+          "size_mm": [
+            0.25,
+            0.675
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "16",
+          "net": "Net-(U601-INT1)",
+          "size_mm": [
+            0.675,
+            0.25
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "U501": {
+      "value": "USBLC6-2SC6",
+      "footprint": "SOT-23-6",
+      "pads": [
+        {
+          "number": "1",
+          "net": "USB_CONN_D-",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "3",
+          "net": "USB_CONN_D+",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "4",
+          "net": "Net-(R504-Pad2)",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "5",
+          "net": "+5V",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "6",
+          "net": "Net-(R503-Pad1)",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "J501": {
+      "value": "USB_C_Receptacle_USB2.0_16P",
+      "footprint": "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "pads": [
+        {
+          "number": "",
+          "net": "",
+          "size_mm": [
+            0.65,
+            0.65
+          ],
+          "drill_mm": [
+            0.65,
+            0.65
+          ],
+          "paste": false
+        },
+        {
+          "number": "",
+          "net": "",
+          "size_mm": [
+            0.65,
+            0.65
+          ],
+          "drill_mm": [
+            0.65,
+            0.65
+          ],
+          "paste": false
+        },
+        {
+          "number": "A1",
+          "net": "GND",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "A4",
+          "net": "+5V",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "A5",
+          "net": "Net-(J501-CC1)",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "A6",
+          "net": "USB_CONN_D+",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "A7",
+          "net": "USB_CONN_D-",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "A8",
+          "net": "unconnected-(J501-SBU1-PadA8)",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "A9",
+          "net": "+5V",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "A12",
+          "net": "GND",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B1",
+          "net": "GND",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B4",
+          "net": "+5V",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B5",
+          "net": "Net-(J501-CC2)",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B6",
+          "net": "USB_CONN_D+",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B7",
+          "net": "USB_CONN_D-",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B8",
+          "net": "unconnected-(J501-SBU2-PadB8)",
+          "size_mm": [
+            0.3,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B9",
+          "net": "+5V",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "B12",
+          "net": "GND",
+          "size_mm": [
+            0.6,
+            1.15
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "S1",
+          "net": "GND",
+          "size_mm": [
+            1,
+            2.1
+          ],
+          "drill_mm": [
+            0.6,
+            1.7
+          ],
+          "paste": true
+        },
+        {
+          "number": "S1",
+          "net": "GND",
+          "size_mm": [
+            1,
+            1.8
+          ],
+          "drill_mm": [
+            0.6,
+            1.4
+          ],
+          "paste": true
+        },
+        {
+          "number": "S1",
+          "net": "GND",
+          "size_mm": [
+            1,
+            2.1
+          ],
+          "drill_mm": [
+            0.6,
+            1.7
+          ],
+          "paste": true
+        },
+        {
+          "number": "S1",
+          "net": "GND",
+          "size_mm": [
+            1,
+            1.8
+          ],
+          "drill_mm": [
+            0.6,
+            1.4
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "C309": {
+      "value": "47u",
+      "footprint": "CP_Elec_5x5.4",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VMOTORS",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "C314": {
+      "value": "47u",
+      "footprint": "CP_Elec_5x5.4",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VMOTORS",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "C323": {
+      "value": "47u",
+      "footprint": "CP_Elec_5x5.4",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VMOTORS",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    },
+    "C328": {
+      "value": "47u",
+      "footprint": "CP_Elec_5x5.4",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VMOTORS",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "size_mm": [
+            3,
+            1.6
+          ],
+          "drill_mm": [
+            0,
+            0
+          ],
+          "paste": true
+        }
+      ]
+    }
+  }
+}

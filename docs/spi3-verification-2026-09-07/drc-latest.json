@@ -1,0 +1,145 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-07T20:12:56",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "key": "silk_overlap"
+        },
+        {
+            "description": "Text height out of range",
+            "key": "text_height"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "smart_motor_controller.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (zone clearance 0.5080 mm; actual 0.4555 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 169.43,
+                        "y": 93.075
+                    },
+                    "uuid": "b3ac4f72-93a3-4545-a1ff-eb15c4b2dc5e"
+                },
+                {
+                    "description": "Zone [+3V3] on In1.Cu, priority 0",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 121.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623db2f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5080 mm; actual 0.1825 mm)",
+            "items": [
+                {
+                    "description": "Track [M_SDO] on B.Cu, length 0.3536 mm",
+                    "pos": {
+                        "x": 170.7,
+                        "y": 92.6
+                    },
+                    "uuid": "852604fd-0e87-4ed1-be8a-460bf77164c4"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 121.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623db2f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5080 mm; actual 0.1825 mm)",
+            "items": [
+                {
+                    "description": "Track [M_SDO] on B.Cu, length 6.7500 mm",
+                    "pos": {
+                        "x": 177.45,
+                        "y": 92.6
+                    },
+                    "uuid": "9b15b869-12ad-4d1c-9f3e-78d0406d2773"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 121.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623db2f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5080 mm; actual 0.4325 mm)",
+            "items": [
+                {
+                    "description": "Track [M_SDO] on B.Cu, length 7.4600 mm",
+                    "pos": {
+                        "x": 170.45,
+                        "y": 92.35
+                    },
+                    "uuid": "457035de-9932-4c2d-bfe4-07259f065101"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 121.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623db2f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "clearance"
+        }
+    ]
+}

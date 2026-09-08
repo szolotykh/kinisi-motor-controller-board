@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-KiCad 9 hardware design for the **Kinisi smart motor controller board** — an STM32F405-based board driving 4 brushed DC motors with quadrature encoder feedback (USB serial, I2C, CAN, GPIO). This repo is **design data only**: there is no firmware, build system, or test suite here.
+KiCad 10 hardware design for the **Kinisi smart motor controller board** — an STM32F405-based board driving 4 brushed DC motors with quadrature encoder feedback (USB serial, I2C, CAN, GPIO). This repo is **design data only**: there is no firmware, build system, or test suite here.
 
 Companion repos (all under https://github.com/szolotykh):
 - Firmware: https://github.com/szolotykh/kinisi-motor-controller-firmware
@@ -25,7 +25,8 @@ Production targets JLCPCB. When finalizing a revision, regenerate and commit pro
 - Gerbers + drill files → `gerber/`
 - BOM (CSV, with LCSC part numbers) + pick-and-place position CSV → `assembly/`
 
-The BOM's LCSC part column feeds JLCPCB assembly — keep it populated. `kicad-cli` is not on PATH; on Windows it ships at `C:\Program Files\KiCad\9.0\bin\kicad-cli.exe`.
+The BOM's LCSC part column feeds JLCPCB assembly — keep it populated. `kicad-cli` is not on PATH;
+the design files are saved in KiCad 10 format, so a 9.x `kicad-cli` will fail with "Failed to load board".
 
 ## Revisions & git
 

@@ -2148,7 +2148,7 @@
 		)
 		(uuid "fb38409e-d597-4dce-a1c5-8646c95edd3f")
 	)
-	(global_label "USB_CONN_D+"
+	(global_label "USB_CONN_D-"
 		(shape input)
 		(at 135.89 68.58 0)
 		(effects
@@ -2260,7 +2260,7 @@
 			)
 		)
 	)
-	(global_label "USB_CONN_D-"
+	(global_label "USB_CONN_D+"
 		(shape input)
 		(at 135.89 71.12 0)
 		(effects
