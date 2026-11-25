@@ -1,0 +1,28 @@
+name: Controller CI
+
+on:
+  pull_request:
+  merge_group:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    name: Controller unit tests
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check board assembly exports
+        run: python -B -m unittest discover -v -s tests -p test_assembly_exports.py
+      - name: Run manufacturing unit tests on generator revisions
+        if: ${{ hashFiles('manufacturing/**', 'tests/test_manufacturing.py') != '' }}
+        run: |
+          test -f manufacturing/generate.py
+          test -f tests/test_manufacturing.py
+          python -B -m unittest discover -v -s tests -p test_manufacturing.py
