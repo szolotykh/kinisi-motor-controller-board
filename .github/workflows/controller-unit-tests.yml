@@ -18,8 +18,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check board assembly exports
-        run: python -B -m unittest discover -v -s tests -p test_assembly_exports.py
+      - name: Run board unit tests
+        run: |
+          test -s tests/test_assembly_exports.py
+          python -B -m unittest discover -v -s tests
       - name: Run manufacturing unit tests on generator revisions
         if: ${{ hashFiles('manufacturing/**', 'tests/test_manufacturing.py') != '' }}
         run: |
